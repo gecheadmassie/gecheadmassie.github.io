@@ -192,13 +192,23 @@
     </header>
     
     <section id="about">
-        <h2>About Me</h2>
-        <div class="about-container">
-            <div class="about-text">
-                <p>Hello! I’m Getachew Ambaye, an engineering professor and researcher with a deep passion for teaching and innovation. I currently serve as a Direct Graduate Teaching Assistant at Wichita State University and as an Engineering Professor at Hesston College. My academic journey has taken me through a PhD in Industrial Systems and Manufacturing Engineering, which I am completing at Wichita State University in 2024. I also hold a Master's degree in Mechanical Design Engineering and a Bachelor's degree in Mechanical Engineering, both from Jimma University. With several years of experience in teaching and research, I have had the privilege of working at renowned institutions such as the Bahir Dar Institute of Technology and the Jimma Institute of Technology. My research interests include soft robotics, machine learning applications in engineering, and numerical methods for mechanical analysis. I strive to integrate these interests into my teaching to provide students with a practical understanding of engineering concepts. I believe in the transformative power of education and aim to inspire my students to think critically and innovate. Outside of the classroom, I enjoy engaging in community service projects and collaborating on research initiatives that push the boundaries of engineering. Feel free to connect with me through the contact section if you’d like to discuss engineering, education, or potential collaborations!</p>
-            </div>
+    <h2>About Me</h2>
+    <div class="about-container">
+        <div class="about-text">
+            <p>Hello! I’m Getachew Ambaye, a PhD student and researcher with a deep passion for teaching and innovation. I currently serve as a Direct Graduate Teaching Assistant at Wichita State University and as an Engineering Professor at Hesston College.</p>.
+
+            <p>My academic journey has taken me through a PhD in Industrial Systems and Manufacturing Engineering, which I am completing at Wichita State University in 2024. I also hold a Master's degree in Mechanical Design Engineering and a Bachelor's degree in Mechanical Engineering, both from Jimma University.</p>
+
+            <p>With several years of experience in teaching and research, I have had the privilege of working at renowned institutions such as the Bahir Dar Institute of Technology and the Jimma Institute of Technology. My research interests include soft robotics, machine learning applications in engineering, and numerical methods for mechanical analysis.</p>
+
+            <p>I strive to integrate these interests into my teaching to provide students with a practical understanding of engineering concepts. I believe in the transformative power of education and aim to inspire my students to think critically and innovate.</p>
+
+            <p>Outside of the classroom, I enjoy engaging in community service projects and collaborating on research initiatives that push the boundaries of engineering. Feel free to connect with me through the contact section if you’d like to discuss engineering, education, or potential collaborations!</p>
         </div>
+    </div>
     </section>
+
+
     
     <section id="teaching-experience">
         <h2>Teaching Experience</h2>
