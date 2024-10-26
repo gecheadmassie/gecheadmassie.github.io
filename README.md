@@ -194,7 +194,6 @@
     <section id="about">
         <h2>About Me</h2>
         <div class="about-container">
-            #%<img src="Geche.jpg" alt="Getachew Ambaye" class="profile-pic">
             <div class="about-text">
                 <p>I am from [Your Location]. I have a passion for teaching and sharing knowledge with others.</p>
             </div>
