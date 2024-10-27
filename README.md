@@ -331,21 +331,23 @@
             <a href="https://www.webofscience.com/wos/author/record/AAO-1275-2021" target="_blank" style="color: white; text-decoration: none;">PubLoons</a>
         </p>
     </div>
-</footer>
 
-<script>
-    document.querySelectorAll('.toggle').forEach(item => {
-        item.addEventListener('click', event => {
-            const content = item.nextElementSibling;
-            content.style.display = content.style.display === "none" ? "block" : "none";
+
+    </footer>
+    
+    <script>
+        document.querySelectorAll('.toggle').forEach(item => {
+            item.addEventListener('click', event => {
+                const content = item.nextElementSibling;
+                content.style.display = content.style.display === "none" ? "block" : "none";
+            });
         });
-    });
-
-    function toggleDetails() {
-        const additionalDetails = document.querySelector('.additional-details');
-        additionalDetails.style.display = additionalDetails.style.display === "none" ? "block" : "none";
-    }
-</script>
+    
+        function toggleDetails() {
+            const additionalDetails = document.querySelector('.additional-details');
+            additionalDetails.style.display = additionalDetails.style.display === "none" ? "block" : "none";
+        }
+    </script>
 
 
 
