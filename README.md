@@ -189,10 +189,6 @@
 
 
 
-    <section id="home">
-        <h1>Welcome</h1>
-        <p>This is the official website of Getachew Ambaye, a dedicated researcher and a PhD candidate in Industrial Systems and Manufacturing Engineering. Feel free to explore my work and connect with me.</p>
-    </section>
 
     <section id="about">
         <h1>About Me</h1>
@@ -312,6 +308,45 @@
             <input type="submit" value="Send">
         </form>
     </section>
+
+
+
+<footer style="background-color: #2c3e50; color: white; padding: 20px; text-align: center;">
+    <p>© 2024 Getachew Ambaye. All rights reserved.</p>
+    
+    <div class="social-media" style="margin: 10px 0;">
+        <a href="https://www.linkedin.com/in/getachew-ambaye" target="_blank" style="margin-right: 15px; color: white; text-decoration: none;">LinkedIn</a>
+        <a href="https://github.com/gecheadmassie" target="_blank" style="color: white; text-decoration: none;">GitHub</a>
+        <p style="display: inline; margin-left: 20px;">
+            <a href="#home" style="color: white; text-decoration: underline;">Home</a>
+        </p>
+    </div>
+    
+    <div style="margin-top: 20px;">
+        <p style="font-weight: bold;">Connect with me:</p>
+        <p>
+            <a href="https://scholar.google.com/citations?user=YOUR_PROFILE_ID" target="_blank" style="color: white; text-decoration: none;">Google Scholar</a> |
+            <a href="https://www.researchgate.net/profile/Getachew-Ambaye" target="_blank" style="color: white; text-decoration: none;">ResearchGate</a> |
+            <a href="https://orcid.org/YOUR_ORCID_ID" target="_blank" style="color: white; text-decoration: none;">ORCID</a> |
+            <a href="https://publoons.com/YOUR_PROFILE_ID" target="_blank" style="color: white; text-decoration: none;">PubLoons</a>
+        </p>
+    </div>
+</footer>
+
+<script>
+    document.querySelectorAll('.toggle').forEach(item => {
+        item.addEventListener('click', event => {
+            const content = item.nextElementSibling;
+            content.style.display = content.style.display === "none" ? "block" : "none";
+        });
+    });
+
+    function toggleDetails() {
+        const additionalDetails = document.querySelector('.additional-details');
+        additionalDetails.style.display = additionalDetails.style.display === "none" ? "block" : "none";
+    }
+</script>
+
 
 
     <footer>
