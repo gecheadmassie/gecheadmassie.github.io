@@ -20,7 +20,7 @@
             justify-content: flex-start;
             margin: 5px 0;
             background-color: #1626af;
-            padding: 10px;
+            padding: 5px;
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
         }
@@ -49,7 +49,7 @@
 
         section {
             margin: 10px;
-            padding: 15px;
+            padding: 10px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             width: calc(100% - 5px);
@@ -306,20 +306,6 @@
         <input type="submit" value="Send">
     </form>
 </section>
-
-
-
-    <section id="contact">
-        <h1>Contact Me</h1>
-        <form action="/path/to/your/script.php" method="post">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" required></textarea>
-    <input type="submit" value="Send">
-    </form>
-    </section>
-
-
 
 
 
