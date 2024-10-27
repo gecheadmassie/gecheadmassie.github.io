@@ -210,10 +210,17 @@
     margin: 0 auto; /* Center the paragraph */
     }
 
-            #about li {
-    text-align: justify; /* Justifies the text */
-    max-width: 800px; /* Optional: set a maximum width for better readability */
-    margin: 0 auto; /* Center the paragraph */
+    #about ul {
+        max-width: 800px; /* Optional: set a maximum width for better readability */
+        margin: 0 auto; /* Center the list */
+        padding: 0; /* Remove default padding */
+        list-style-position: inside; /* Optional: move list markers inside */
+    }
+    
+    #about li {
+        text-align: justify; /* Justifies the text inside the list item */
+        display: block; /* Ensure list items act as block elements */
+        margin: 10px 0; /* Optional: add space between items */
     }
     </style>
 
