@@ -48,11 +48,11 @@
         }
 
         section {
-            margin: 10px;
+            margin: 5px;
             padding: 30px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            width: calc(100% - 40px);
+            width: calc(100% - 5px);
             text-align: justify;
         }
 
@@ -146,7 +146,7 @@
 <body>
 
     <div class="header-container">
-        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 50%; width: 250px; height: 150px; object-fit: cover; margin-right: 0px;">
+        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; margin-right: 0px;">
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -161,7 +161,7 @@
     </div>
 
     <section id="home">
-        <h1>Welcome to My Website</h1>
+        <h1>Welcome</h1>
         <p>This is the official website of Getachew Ambaye, a dedicated researcher and professor in Engineering. Feel free to explore my work and connect with me.</p>
     </section>
 
@@ -202,10 +202,14 @@
     <section id="publications">
         <h1>Publications</h1>
         <ul style="padding: 0; list-style-type: disc; list-style-position: inside;">
-            <li>Soft Robot Design, Manufacturing, and Operation Challenges: A Review. <i>Neural Comput & Applic.</i> 8(2), 79, 2024. <a href="https://doi.org/10.3390/jmmp8020079" target="_blank">DOI: 10.3390/jmmp8020079</a></li>
-            <li>Robot arm damage detection using vibration data and deep learning. <i>Neural Comput & Applic.</i> 36 (pp. 1727-1739) 2024. <a href="https://doi.org/10.1007/s00521-023-09150-3" target="_blank">DOI: 10.1007/s00521-023-09150-3</a></li>
-            <li>Detection of Small Screws Using Machine Learning. In <i>2023 International Conference on Information and Communication Technology for Development for Africa (ICT4DA)</i> (pp. 13-18). IEEE. <a href="https://doi.org/10.1109/ICT4DA59526.2023.10302258" target="_blank">DOI: 10.1109/ICT4DA59526.2023.10302258</a></li>
-            <li>Contact temperature analysis of the classical Geneva mechanism through numerical methods. <i>Materials Today: Proceedings</i>, 57, pp. 545-552. <a href="https://doi.org/10.1016/j.matpr.2022.01.420" target="_blank">DOI: 10.1016/j.matpr.2022.01.420</a></li>
+            <li>Soft Robot Design, Manufacturing, and Operation Challenges: A Review. <i>Neural Comput & Applic.</i> 8(2), 79, 2024. <a                 
+             href="https://doi.org/10.3390/jmmp8020079" target="_blank">DOI: 10.3390/jmmp8020079</a></li>
+            <li>Robot arm damage detection using vibration data and deep learning. <i>Neural Comput & Applic.</i> 36 (pp. 1727-1739) 2024. <a     
+             href="https://doi.org/10.1007/s00521-023-09150-3" target="_blank">DOI: 10.1007/s00521-023-09150-3</a></li>
+            <li>Detection of Small Screws Using Machine Learning. In <i>2023 International Conference on Information and Communication Technology for Development for 
+             Africa (ICT4DA)</i> (pp. 13-18). IEEE. <a href="https://doi.org/10.1109/ICT4DA59526.2023.10302258" target="_blank">DOI: 10.1109/ICT4DA59526.2023.10302258</a></li>
+            <li>Contact temperature analysis of the classical Geneva mechanism through numerical methods. <i>Materials Today: Proceedings</i>, 57, pp. 545-552. <a 
+              href="https://doi.org/10.1016/j.matpr.2022.01.420" target="_blank">DOI: 10.1016/j.matpr.2022.01.420</a></li>
             <li>Numerical Stress Analysis and Fatigue Life Prediction of the Classical External Geneva Mechanism. In <i>International Workshop of Advanced Manufacturing and Automation</i> (pp. 176-186). Singapore: Springer Singapore. <a href="https://doi.org/10.1007/978-981-19-0572-8_23" target="_blank">DOI: 10.1007/978-981-19-0572-8_23</a></li>
             <li>The performance of gear with backlash: A review. <i>Journal of Applied Mechanical Engineering</i>, 10(9), p. 389.</li>
             <li>Numerical comparative modal analysis of connecting rod between fixed crankpin and fixed piston pin. The 8th International Conference on Innovation in Science and Technology, July 23–25, 2021, in Stockholm, Sweden.</li>
