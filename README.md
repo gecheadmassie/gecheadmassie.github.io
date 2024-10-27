@@ -127,7 +127,7 @@
             background-color: #45a049;
         }
 
-        @media (max-width: 600px) {
+        @media (max-width: 800px) {
             .header-container {
                 flex-direction: column;
                 align-items: center;
@@ -140,7 +140,7 @@
 
             section {
                 margin: 5px;
-                padding: 10px;
+                padding: 5px;
             }
         }
     </style>
@@ -222,16 +222,7 @@
         </ul>
     </section>
 
-    <section id="videos">
-        <h1>Video Links</h1>
-        <ul class="video-list" style="list-style-type: none; padding: 0;">
-            <li>
-                <strong>Video 1:</strong>
-                <a href="https://www.youtube.com/@IME222L" target="_blank">Watch here</a>
-                <img src="Screenshot (34).png" alt="Video 1 Thumbnail" class="video-thumbnail" style="width: 100%; max-width: 300px; border-radius: 5px; margin-top: 10px;">
-            </li>
-        </ul>
-    </section>
+    
 
     <section id="contact">
         <h1>Contact Me</h1>
