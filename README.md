@@ -206,19 +206,19 @@
             </div>
         </li>
         <li>
-            <strong>Hesston College</strong> <p>- Engineering Professor (2024-)</p>
+            <strong>Hesston College</strong> - Engineering Professor (2024-)
             <div class="content">
                 <p>Details about my role and responsibilities as an Engineering Professor...</p>
             </div>
         </li>
         <li>
-            <strong>Bahir Dar Institute of Technology (BiT)</strong> <p>- Lecturer (2020-2022)</p>
+            <strong>Bahir Dar Institute of Technology (BiT)</strong> - Lecturer (2020-2022)
             <div class="content">
                 <p>Details about my role and responsibilities as a Lecturer at BiT...</p>
             </div>
         </li>
         <li>
-            <strong>Jimma Institute of Technology (JiT)</strong> <p>- Lecturer (2016-2020)</p>
+            <strong>Jimma Institute of Technology (JiT)</strong> - Lecturer (2016-2020)
             <div class="content">
                 <p>Details about my role and responsibilities as a Lecturer at JiT...</p>
             </div>
