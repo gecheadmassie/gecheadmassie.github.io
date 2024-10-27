@@ -214,7 +214,7 @@
             </div>
         </div>
         <div class="section">
-            <h3 class="toggle">Jimma Institute of Technology (JiT) - Lecturer (2016-2020)</h3>
+            <h3 class="toggle">Jimma Institute of Technology (JiT) </h3> <p> - Lecturer (2016-2020)<p>
             <div class="content">
                 <p>Details about my role and responsibilities as a Lecturer at JiT...</p>
             </div>
