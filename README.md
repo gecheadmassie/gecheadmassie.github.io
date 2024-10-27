@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Official website of Getachew Ambaye, a researcher in Engineering. Explore my teaching experience, publications, and contact information.">
     <meta name="keywords" content="Getachew Ambaye, Engineering, Teaching, Research, Publications">
-    <title> Getachew Ambaye - Engineering Professor and Researcher </title>
+    <title>Getachew Ambaye - Engineering Professor and Researcher</title>
 </head>
 
 <body style="margin: 0; font-family: Arial, sans-serif;">
@@ -24,19 +24,19 @@
         </nav>
     </div>
 
-    <section id="about" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #e0f7fa; width: calc(100% - 40px);">
+    <section id="about" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #e0f7fa; width: calc(100% - 40px); text-align: justify;">
         <h1 style="margin: 10px 0;">About Me</h1>
         <p style="max-width: 800px; margin: 0 auto;">I am Getachew Ambaye, a PhD candidate in Industrial and Manufacturing Engineering at Wichita State University, with a Master’s and Bachelor’s degree from Jimma Institute of Technology. I currently work as a Direct Graduate Teaching Assistant and an Engineering Professor at Hesston College, focusing on machine design and engineering graphics. My research interests include soft robotics and machine learning applications, resulting in multiple publications. I have led various industry projects, such as designing equipment for the Amhara Dairy Platform and conducting frequency analysis for milling machines. I am open to collaboration opportunities and positions in academia and industry to drive innovation in engineering.</p>
     </section>
 
-    <section id="projects-community-service" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #ffe0b2; width: calc(100% - 40px);">
+    <section id="projects-community-service" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #ffe0b2; width: calc(100% - 40px); text-align: justify;">
         <h1 style="margin: 10px 0;">Education Experience</h1>
         <p>PhD in Industrial Systems and Manufacturing Engineering at Wichita State University (2024)</p>
         <p>MSc. in Mechanical Design Engineering at Jimma University (2020)</p>
         <p>BSc. in Mechanical Engineering at Jimma University (2016)</p>
     </section>
 
-    <section id="teaching-experience" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #e1bee7; width: calc(100% - 40px);">
+    <section id="teaching-experience" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #e1bee7; width: calc(100% - 40px); text-align: justify;">
         <h1 style="margin: 10px 0;">Teaching Experience</h1>
         <ul class="teaching-list" style="list-style-type: none; padding: 0;">
             <li><strong>Wichita State University (WSU)</strong> (Direct Graduate Teaching Assistant) 2022-</li>
@@ -46,7 +46,7 @@
         </ul>
     </section>
 
-    <section id="publications" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #c8e6c9; width: calc(100% - 40px);">
+    <section id="publications" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #c8e6c9; width: calc(100% - 40px); text-align: justify;">
         <h1 style="margin: 10px 0;">Publications</h1>
         <ul style="padding: 0; list-style-type: disc; list-style-position: inside;">
             <li>Soft Robot Design, Manufacturing, and Operation Challenges: A Review. <i>Neural Comput & Applic.</i> 8(2), 79, 2024. <a href="https://doi.org/10.3390/jmmp8020079" target="_blank">DOI: 10.3390/jmmp8020079</a></li>
@@ -65,7 +65,7 @@
         </ul>
     </section>
 
-    <section id="videos" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #bbdefb; width: calc(100% - 40px);">
+    <section id="videos" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #bbdefb; width: calc(100% - 40px); text-align: justify;">
         <h1 style="margin: 10px 0;">Video Links</h1>
         <ul class="video-list" style="list-style-type: none; padding: 0;">
             <li>
@@ -76,7 +76,7 @@
         </ul>
     </section>
 
-    <section id="contact" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #fff3e0; width: calc(100% - 40px);">
+    <section id="contact" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #fff3e0; width: calc(100% - 40px); text-align: justify;">
         <h1 style="margin: 10px 0;">Contact Me</h1>
         <div class="contact-container" style="display: flex; justify-content: center;">
             <div class="contact-column" style="max-width: 400px; width: 100%;">
