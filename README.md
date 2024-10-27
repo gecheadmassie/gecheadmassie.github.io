@@ -186,14 +186,15 @@
         <p>I am Getachew Ambaye, a PhD candidate in Industrial and Manufacturing Engineering at Wichita State University, with a Master’s and Bachelor’s degree from Jimma Institute of Technology. I currently work as a Direct Graduate Teaching Assistant and an Engineering Professor at Hesston College, focusing on machine design and engineering graphics. My research interests include soft robotics and machine learning applications, resulting in multiple publications. I have led various industry projects, such as designing equipment for the Amhara Dairy Platform and conducting frequency analysis for milling machines. I am open to collaboration opportunities and positions in academia and industry to drive innovation in engineering.</p>
     </section>
 
-    <section id="education-experience">
+       <section id="education-experience">
         <h1>Education</h1>
         <ul>
-        <li>PhD in Industrial Systems and Manufacturing Engineering at Wichita State University (2024)</li>
-        <li>MSc. in Mechanical Design Engineering at Jimma University (2020)</li>
-        <li>BSc. in Mechanical Engineering at Jimma University (2016)</li>
+            <li>PhD in Industrial Systems and Manufacturing Engineering, Wichita State University (2024)</li>
+            <li>MSc in Mechanical Design Engineering, Jimma University (2020)</li>
+            <li>BSc in Mechanical Engineering, Jimma University (2016)</li>
         </ul>
     </section>
+
 
     <section id="teaching-experience">
     <h1>Teaching Experience</h1>
