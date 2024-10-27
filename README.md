@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,7 +10,7 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: linear-gradient(to bottom right, #f0f4c3, #e1f5fe);
+            background: linear-gradient(to bottom right, #FFFFFF, #FFFFFF);
             color: #333;
         }
 
