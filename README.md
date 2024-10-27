@@ -48,8 +48,8 @@
         }
 
         section {
-            margin: 5px;
-            padding: 10px;
+            margin: 10px;
+            padding: 15px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             width: calc(100% - 5px);
@@ -78,7 +78,7 @@
 
         footer {
             text-align: center;
-            padding: 10px;
+            padding: 5px;
             background-color: #1626af;
             color: white;
         }
@@ -86,7 +86,7 @@
         .social-media a {
             color: white;
             text-decoration: none;
-            margin: 0 10px;
+            margin: 0 5px;
             transition: color 0.3s;
         }
 
@@ -136,7 +136,7 @@
 
             section {
                 margin: 5px;
-                padding: 5px;
+                padding: 10px;
             }
         }
 
@@ -189,7 +189,7 @@
        <section id="education-experience">
         <h1>Education</h1>
         <ul>
-            <li>PhD in Industrial Systems and Manufacturing Engineering, Wichita State University (2024)</li>
+            <li>PhD in Industrial Systems and Manufacturing Engineering, Wichita State University (2024-)</li>
             <li>MSc in Mechanical Design Engineering, Jimma University (2020)</li>
             <li>BSc in Mechanical Engineering, Jimma University (2016)</li>
         </ul>
@@ -212,10 +212,6 @@
                 <strong>Jimma Institute of Technology (JiT)</strong> - Lecturer (2016-2020)
             </li>
         </ul>
-
-
-
-
 
 
 
