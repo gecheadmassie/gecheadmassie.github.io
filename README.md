@@ -72,9 +72,6 @@
             background-color: #c8e6c9;
         }
 
-        #videos {
-            background-color: #bbdefb;
-        }
 
         #contact {
             background-color: #fff3e0;
@@ -156,7 +153,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#education-experience">Education Experience</a></li>
                 <li><a href="#teaching-experience">Teaching Experience</a></li>
-                <li><a href="#projects-community-service">Projects and Community Service</a></li>
+                <li><a href="#projects-community-service">Projects & Community Service</a></li>
                 <li><a href="#publications">Publications</a></li>
                 <li><a href="#videos">Videos</a></li>
                 <li><a href="#contact">Contact</a></li>
