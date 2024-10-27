@@ -196,30 +196,35 @@
     <section id="teaching-experience">
         <h1>Teaching Experience</h1>
         <div class="section">
-            <h3 class="toggle">Wichita State University (WSU) - Direct Graduate Teaching Assistant (2022-)</h3>
+            <h3 class="toggle">Wichita State University (WSU)</h3>
+            <p>- Direct Graduate Teaching Assistant (2022-)</p>
             <div class="content">
                 <p>Details about my role and responsibilities as a Direct Graduate Teaching Assistant...</p>
             </div>
         </div>
         <div class="section">
-            <h3 class="toggle">Hesston College - Engineering Professor (2024-)</h3>
+            <h3 class="toggle">Hesston College</h3>
+            <p>- Engineering Professor (2024-)</p>
             <div class="content">
                 <p>Details about my role and responsibilities as an Engineering Professor...</p>
             </div>
         </div>
         <div class="section">
-            <h3 class="toggle">Bahir Dar Institute of Technology (BiT) - Lecturer (2020-2022)</h3>
+            <h3 class="toggle">Bahir Dar Institute of Technology (BiT)</h3>
+            <p>- Lecturer (2020-2022)</p>
             <div class="content">
                 <p>Details about my role and responsibilities as a Lecturer at BiT...</p>
             </div>
         </div>
         <div class="section">
-            <h3 class="toggle">Jimma Institute of Technology (JiT) </h3> 
+            <h3 class="toggle">Jimma Institute of Technology (JiT)</h3>
             <p>- Lecturer (2016-2020)</p>
             <div class="content">
                 <p>Details about my role and responsibilities as a Lecturer at JiT...</p>
             </div>
         </div>
+
+
 
         <div class="read-more" onclick="toggleDetails()">Read More</div>
         <div class="additional-details content">
