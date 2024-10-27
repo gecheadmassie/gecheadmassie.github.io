@@ -149,6 +149,13 @@
             display: none; /* Hidden by default */
             padding-left: 20px; /* Indent the content */
         }
+
+        .read-more {
+            color: #1626af;
+            cursor: pointer;
+            margin-top: 10px;
+            text-decoration: underline;
+        }
     </style>
 </head>
 
@@ -189,28 +196,33 @@
     <section id="teaching-experience">
         <h1>Teaching Experience</h1>
         <div class="section">
-            <h3 class="toggle" onclick="toggleContent(this)">Wichita State University (WSU) - Direct Graduate Teaching Assistant (2022-)</h3>
+            <h3 class="toggle">Wichita State University (WSU) - Direct Graduate Teaching Assistant (2022-)</h3>
             <div class="content">
                 <p>Details about my role and responsibilities as a Direct Graduate Teaching Assistant...</p>
             </div>
         </div>
         <div class="section">
-            <h3 class="toggle" onclick="toggleContent(this)">Hesston College - Engineering Professor (2024-)</h3>
+            <h3 class="toggle">Hesston College - Engineering Professor (2024-)</h3>
             <div class="content">
                 <p>Details about my role and responsibilities as an Engineering Professor...</p>
             </div>
         </div>
         <div class="section">
-            <h3 class="toggle" onclick="toggleContent(this)">Bahir Dar Institute of Technology (BiT) - Lecturer (2020-2022)</h3>
+            <h3 class="toggle">Bahir Dar Institute of Technology (BiT) - Lecturer (2020-2022)</h3>
             <div class="content">
                 <p>Details about my role and responsibilities as a Lecturer at BiT...</p>
             </div>
         </div>
         <div class="section">
-            <h3 class="toggle" onclick="toggleContent(this)">Jimma Institute of Technology (JiT) - Lecturer (2016-2020)</h3>
+            <h3 class="toggle">Jimma Institute of Technology (JiT) - Lecturer (2016-2020)</h3>
             <div class="content">
                 <p>Details about my role and responsibilities as a Lecturer at JiT...</p>
             </div>
+        </div>
+        
+        <div class="read-more" onclick="toggleDetails()">Read More</div>
+        <div class="additional-details content">
+            <p>Additional teaching experience details can go here, including specific courses taught, methodologies used, and student engagement initiatives...</p>
         </div>
     </section>
 
@@ -229,14 +241,11 @@
     <section id="publications">
         <h1>Publications</h1>
         <ul style="padding: 0; list-style-type: disc; list-style-position: inside;">
-            <li>Soft Robot Design, Manufacturing, and Operation Challenges: A Review. <i>Neural Comput & Applic.</i> 8(2), 79, 2024. <a                 
-             href="https://doi.org/10.3390/jmmp8020079" target="_blank">DOI: 10.3390/jmmp8020079</a></li>
-            <li>Robot arm damage detection using vibration data and deep learning. <i>Neural Comput & Applic.</i> 36 (pp. 1727-1739) 2024. <a     
-             href="https://doi.org/10.1007/s00521-023-09150-3" target="_blank">DOI: 10.1007/s00521-023-09150-3</a></li>
-            <li>Detection of Small Screws Using Machine Learning. In <i>2023 International Conference on Information and Communication Technology for Development for 
-             Africa (ICT4DA)</i> (pp. 13-18). IEEE. <a href="https://doi.org/10.1109/ICT4DA59526.2023.10302258" target="_blank">DOI: 10.1109/ICT4DA59526.2023.10302258</a></li>
-            <li>Contact temperature analysis of the classical Geneva mechanism through numerical methods. <i>Materials Today: Proceedings</i>, 57, pp. 545-552. <a 
-              href="https://doi.org/10.1016/j.matpr.2022.01.420" target="_blank">DOI: 10.1016/j.matpr.2022.01.420</a></li>
+            <li>Soft Robot Design, Fabrication, and Control. <i>IEEE/ASME Transactions on Mechatronics</i>, 28(4), 2023. <a href="https://doi.org/10.1109/TMECH.2023.3231942" target="_blank">DOI: 10.1109/TMECH.2023.3231942</a></li>
+            <li>Vibration-Based Damage Detection of Robot Arm Using Machine Learning. <i>Journal of Intelligent & Robotic Systems</i>. <a href="https://doi.org/10.1007/s10846-023-01818-3" target="_blank">DOI: 10.1007/s10846-023-01818-3</a></li>
+            <li>Robot arm damage detection using vibration data and deep learning. <i>Neural Comput & Applic.</i> 36 (pp. 1727-1739) 2024. <a href="https://doi.org/10.1007/s00521-023-09150-3" target="_blank">DOI: 10.1007/s00521-023-09150-3</a></li>
+            <li>Detection of Small Screws Using Machine Learning. In <i>2023 International Conference on Information and Communication Technology for Development for Africa (ICT4DA)</i> (pp. 13-18). IEEE. <a href="https://doi.org/10.1109/ICT4DA59526.2023.10302258" target="_blank">DOI: 10.1109/ICT4DA59526.2023.10302258</a></li>
+            <li>Contact temperature analysis of the classical Geneva mechanism through numerical methods. <i>Materials Today: Proceedings</i>, 57, pp. 545-552. <a href="https://doi.org/10.1016/j.matpr.2022.01.420" target="_blank">DOI: 10.1016/j.matpr.2022.01.420</a></li>
             <li>Numerical Stress Analysis and Fatigue Life Prediction of the Classical External Geneva Mechanism. In <i>International Workshop of Advanced Manufacturing and Automation</i> (pp. 176-186). Singapore: Springer Singapore. <a href="https://doi.org/10.1007/978-981-19-0572-8_23" target="_blank">DOI: 10.1007/978-981-19-0572-8_23</a></li>
             <li>The performance of gear with backlash: A review. <i>Journal of Applied Mechanical Engineering</i>, 10(9), p. 389.</li>
             <li>Numerical comparative modal analysis of connecting rod between fixed crankpin and fixed piston pin. The 8th International Conference on Innovation in Science and Technology, July 23–25, 2021, in Stockholm, Sweden.</li>
@@ -278,6 +287,15 @@
                 content.style.display = "none";
             } else {
                 content.style.display = "block";
+            }
+        }
+
+        function toggleDetails() {
+            const additionalDetails = document.querySelector('.additional-details');
+            if (additionalDetails.style.display === "block") {
+                additionalDetails.style.display = "none";
+            } else {
+                additionalDetails.style.display = "block";
             }
         }
     </script>
