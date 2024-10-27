@@ -299,8 +299,14 @@
 
 <section id="contact">
     <h1>Contact Me</h1>
-    <iframe src="https://formspree.io/f/mkgnobej" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <form action="https://formspree.io/f/mkgnobej" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send">
+    </form>
 </section>
+
 
 
     <section id="contact">
