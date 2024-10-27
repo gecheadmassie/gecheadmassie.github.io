@@ -209,19 +209,23 @@
     max-width: 800px; /* Optional: set a maximum width for better readability */
     margin: 0 auto; /* Center the paragraph */
     }
-
-    #about ul {
+    
+    #publications {
         max-width: 800px; /* Optional: set a maximum width for better readability */
-        margin: 0 auto; /* Center the list */
+        margin: 0 auto; /* Center the section */
+    }
+    
+    #publications ul {
         padding: 0; /* Remove default padding */
         list-style-position: inside; /* Optional: move list markers inside */
     }
     
-    #about li {
+    #publications li {
         text-align: justify; /* Justifies the text inside the list item */
         display: block; /* Ensure list items act as block elements */
         margin: 10px 0; /* Optional: add space between items */
     }
+
     </style>
 
 </head>
