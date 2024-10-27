@@ -211,7 +211,7 @@
         <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic">
         <div class="section-heading">
             <header>
-                <h1>Getachew Ambaye</h1>
+                <h1> </h1>
                 <nav>
                     <ul>
                         <li><a href="#about">About</a></li>
@@ -316,5 +316,4 @@
         </div>
     </footer>
 
-</body>
 </html>
