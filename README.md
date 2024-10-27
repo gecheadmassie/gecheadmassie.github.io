@@ -72,7 +72,6 @@
             background-color: #c8e6c9;
         }
 
-
         #contact {
             background-color: #fff3e0;
         }
@@ -140,6 +139,16 @@
                 padding: 5px;
             }
         }
+
+        /* Expandable section styles */
+        .section {
+            margin: 10px 0;
+        }
+
+        .content {
+            display: none; /* Hidden by default */
+            padding-left: 20px; /* Indent the content */
+        }
     </style>
 </head>
 
@@ -179,12 +188,30 @@
 
     <section id="teaching-experience">
         <h1>Teaching Experience</h1>
-        <ul class="teaching-list" style="list-style-type: none; padding: 0;">
-            <li><strong>Wichita State University (WSU)</strong> (Direct Graduate Teaching Assistant) 2022-</li>
-            <li><strong>Hesston College</strong> (Engineering Professor) 2024-</li>
-            <li><strong>Bahir Dar Institute of Technology (BiT)</strong> (Lecturer) 2020-2022</li>
-            <li><strong>Jimma Institute of Technology (JiT)</strong> (Lecturer) 2016-2020</li>
-        </ul>
+        <div class="section">
+            <h3 class="toggle" onclick="toggleContent(this)">Wichita State University (WSU) - Direct Graduate Teaching Assistant (2022-)</h3>
+            <div class="content">
+                <p>Details about my role and responsibilities as a Direct Graduate Teaching Assistant...</p>
+            </div>
+        </div>
+        <div class="section">
+            <h3 class="toggle" onclick="toggleContent(this)">Hesston College - Engineering Professor (2024-)</h3>
+            <div class="content">
+                <p>Details about my role and responsibilities as an Engineering Professor...</p>
+            </div>
+        </div>
+        <div class="section">
+            <h3 class="toggle" onclick="toggleContent(this)">Bahir Dar Institute of Technology (BiT) - Lecturer (2020-2022)</h3>
+            <div class="content">
+                <p>Details about my role and responsibilities as a Lecturer at BiT...</p>
+            </div>
+        </div>
+        <div class="section">
+            <h3 class="toggle" onclick="toggleContent(this)">Jimma Institute of Technology (JiT) - Lecturer (2016-2020)</h3>
+            <div class="content">
+                <p>Details about my role and responsibilities as a Lecturer at JiT...</p>
+            </div>
+        </div>
     </section>
 
     <section id="projects-community-service">
@@ -222,8 +249,6 @@
         </ul>
     </section>
 
-    
-
     <section id="contact">
         <h1>Contact Me</h1>
         <div class="contact-container">
@@ -245,6 +270,17 @@
             <a href="mailto:gecheadmassie@gmail.com">Email</a>
         </div>
     </footer>
+
+    <script>
+        function toggleContent(element) {
+            const content = element.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        }
+    </script>
 </body>
 
 </html>
