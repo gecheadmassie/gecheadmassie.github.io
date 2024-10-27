@@ -294,15 +294,30 @@
     </section>
 
 
+
     <section id="contact">
         <h1>Contact Me</h1>
-        <form action="mailto:gecheadmassie@gmail.com" method="post" enctype="text/plain">
+        <form action="/path/to/your/server/script" method="post">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
-            <input type="text" name="message" placeholder="Your Message" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
             <input type="submit" value="Send">
         </form>
     </section>
+
+<section id="contact">
+    <h1>Contact Me</h1>
+    <form action="mailto:gecheadmassie@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="message" placeholder="Your Message" required>
+        <input type="submit" value="Send">
+    </form>
+</section>
+
+
+
+
 
     <footer>
         <p>© 2024 Getachew Ambaye. All rights reserved.</p>
