@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,38 +7,174 @@
     <meta name="description" content="Official website of Getachew Ambaye, a researcher in Engineering. Explore my teaching experience, publications, and contact information.">
     <meta name="keywords" content="Getachew Ambaye, Engineering, Teaching, Research, Publications">
     <title>Getachew Ambaye - Engineering Professor and Researcher</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #f0f4c3, #e1f5fe);
+            color: #333;
+        }
+
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin: 5px 0;
+            background-color: #1626af;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            margin: 0;
+            color: white;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffeb3b;
+        }
+
+        section {
+            margin: 10px;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: calc(100% - 40px);
+            text-align: justify;
+        }
+
+        #about {
+            background-color: #e0f7fa;
+        }
+
+        #projects-community-service {
+            background-color: #ffe0b2;
+        }
+
+        #teaching-experience {
+            background-color: #e1bee7;
+        }
+
+        #publications {
+            background-color: #c8e6c9;
+        }
+
+        #videos {
+            background-color: #bbdefb;
+        }
+
+        #contact {
+            background-color: #fff3e0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1626af;
+            color: white;
+        }
+
+        .social-media a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+
+        .social-media a:hover {
+            color: #ffeb3b;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        @media (max-width: 600px) {
+            .header-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            section {
+                margin: 5px;
+                padding: 20px;
+            }
+        }
+    </style>
 </head>
 
-<body style="margin: 0; font-family: Arial, sans-serif;">
+<body>
 
-    <div class="header-container" style="display: flex; align-items: center; justify-content: flex-start; margin: 5px 0; background-color: #1626af; padding: 10px;">
+    <div class="header-container">
         <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 50%; width: 100px; height: 100px; object-fit: cover; margin-right: 5px;">
         <nav>
-            <ul style="list-style-type: none; padding: 0; display: flex; margin: 0; color: white;">
-                <li style="margin: 0 10px;"><a href="#about" style="color: white; text-decoration: none;">About</a></li>
-                <li style="margin: 0 10px;"><a href="#teaching-experience" style="color: white; text-decoration: none;">Teaching Experience</a></li>
-                <li style="margin: 0 10px;"><a href="#projects-community-service" style="color: white; text-decoration: none;">Projects and Community Service</a></li>
-                <li style="margin: 0 10px;"><a href="#publications" style="color: white; text-decoration: none;">Publications</a></li>
-                <li style="margin: 0 10px;"><a href="#videos" style="color: white; text-decoration: none;">Videos</a></li>
-                <li style="margin: 0 10px;"><a href="#contact" style="color: white; text-decoration: none;">Contact</a></li>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#teaching-experience">Teaching Experience</a></li>
+                <li><a href="#projects-community-service">Projects and Community Service</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </div>
 
-    <section id="about" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #e0f7fa; width: calc(100% - 40px); text-align: justify;">
-        <h1 style="margin: 10px 0;">About Me</h1>
-        <p style="max-width: 800px; margin: 0 auto;">I am Getachew Ambaye, a PhD candidate in Industrial and Manufacturing Engineering at Wichita State University, with a Master’s and Bachelor’s degree from Jimma Institute of Technology. I currently work as a Direct Graduate Teaching Assistant and an Engineering Professor at Hesston College, focusing on machine design and engineering graphics. My research interests include soft robotics and machine learning applications, resulting in multiple publications. I have led various industry projects, such as designing equipment for the Amhara Dairy Platform and conducting frequency analysis for milling machines. I am open to collaboration opportunities and positions in academia and industry to drive innovation in engineering.</p>
+    <section id="about">
+        <h1>About Me</h1>
+        <p>I am Getachew Ambaye, a PhD candidate in Industrial and Manufacturing Engineering at Wichita State University, with a Master’s and Bachelor’s degree from Jimma Institute of Technology. I currently work as a Direct Graduate Teaching Assistant and an Engineering Professor at Hesston College, focusing on machine design and engineering graphics. My research interests include soft robotics and machine learning applications, resulting in multiple publications. I have led various industry projects, such as designing equipment for the Amhara Dairy Platform and conducting frequency analysis for milling machines. I am open to collaboration opportunities and positions in academia and industry to drive innovation in engineering.</p>
     </section>
 
-    <section id="projects-community-service" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #ffe0b2; width: calc(100% - 40px); text-align: justify;">
-        <h1 style="margin: 10px 0;">Education Experience</h1>
+    <section id="projects-community-service">
+        <h1>Education Experience</h1>
         <p>PhD in Industrial Systems and Manufacturing Engineering at Wichita State University (2024)</p>
         <p>MSc. in Mechanical Design Engineering at Jimma University (2020)</p>
         <p>BSc. in Mechanical Engineering at Jimma University (2016)</p>
     </section>
 
-    <section id="teaching-experience" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #e1bee7; width: calc(100% - 40px); text-align: justify;">
-        <h1 style="margin: 10px 0;">Teaching Experience</h1>
+    <section id="teaching-experience">
+        <h1>Teaching Experience</h1>
         <ul class="teaching-list" style="list-style-type: none; padding: 0;">
             <li><strong>Wichita State University (WSU)</strong> (Direct Graduate Teaching Assistant) 2022-</li>
             <li><strong>Hesston College</strong> (Engineering Professor) 2024-</li>
@@ -46,8 +183,8 @@
         </ul>
     </section>
 
-    <section id="publications" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #c8e6c9; width: calc(100% - 40px); text-align: justify;">
-        <h1 style="margin: 10px 0;">Publications</h1>
+    <section id="publications">
+        <h1>Publications</h1>
         <ul style="padding: 0; list-style-type: disc; list-style-position: inside;">
             <li>Soft Robot Design, Manufacturing, and Operation Challenges: A Review. <i>Neural Comput & Applic.</i> 8(2), 79, 2024. <a href="https://doi.org/10.3390/jmmp8020079" target="_blank">DOI: 10.3390/jmmp8020079</a></li>
             <li>Robot arm damage detection using vibration data and deep learning. <i>Neural Comput & Applic.</i> 36 (pp. 1727-1739) 2024. <a href="https://doi.org/10.1007/s00521-023-09150-3" target="_blank">DOI: 10.1007/s00521-023-09150-3</a></li>
@@ -65,8 +202,8 @@
         </ul>
     </section>
 
-    <section id="videos" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #bbdefb; width: calc(100% - 40px); text-align: justify;">
-        <h1 style="margin: 10px 0;">Video Links</h1>
+    <section id="videos">
+        <h1>Video Links</h1>
         <ul class="video-list" style="list-style-type: none; padding: 0;">
             <li>
                 <strong>Video 1:</strong>
@@ -76,27 +213,25 @@
         </ul>
     </section>
 
-    <section id="contact" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #fff3e0; width: calc(100% - 40px); text-align: justify;">
-        <h1 style="margin: 10px 0;">Contact Me</h1>
-        <div class="contact-container" style="display: flex; justify-content: center;">
-            <div class="contact-column" style="max-width: 400px; width: 100%;">
-                <form action="/contact" method="post" style="display: flex; flex-direction: column;">
-                    <label for="name" style="margin-bottom: 5px;">Name:</label>
-                    <input type="text" id="name" name="name" required style="padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
-                    <label for="email" style="margin-bottom: 5px;">Email:</label>
-                    <input type="email" id="email" name="email" required style="padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
-                    <input type="submit" value="Submit" style="padding: 10px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">
-                </form>
-            </div>
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <div class="contact-container">
+            <form action="/contact" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </section>
 
-    <footer style="text-align: center; padding: 20px; background-color: #1626af; color: white;">
+    <footer>
         <p>&copy; 2024 Getachew Ambaye</p>
         <div class="social-media">
-            <a href="//linkedin.com/in/getachew-ambaye" target="_blank" style="color: white; text-decoration: none; margin: 0 10px;">LinkedIn</a>
-            <a href="https://github.com/gecheadmassie" target="_blank" style="color: white; text-decoration: none; margin: 0 10px;">GitHub</a>
-            <a href="mailto:gecheadmassie@gmail.com" style="color: white; text-decoration: none; margin: 0 10px;">Email</a>
+            <a href="//linkedin.com/in/getachew-ambaye" target="_blank">LinkedIn</a>
+            <a href="https://github.com/gecheadmassie" target="_blank">GitHub</a>
+            <a href="mailto:gecheadmassie@gmail.com">Email</a>
         </div>
     </footer>
 </body>
