@@ -297,6 +297,28 @@
 
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Optional: Link to CSS file for styling -->
+</head>
+<body>
+
+<section id="contact">
+    <h1>Contact Me</h1>
+    <form action="submit_contact.php" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send">
+    </form>
+</section>
+
+</body>
+</html>
 
     <section id="contact">
         <h1>Contact Me</h1>
