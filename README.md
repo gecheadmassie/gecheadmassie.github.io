@@ -188,38 +188,36 @@
 
     <section id="education-experience">
         <h1>Education</h1>
-        <p>PhD in Industrial Systems and Manufacturing Engineering at Wichita State University (2024)</p>
-        <p>MSc. in Mechanical Design Engineering at Jimma University (2020)</p>
-        <p>BSc. in Mechanical Engineering at Jimma University (2016)</p>
+        <ul>
+        <li>PhD in Industrial Systems and Manufacturing Engineering at Wichita State University (2024)</li>
+        <li>MSc. in Mechanical Design Engineering at Jimma University (2020)</li>
+        <li>BSc. in Mechanical Engineering at Jimma University (2016)</li>
+        <ul>
     </section>
 
     <section id="teaching-experience">
     <h1>Teaching Experience</h1>
     <ul>
         <li>
-            <strong>Wichita State University (WSU)</strong>
-            <p>- Direct Graduate Teaching Assistant (2022-)</p>
+            <strong>Wichita State University (WSU)</strong> <p>- Direct Graduate Teaching Assistant (2022-)</p>
             <div class="content">
                 <p>Details about my role and responsibilities as a Direct Graduate Teaching Assistant...</p>
             </div>
         </li>
         <li>
-            <strong>Hesston College</strong>
-            <p>- Engineering Professor (2024-)</p>
+            <strong>Hesston College</strong> <p>- Engineering Professor (2024-)</p>
             <div class="content">
                 <p>Details about my role and responsibilities as an Engineering Professor...</p>
             </div>
         </li>
         <li>
-            <strong>Bahir Dar Institute of Technology (BiT)</strong>
-            <p>- Lecturer (2020-2022)</p>
+            <strong>Bahir Dar Institute of Technology (BiT)</strong> <p>- Lecturer (2020-2022)</p>
             <div class="content">
                 <p>Details about my role and responsibilities as a Lecturer at BiT...</p>
             </div>
         </li>
         <li>
-            <strong>Jimma Institute of Technology (JiT)</strong>
-            <p>- Lecturer (2016-2020)</p>
+            <strong>Jimma Institute of Technology (JiT)</strong> <p>- Lecturer (2016-2020)</p>
             <div class="content">
                 <p>Details about my role and responsibilities as a Lecturer at JiT...</p>
             </div>
