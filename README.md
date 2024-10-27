@@ -186,7 +186,7 @@
         <p>I am Getachew Ambaye, a PhD candidate in Industrial and Manufacturing Engineering at Wichita State University, with a Master’s and Bachelor’s degree from Jimma Institute of Technology. I currently work as a Direct Graduate Teaching Assistant and an Engineering Professor at Hesston College, focusing on machine design and engineering graphics. My research interests include soft robotics and machine learning applications, resulting in multiple publications. I have led various industry projects, such as designing equipment for the Amhara Dairy Platform and conducting frequency analysis for milling machines. I am open to collaboration opportunities and positions in academia and industry to drive innovation in engineering.</p>
     </section>
 
-       <section id="education-experience">
+    <section id="education-experience">
         <h1>Education</h1>
         <ul>
             <li>PhD in Industrial Systems and Manufacturing Engineering, Wichita State University (2024-)</li>
@@ -194,7 +194,6 @@
             <li>BSc in Mechanical Engineering, Jimma University (2016)</li>
         </ul>
     </section>
-
 
     <section id="teaching-experience">
         <h1>Teaching Experience</h1>
@@ -212,8 +211,6 @@
                 <strong>Jimma Institute of Technology (JiT)</strong> - Lecturer (2016-2020)
             </li>
         </ul>
-
-
 
         <div class="read-more" onclick="toggleDetails()">Read More</div>
         <div class="additional-details content">
@@ -293,29 +290,24 @@
         </ul>
     </section>
 
-
-
-
-
-<section id="contact">
-    <h1>Contact Me</h1>
-    <form action="https://formspree.io/f/mkgnobej" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <input type="submit" value="Send">
-    </form>
-</section>
-
-
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <form action="https://formspree.io/f/mkgnobej" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </section>
 
     <footer>
         <p>© 2024 Getachew Ambaye. All rights reserved.</p>
         <div class="social-media">
-            <a href="https://www.linkedin.com/in/getachew-ambaye" tatget="_blank">LinkedIn</a>
-            <a href="gecheadmassie@gmail.com" target="_blank">Email</a>
+            <a href="https://www.linkedin.com/in/getachew-ambaye" target="_blank">LinkedIn</a>
+            <a href="mailto:gecheadmassie@gmail.com" target="_blank">Email</a>
             <a href="https://github.com/gecheadmassie" target="_blank">GitHub</a>
         </div>
+        <p><a href="#home" style="color: white; text-decoration: underline;">Home</a></p>
     </footer>
 
     <script>
