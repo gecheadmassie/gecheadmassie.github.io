@@ -51,8 +51,8 @@
 
         section {
             background-color: white;
-            margin: 20px;
-            padding: 20px;
+            margin: 30px;
+            padding: 30px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
