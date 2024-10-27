@@ -32,7 +32,7 @@
         }
 
         nav ul li {
-            margin: 0 15px;
+            margin: 0 5px;
         }
 
         nav ul li a {
@@ -49,7 +49,7 @@
 
         section {
             background-color: white;
-            margin: 20px;
+            margin: 10px;
             padding: 30px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -59,7 +59,7 @@
             display: flex;
             align-items: center;
             justify-content: flex-start;
-            margin: 20px 0;
+            margin: 10px 0;
         }
 
         .profile-pic {
@@ -146,12 +146,12 @@
         }
 
         .social-media {
-            margin-top: 100px;
+            margin-top: 10px;
         }
 
         .social-media a {
             color: white;
-            margin: 0 20px;
+            margin: 20 20px;
             text-decoration: none;
             transition: color 0.3s;
         }
