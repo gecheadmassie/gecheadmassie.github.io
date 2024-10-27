@@ -50,23 +50,19 @@
         }
 
         section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Full screen height */
             background-color: white;
-            margin: 20px;
-            padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            flex-direction: column; /* Center content vertically */
         }
 
-        .teaching-columns {
-            display: flex;
-            justify-content: space-between;
-            margin: 20px 0;
-        }
-
-        .column {
-            flex: 1;
-            padding: 10px;
-            margin: 0 10px;
+        .about-text {
+            max-width: 800px; /* Limit width for readability */
+            text-align: center; /* Center text */
         }
 
         h3 {
@@ -86,7 +82,6 @@
             background-color: hsl(78, 14%, 85%);
             border-radius: 8px;
             padding: 20px;
-            margin: 20px 0;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
@@ -113,32 +108,31 @@
             background-color: #f4f4f4; 
             border-radius: 8px; 
             padding: 20px; 
-            margin: 20px 0; 
             box-shadow: 0 40px 80px rgba(0, 0, 0, 0.2); 
         }
-        
+
         .video-list {
             list-style-type: none; 
             padding: 0; 
         }
-        
+
         .video-list li {
             display: flex; 
             align-items: center; 
             padding: 10px 0; 
             border-bottom: 1px solid #ccc; 
         }
-        
+
         .video-list li:last-child {
             border-bottom: none; 
         }
-        
+
         .video-thumbnail {
             width: 100px; 
             height: auto; 
             margin-left: 10px; 
         }
-        
+
         footer {
             text-align: center;
             padding: 20px;
@@ -168,6 +162,8 @@
             display: flex;
             flex-direction: column;
             gap: 10px;
+            max-width: 400px; /* Limit width of the form */
+            width: 100%; /* Full width within the section */
         }
 
         input[type="text"],
@@ -217,9 +213,11 @@
 
     <section id="projects-community-service">
         <h2>Education Experience</h2>
-        <p>PhD in Industrial Systems and Manufacturing Engineering at Wichita State University (2024)</p>
-        <p>MSc. in Mechanical Design Engineering at Jimma University (2020)</p>
-        <p>BSc. in Mechanical Engineering at Jimma University (2016)</p>
+        <div class="about-text">
+            <p>PhD in Industrial Systems and Manufacturing Engineering at Wichita State University (2024)</p>
+            <p>MSc. in Mechanical Design Engineering at Jimma University (2020)</p>
+            <p>BSc. in Mechanical Engineering at Jimma University (2016)</p>
+        </div>
     </section>
 
     <section id="teaching-experience">
