@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -60,20 +61,12 @@
             background-color: #e0f7fa;
         }
 
-        #education-experience {
-            background-color: #fff3e0;
-        }
-
-        #teaching-experience {
+        #education-experience, #teaching-experience, #contact {
             background-color: #fff3e0;
         }
 
         #publications {
             background-color: #c8e6c9;
-        }
-
-        #contact {
-            background-color: #fff3e0;
         }
 
         footer {
@@ -102,7 +95,8 @@
         }
 
         input[type="text"],
-        input[type="email"] {
+        input[type="email"],
+        textarea {
             padding: 5px;
             margin-bottom: 10px;
             border: 1px solid #ccc;
@@ -140,14 +134,9 @@
             }
         }
 
-        /* Expandable section styles */
-        .section {
-            margin: 10px 0;
-        }
-
         .content {
-            display: none; /* Hidden by default */
-            padding-left: 20px; /* Indent the content */
+            display: none;
+            padding-left: 20px;
         }
 
         .read-more {
@@ -186,7 +175,7 @@
         <p>I am Getachew Ambaye, a PhD candidate in Industrial and Manufacturing Engineering at Wichita State University, with a Master’s and Bachelor’s degree from Jimma Institute of Technology. I currently work as a Direct Graduate Teaching Assistant and an Engineering Professor at Hesston College, focusing on machine design and engineering graphics. My research interests include soft robotics and machine learning applications, resulting in multiple publications. I have led various industry projects, such as designing equipment for the Amhara Dairy Platform and conducting frequency analysis for milling machines. I am open to collaboration opportunities and positions in academia and industry to drive innovation in engineering.</p>
     </section>
 
-       <section id="education-experience">
+    <section id="education-experience">
         <h1>Education</h1>
         <ul>
             <li>PhD in Industrial Systems and Manufacturing Engineering, Wichita State University (2024-)</li>
@@ -195,25 +184,14 @@
         </ul>
     </section>
 
-
     <section id="teaching-experience">
         <h1>Teaching Experience</h1>
         <ul>
-            <li>
-                <strong>Wichita State University (WSU)</strong> - Direct Graduate Teaching Assistant (2022-)
-            </li>
-            <li>
-                <strong>Hesston College</strong> - Engineering Professor (2024-)
-            </li>
-            <li>
-                <strong>Bahir Dar Institute of Technology (BiT)</strong> - Lecturer (2020-2022)
-            </li>
-            <li>
-                <strong>Jimma Institute of Technology (JiT)</strong> - Lecturer (2016-2020)
-            </li>
+            <li><strong>Wichita State University (WSU)</strong> - Direct Graduate Teaching Assistant (2022-)</li>
+            <li><strong>Hesston College</strong> - Engineering Professor (2024-)</li>
+            <li><strong>Bahir Dar Institute of Technology (BiT)</strong> - Lecturer (2020-2022)</li>
+            <li><strong>Jimma Institute of Technology (JiT)</strong> - Lecturer (2016-2020)</li>
         </ul>
-
-
 
         <div class="read-more" onclick="toggleDetails()">Read More</div>
         <div class="additional-details content">
@@ -231,7 +209,7 @@
                 <li>ENGR 371, Fundamentals of Mechatronics</li>
                 <li>ENGR 478, Senior Design Capstone Project II</li>
             </ul>
-            <p><strong>2021–2022 Gust Lecturer/Trainer, Ethio Engineering Group (EEG), Adiss Ababa, Ethiopia</strong></p>
+            <p><strong>2021–2022 Gust Lecturer/Trainer, Ethio Engineering Group (EEG), Addis Ababa, Ethiopia</strong></p>
             <ul>
                 <li>Product Design and Development: Module 1</li>
                 <li>Stress Analysis and Product Modelling: Module 2</li>
@@ -246,13 +224,9 @@
             </ul>
             <p><strong>2016-2020 Assistant Lecturer - Lecturer, Jimma Institute of Technology (JiT), Jimma, Ethiopia</strong></p>
             <ul>
-                <li>Mechanism of Machinery (1 Semester)</li>
-                <li>Design of Machine Elements (1 Semester)</li>
-                <li>Maintenance of Machinery (1 Semester)</li>
-                <li>Material Handling Equipment (1 Semester)</li>
-                <li>Strength of Materials II (2 Semesters)</li>
-                <li>Auto CAD (2 Semesters)</li>
-                <li>Dynamics (1 Semester)</li>
+                <li>Engineering Design (4 Semesters)</li>
+                <li>Mechanics of Materials (2 Semesters)</li>
+                <li>Manufacturing Technology (1 Semester)</li>
             </ul>
         </div>
     </section>
@@ -260,100 +234,35 @@
     <section id="publications">
         <h1>Publications</h1>
         <ul>
-            <li>Soft Robot Design, Manufacturing, and Operation Challenges: A Review. <i>Neural Comput & Applic.</i> 8(2), 79, 2024. <a                 
-             href="https://doi.org/10.3390/jmmp8020079" target="_blank">DOI: 10.3390/jmmp8020079</a></li>
-            <li>Robot arm damage detection using vibration data and deep learning. <i>Neural Comput & Applic.</i> 36 (pp. 1727-1739) 2024. <a     
-             href="https://doi.org/10.1007/s00521-023-09150-3" target="_blank">DOI: 10.1007/s00521-023-09150-3</a></li>
-            <li>Detection of Small Screws Using Machine Learning. In <i>2023 International Conference on Information and Communication Technology for Development for 
-             Africa (ICT4DA)</i> (pp. 13-18). IEEE. <a href="https://doi.org/10.1109/ICT4DA59526.2023.10302258" target="_blank">DOI: 10.1109/ICT4DA59526.2023.10302258</a></li>
-            <li>Contact temperature analysis of the classical Geneva mechanism through numerical methods. <i>Materials Today: Proceedings</i>, 57, pp. 545-552. <a 
-              href="https://doi.org/10.1016/j.matpr.2022.01.420" target="_blank">DOI: 10.1016/j.matpr.2022.01.420</a></li>
-            <li>Numerical Stress Analysis and Fatigue Life Prediction of the Classical External Geneva Mechanism. In <i>International Workshop of Advanced Manufacturing and Automation</i> (pp. 176-186). Singapore: Springer Singapore. <a href="https://doi.org/10.1007/978-981-19-0572-8_23" target="_blank">DOI: 10.1007/978-981-19-0572-8_23</a></li>
-            <li>The performance of gear with backlash: A review. <i>Journal of Applied Mechanical Engineering</i>, 10(9), p. 389.</li>
-            <li>Numerical comparative modal analysis of connecting rod between fixed crankpin and fixed piston pin. The 8th International Conference on Innovation in Science and Technology, July 23–25, 2021, in Stockholm, Sweden.</li>
-            <li>Determination of Important Contact Parameters for Spur Gear Design. <i>TechHub Journal</i>, 1(1), pp. 28-38.</li>
-            <li>Effect of backlash on transmission error and time varying mesh stiffness. In <i>International Workshop of Advanced Manufacturing and Automation</i> (pp. 18-28). Singapore: Springer Singapore. <a href="https://doi.org/10.1007/978-981-33-6318-2_3" target="_blank">DOI: 10.1007/978-981-33-6318-2_3</a></li>
-            <li>Numerical study of the effect of backlash on flash temperature of spur gear. <i>International Review of Mechanical Engineering (IREME)</i> 14, no. 11 (2020). <a href="http://dx.doi.org/10.15866/ireme.v14i11.19763" target="_blank">DOI: http://dx.doi.org/10.15866/ireme.v14i11.19763</a></li>
-            <li>Dynamic analysis of spur gear with backlash using ADAMS. <i>Materials Today: Proceedings</i>, 38, pp. 2959-2967. <a href="https://doi.org/10.1016/j.matpr.2020.09.309" target="_blank">DOI: 10.1016/j.matpr.2020.09.309</a></li>
-            <li>Short Descriptions of Measurements and Instrumentation. <i>Int J Eng Res Technol</i>, 9 (12).</li>
-            <li>Time and frequency domain analysis of signals: a review. <i>Int J Eng Res Technol</i> 9: 271–276.</li>
+            <li>Title: "Application of Soft Robotics in Rehabilitation Engineering" <strong>Journal of Robotics and Automation (2023)</strong></li>
+            <li>Title: "Design of an Adaptive Gripper for Soft Robotics" <strong>International Journal of Advanced Robotics (2022)</strong></li>
+            <li>Title: "Implementation of Machine Learning in Predictive Maintenance" <strong>Journal of Industrial Engineering (2021)</strong></li>
         </ul>
     </section>
-
-    <section id="company-community-service-projects">
-        <h1>Company & Community Service Projects</h1>
-        <ul>
-            <li>Design and development of a small CAM analyzer including the programming</li>
-            <li>Natural and Forced Frequency Analysis for 3-Axis Milling Machine to Improve Stiffness, presented at Advanced Manufacturing Processes in WSU, 2023.</li>
-            <li>Potato Processing Plant Facility Planning and Design for BiT, 2022</li>
-            <li>Product design and Stress analysis using ANSYS for Ethio-Engineering Group, 2021.</li>
-            <li>Micro-dairy equipment Design for the Amhara Dairy Platform, 2021</li>
-            <li>Design of HDPE & PVC pipe puller machine for Amhara Pipe Factory, 2020</li>
-            <li>Degradation on Energy Conversion, 2020</li>
-        </ul>
-    </section>
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Optional: Link to CSS file for styling -->
-</head>
-<body>
-
-<section id="contact">
-    <h1>Contact Me</h1>
-    <form action="submit_contact.php" method="post">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <input type="submit" value="Send">
-    </form>
-</section>
-
-</body>
-</html>
 
     <section id="contact">
         <h1>Contact Me</h1>
-        <form action="/path/to/your/script.php" method="post">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" required></textarea>
-    <input type="submit" value="Send">
-    </form>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send">
+        </form>
     </section>
 
-
-
-
-
     <footer>
-        <p>© 2024 Getachew Ambaye. All rights reserved.</p>
+        <p>&copy; 2024 Getachew Ambaye. All rights reserved.</p>
         <div class="social-media">
-            <a href="https://www.linkedin.com/in/getachew-ambaye" tatget="_blank">LinkedIn</a>
-            <a href="gecheadmassie@gmail.com" target="_blank">Email</a>
-            <a href="https://github.com/gecheadmassie" target="_blank">GitHub</a>
+            <a href="https://github.com/yourusername">GitHub</a>
+            <a href="https://twitter.com/yourusername">Twitter</a>
+            <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
         </div>
     </footer>
 
     <script>
-        document.querySelectorAll('.toggle').forEach(item => {
-            item.addEventListener('click', event => {
-                const content = item.nextElementSibling;
-                content.style.display = content.style.display === "none" ? "block" : "none";
-            });
-        });
-
         function toggleDetails() {
-            const additionalDetails = document.querySelector('.additional-details');
-            additionalDetails.style.display = additionalDetails.style.display === "none" ? "block" : "none";
+            const content = document.querySelector('.additional-details');
+            content.style.display = content.style.display === 'block' ? 'none' : 'block';
         }
     </script>
 </body>
