@@ -6,7 +6,7 @@
     <meta name="description" content="Official website of Getachew Ambaye, a professor and researcher in Engineering. Explore my teaching experience, publications, and contact information.">
     <meta name="keywords" content="Getachew Ambaye, Engineering, Teaching, Research, Publications">
     <meta name="author" content=" ">
-    <title>Getachew Ambaye - Engineering Professor and Researcher</title>
+    <title>  </title>
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
@@ -208,7 +208,7 @@
 </head>
 <body>
     <div class="header-container">
-        <img src="Photo.jpg" alt="" class="profile-pic">
+        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic">
         <div class="section-heading">
             <header>
                 <h1> Getachew Ambaye</h1>
