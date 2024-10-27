@@ -209,6 +209,12 @@
     max-width: 800px; /* Optional: set a maximum width for better readability */
     margin: 0 auto; /* Center the paragraph */
     }
+
+            #about li {
+    text-align: justify; /* Justifies the text */
+    max-width: 800px; /* Optional: set a maximum width for better readability */
+    margin: 0 auto; /* Center the paragraph */
+    }
     </style>
 
 </head>
