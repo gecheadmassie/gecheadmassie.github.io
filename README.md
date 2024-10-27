@@ -1,4 +1,7 @@
 <html lang="en">
+    <div class="header-container">
+            <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic">
+            <div class="section-heading">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -220,34 +223,22 @@
     </header>
     
     <section id="about">
-        <div class="header-container">
-            <img src="your-photo.jpg" alt="Getachew Ambaye" class="profile-pic">
-            <div class="section-heading">
-                <h2>About Me</h2>
+
+        <h1>About Me</h1>
                 <p>I am Getachew Ambaye, a PhD candidate in Industrial and Manufacturing Engineering at Wichita State University, with a Master’s and Bachelor’s degree from Jimma Institute of Technology. I currently work as a Direct Graduate Teaching Assistant and an Engineering Professor at Hesston College, focusing on machine design and engineering graphics. My research interests include soft robotics and machine learning applications, resulting in multiple publications. I have led various industry projects, such as designing equipment for the Amhara Dairy Platform and conducting frequency analysis for milling machines. I am open to collaboration opportunities and positions in academia and industry to drive innovation in engineering.</p>
-            </div>
-        </div>
     </section>
 
     <section id="projects-community-service">
-        <div class="header-container">
-            <img src="your-photo.jpg" alt="Getachew Ambaye" class="profile-pic">
-            <div class="section-heading">
-                <h2>Education Experience</h2>
-            </div>
-        </div>
+        <h1>Education Experience</h1>
+   
         <p>PhD in Industrial Systems and Manufacturing Engineering at Wichita State University (2024)</p>
         <p>MSc. in Mechanical Design Engineering at Jimma University (2020)</p>
         <p>BSc. in Mechanical Engineering at Jimma University (2016)</p>
     </section>
 
     <section id="teaching-experience">
-        <div class="header-container">
-            <img src="your-photo.jpg" alt="Getachew Ambaye" class="profile-pic">
-            <div class="section-heading">
-                <h2>Teaching Experience</h2>
-            </div>
-        </div>
+            <h1>Teaching Experience</h1>
+    
         <ul class="teaching-list">
             <li><strong>Wichita State University (WSU)</strong> (Direct Graduate Teaching Assistant) 2022-</li>
             <li><strong>Hesston College</strong> (Engineering Professor) 2024-</li>
@@ -257,12 +248,8 @@
     </section>
 
     <section id="publications">
-        <div class="header-container">
-            <img src="your-photo.jpg" alt="Getachew Ambaye" class="profile-pic">
-            <div class="section-heading">
-                <h2>Publications</h2>
-            </div>
-        </div>
+                <h1>Publications</h1>
+
         <ul>
             <li>Application of Machine Learning for Efficient Operational Resource Management in an Industry. In <i>Journal of Ambient Intelligence and Humanized Computing</i> (pp. 1727-1739). <a href="https://doi.org/10.1007/s00521-023-09150-3" target="_blank">DOI: 10.1007/s00521-023-09150-3</a></li>
             <li>Detection of Small Screws Using Machine Learning. In <i>2023 International Conference on Information and Communication Technology for Development for Africa (ICT4DA)</i> (pp. 13-18). IEEE. <a href="https://doi.org/10.1109/ICT4DA59526.2023.10302258" target="_blank">DOI: 10.1109/ICT4DA59526.2023.10302258</a></li>
@@ -280,12 +267,9 @@
     </section>
 
     <section id="videos">
-        <div class="header-container">
-            <img src="your-photo.jpg" alt="Getachew Ambaye" class="profile-pic">
-            <div class="section-heading">
-                <h2>Video Links</h2>
-            </div>
-        </div>
+
+                <h1>Video Links</h1>
+
         <ul class="video-list">
             <li>
                 <strong>Video 1:</strong>
@@ -296,12 +280,9 @@
     </section>
 
     <section id="contact">
-        <div class="header-container">
-            <img src="your-photo.jpg" alt="Getachew Ambaye" class="profile-pic">
-            <div class="section-heading">
-                <h2>Contact Me</h2>
-            </div>
-        </div>
+
+                <h1>Contact Me</h1>
+
         <div class="contact-container">
             <div class="contact-column">
                 <form action="/contact" method="post">
