@@ -6,42 +6,40 @@
     <meta name="description" content="Official website of Getachew Ambaye, a researcher in Engineering. Explore my teaching experience, publications, and contact information.">
     <meta name="keywords" content="Getachew Ambaye, Engineering, Teaching, Research, Publications">
     <title> Getachew Ambaye - Engineering Professor and Researcher </title>
-    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <div class="header-container" style="display: flex; align-items: center; justify-content: flex-start; margin: 10px 0;">
-        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover; margin-right: 30px;">
-        <div class="section-heading" style="text-align: left; color: #003366;">
-            <header style="background-color: #1626af; color: white; padding: 10px 0; text-align: center;">
-                <h1>Getachew Ambaye</h1>
-                <nav>
-                    <ul style="list-style-type: none; padding: 0; display: flex; justify-content: center; margin: 0;">
-                        <li style="margin: 0 5px;"><a href="#about" style="color: white; text-decoration: none; padding: 8px 16px; transition: background-color 0.3s;">About</a></li>
-                        <li style="margin: 0 5px;"><a href="#teaching-experience" style="color: white; text-decoration: none; padding: 8px 16px; transition: background-color 0.3s;">Teaching Experience</a></li>
-                        <li style="margin: 0 5px;"><a href="#projects-community-service" style="color: white; text-decoration: none; padding: 8px 16px; transition: background-color 0.3s;">Projects and Community Service</a></li>
-                        <li style="margin: 0 5px;"><a href="#publications" style="color: white; text-decoration: none; padding: 8px 16px; transition: background-color 0.3s;">Publications</a></li>
-                        <li style="margin: 0 5px;"><a href="#videos" style="color: white; text-decoration: none; padding: 8px 16px; transition: background-color 0.3s;">Videos</a></li>
-                        <li style="margin: 0 5px;"><a href="#contact" style="color: white; text-decoration: none; padding: 8px 16px; transition: background-color 0.3s;">Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
+<body style="margin: 0; font-family: Arial, sans-serif;">
+
+    <div class="header-container" style="display: flex; align-items: center; justify-content: flex-start; margin: 10px 0; background-color: #1626af; padding: 10px;">
+        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 50%; width: 100px; height: 100px; object-fit: cover; margin-right: 20px;">
+        <div style="color: white;">
+            <h1 style="margin: 0;">Getachew Ambaye</h1>
+            <nav>
+                <ul style="list-style-type: none; padding: 0; display: flex; margin: 0;">
+                    <li style="margin: 0 10px;"><a href="#about" style="color: white; text-decoration: none;">About</a></li>
+                    <li style="margin: 0 10px;"><a href="#teaching-experience" style="color: white; text-decoration: none;">Teaching Experience</a></li>
+                    <li style="margin: 0 10px;"><a href="#projects-community-service" style="color: white; text-decoration: none;">Projects and Community Service</a></li>
+                    <li style="margin: 0 10px;"><a href="#publications" style="color: white; text-decoration: none;">Publications</a></li>
+                    <li style="margin: 0 10px;"><a href="#videos" style="color: white; text-decoration: none;">Videos</a></li>
+                    <li style="margin: 0 10px;"><a href="#contact" style="color: white; text-decoration: none;">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 
-    <section id="about" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #e0f7fa;">
+    <section id="about" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #e0f7fa; width: calc(100% - 40px);">
         <h1 style="margin: 10px 0;">About Me</h1>
         <p style="max-width: 800px; margin: 0 auto;">I am Getachew Ambaye, a PhD candidate in Industrial and Manufacturing Engineering at Wichita State University, with a Master’s and Bachelor’s degree from Jimma Institute of Technology. I currently work as a Direct Graduate Teaching Assistant and an Engineering Professor at Hesston College, focusing on machine design and engineering graphics. My research interests include soft robotics and machine learning applications, resulting in multiple publications. I have led various industry projects, such as designing equipment for the Amhara Dairy Platform and conducting frequency analysis for milling machines. I am open to collaboration opportunities and positions in academia and industry to drive innovation in engineering.</p>
     </section>
 
-    <section id="projects-community-service" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #ffe0b2;">
+    <section id="projects-community-service" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #ffe0b2; width: calc(100% - 40px);">
         <h1 style="margin: 10px 0;">Education Experience</h1>
         <p>PhD in Industrial Systems and Manufacturing Engineering at Wichita State University (2024)</p>
         <p>MSc. in Mechanical Design Engineering at Jimma University (2020)</p>
         <p>BSc. in Mechanical Engineering at Jimma University (2016)</p>
     </section>
 
-    <section id="teaching-experience" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #e1bee7;">
+    <section id="teaching-experience" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #e1bee7; width: calc(100% - 40px);">
         <h1 style="margin: 10px 0;">Teaching Experience</h1>
         <ul class="teaching-list" style="list-style-type: none; padding: 0;">
             <li><strong>Wichita State University (WSU)</strong> (Direct Graduate Teaching Assistant) 2022-</li>
@@ -51,7 +49,7 @@
         </ul>
     </section>
 
-    <section id="publications" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #c8e6c9; max-width: 800px; margin: 0 auto;">
+    <section id="publications" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #c8e6c9; width: calc(100% - 40px);">
         <h1 style="margin: 10px 0;">Publications</h1>
         <ul style="padding: 0; list-style-type: disc; list-style-position: inside;">
             <li>Soft Robot Design, Manufacturing, and Operation Challenges: A Review. <i>Neural Comput & Applic.</i> 8(2), 79, 2024. <a href="https://doi.org/10.3390/jmmp8020079" target="_blank">DOI: 10.3390/jmmp8020079</a></li>
@@ -70,7 +68,7 @@
         </ul>
     </section>
 
-    <section id="videos" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #bbdefb;">
+    <section id="videos" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #bbdefb; width: calc(100% - 40px);">
         <h1 style="margin: 10px 0;">Video Links</h1>
         <ul class="video-list" style="list-style-type: none; padding: 0;">
             <li>
@@ -81,10 +79,10 @@
         </ul>
     </section>
 
-    <section id="contact" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #fff3e0;">
+    <section id="contact" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #fff3e0; width: calc(100% - 40px);">
         <h1 style="margin: 10px 0;">Contact Me</h1>
         <div class="contact-container" style="display: flex; justify-content: center;">
-            <div class="contact-column" style="max-width: 400px;">
+            <div class="contact-column" style="max-width: 400px; width: 100%;">
                 <form action="/contact" method="post" style="display: flex; flex-direction: column;">
                     <label for="name" style="margin-bottom: 5px;">Name:</label>
                     <input type="text" id="name" name="name" required style="padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
