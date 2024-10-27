@@ -6,7 +6,6 @@
     <meta name="description" content="Official website of Getachew Ambaye, a researcher in Engineering. Explore my teaching experience, publications, and contact information.">
     <meta name="keywords" content="Getachew Ambaye, Engineering, Teaching, Research, Publications">
     <title> Getachew Ambaye - Engineering Professor and Researcher </title>
-    <meta name="author" content=" ">
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
@@ -15,7 +14,7 @@
             padding: 0;
             background-color: #f8f8f8;
         }
-        
+
         header {
             background-color: #1626af;
             color: white;
@@ -48,7 +47,6 @@
         }
 
         section {
-            background-color: white;
             margin: 10px;
             padding: 30px;
             border-radius: 8px;
@@ -64,80 +62,54 @@
 
         .profile-pic {
             border-radius: 50%;
-            width: 200px; 
-            height: 200px; 
-            object-fit: cover; 
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
             margin-right: 30px; /* Space between image and text */
         }
 
         .section-heading {
-            text-align: left; 
-            color: #003366; 
+            text-align: left;
+            color: #003366;
         }
 
         h2 {
-            margin: 10px 0; 
+            margin: 10px 0;
         }
 
         .about-text {
-            max-width: 0; /* Set a maximum width for the text */
+            max-width: 800px; /* Set a maximum width for the text */
+            margin: 0 auto; /* Center the paragraph */
+        }
+
+        #about {
+            background-color: #e0f7fa; /* Light cyan */
+        }
+
+        #projects-community-service {
+            background-color: #ffe0b2; /* Light orange */
         }
 
         #teaching-experience {
-            background-color: hsl(78, 14%, 85%);
-            border-radius: 8px;
-            padding: 20px;
-            margin: 0 0;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: #e1bee7; /* Light purple */
         }
 
-        .teaching-list {
-            list-style-type: none;
-            padding: 0; 
-        }
-
-        .teaching-list li {
-            padding: 10px 0;
-            border-bottom: 1px solid #ccc; 
-        }
-
-        .teaching-list li:last-child {
-            border-bottom: none; 
+        #publications {
+            background-color: #c8e6c9; /* Light green */
+            max-width: 800px; /* Optional: set a maximum width for better readability */
+            margin: 0 auto; /* Center the section */
         }
 
         #videos {
-            background-color: #f4f4f4; 
-            border-radius: 8px; 
-            padding: 20px; 
-            margin: 0 0; 
-            box-shadow: 0 40px 80px rgba(0, 0, 0, 0.2); 
+            background-color: #fff3e0; /* Light peach */
         }
 
-        .video-list {
-            list-style-type: none; 
-            padding: 0; 
+        #contact {
+            background-color: #f1f8e9; /* Light greenish */
         }
-        
-        .video-list li {
-            display: flex; 
-            align-items: center; 
-            padding: 10px 0; 
-            border-bottom: 1px solid #ccc; 
-        }
-        
-        .video-list li:last-child {
-            border-bottom: none; 
-        }
-        
-        .video-thumbnail {
-            width: 0; 
-            height: auto; 
-            margin-left: 10px; 
-        }
-        
+
         footer {
             text-align: center;
-            
             background-color: #1626af;
             color: white;
             position: relative;
@@ -186,7 +158,6 @@
             background-color: #003366;
         }
 
-        /* New styles for the two-column layout */
         .contact-container {
             display: flex;
             justify-content: space-between;
@@ -205,20 +176,32 @@
         }
 
         #about p {
-    text-align: justify; /* Justifies the text */
-    max-width: 800px; /* Optional: set a maximum width for better readability */
-    margin: 0 auto; /* Center the paragraph */
-    }
-    
-    </style>
+            text-align: justify; /* Justifies the text */
+            max-width: 800px; /* Optional: set a maximum width for better readability */
+            margin: 0 auto; /* Center the paragraph */
+        }
 
+        #publications ul {
+            padding: 0; /* Remove default padding */
+            list-style-type: disc; /* Use bullets for publications */
+            list-style-position: inside; /* Move list markers inside */
+        }
+
+        #publications li {
+            text-align: justify; /* Justifies the text inside the list item */
+            display: block; /* Ensure list items act as block elements */
+            margin: 10px 0; /* Optional: add space between items */
+        }
+
+    </style>
 </head>
+
 <body>
     <div class="header-container">
         <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic">
         <div class="section-heading">
             <header>
-                <h1> Getachew Ambaye</h1>
+                <h1>Getachew Ambaye</h1>
                 <nav>
                     <ul>
                         <li><a href="#about">About</a></li>
@@ -232,25 +215,21 @@
             </header>
         </div>
     </div>
-</body>
-    
-    <section id="about">
 
+    <section id="about">
         <h1>About Me</h1>
-                <p>I am Getachew Ambaye, a PhD candidate in Industrial and Manufacturing Engineering at Wichita State University, with a Master’s and Bachelor’s degree from Jimma Institute of Technology. I currently work as a Direct Graduate Teaching Assistant and an Engineering Professor at Hesston College, focusing on machine design and engineering graphics. My research interests include soft robotics and machine learning applications, resulting in multiple publications. I have led various industry projects, such as designing equipment for the Amhara Dairy Platform and conducting frequency analysis for milling machines. I am open to collaboration opportunities and positions in academia and industry to drive innovation in engineering.</p>
+        <p>I am Getachew Ambaye, a PhD candidate in Industrial and Manufacturing Engineering at Wichita State University, with a Master’s and Bachelor’s degree from Jimma Institute of Technology. I currently work as a Direct Graduate Teaching Assistant and an Engineering Professor at Hesston College, focusing on machine design and engineering graphics. My research interests include soft robotics and machine learning applications, resulting in multiple publications. I have led various industry projects, such as designing equipment for the Amhara Dairy Platform and conducting frequency analysis for milling machines. I am open to collaboration opportunities and positions in academia and industry to drive innovation in engineering.</p>
     </section>
 
     <section id="projects-community-service">
         <h1>Education Experience</h1>
-   
         <p>PhD in Industrial Systems and Manufacturing Engineering at Wichita State University (2024)</p>
         <p>MSc. in Mechanical Design Engineering at Jimma University (2020)</p>
         <p>BSc. in Mechanical Engineering at Jimma University (2016)</p>
     </section>
 
     <section id="teaching-experience">
-            <h1>Teaching Experience</h1>
-    
+        <h1>Teaching Experience</h1>
         <ul class="teaching-list">
             <li><strong>Wichita State University (WSU)</strong> (Direct Graduate Teaching Assistant) 2022-</li>
             <li><strong>Hesston College</strong> (Engineering Professor) 2024-</li>
@@ -277,30 +256,9 @@
             <li>Time and frequency domain analysis of signals: a review. <i>Int J Eng Res Technol</i> 9: 271–276.</li>
         </ul>
     </section>
-    
-    <style>
-        #publications {
-            max-width: 800px; /* Optional: set a maximum width for better readability */
-            margin: 0 auto; /* Center the section */
-        }
-    
-        #publications ul {
-            padding: 0; /* Remove default padding */
-            list-style-position: inside; /* Optional: move list markers inside */
-        }
-    
-        #publications li {
-            text-align: justify; /* Justifies the text inside the list item */
-            display: block; /* Ensure list items act as block elements */
-            margin: 10px 0; /* Optional: add space between items */
-        }
-    </style>
-
 
     <section id="videos">
-
-                <h1>Video Links</h1>
-
+        <h1>Video Links</h1>
         <ul class="video-list">
             <li>
                 <strong>Video 1:</strong>
@@ -311,9 +269,7 @@
     </section>
 
     <section id="contact">
-
-                <h1>Contact Me</h1>
-
+        <h1>Contact Me</h1>
         <div class="contact-container">
             <div class="contact-column">
                 <form action="/contact" method="post">
@@ -341,5 +297,6 @@
             </a>
         </div>
     </footer>
+</body>
 
 </html>
