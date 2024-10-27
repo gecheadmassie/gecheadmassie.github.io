@@ -296,7 +296,7 @@
 
     <section id="contact">
         <h1>Contact Me</h1>
-        <form action="mailto:getachew@example.com" method="post" enctype="text/plain">
+        <form action="mailto:gecheadmassie@gmail.com" method="post" enctype="text/plain">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
             <input type="text" name="message" placeholder="Your Message" required>
@@ -307,9 +307,9 @@
     <footer>
         <p>© 2024 Getachew Ambaye. All rights reserved.</p>
         <div class="social-media">
-            <a href="https://www.linkedin.com/in/getachewambaye" target="_blank">LinkedIn</a>
-            <a href="https://twitter.com/getachewambaye" target="_blank">Twitter</a>
-            <a href="https://github.com/getachewambaye" target="_blank">GitHub</a>
+            <a href="linkedin.com/in/getachew-ambaye" target="_blank">LinkedIn</a>
+            <a href="gecheadmassie@gmail.com" target="_blank">Email</a>
+            <a href="https://github.com/gecheadmassie" target="_blank">GitHub</a>
         </div>
     </footer>
 
