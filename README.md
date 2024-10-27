@@ -295,15 +295,13 @@
 
 
 
-    <section id="contact">
-        <h1>Contact Me</h1>
-        <form action="/path/to/your/server/script" method="post">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <input type="submit" value="Send">
-        </form>
-    </section>
+    <form action="/path/to/your/script.php" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send">
+    </form>
+
 
 <section id="contact">
     <h1>Contact Me</h1>
