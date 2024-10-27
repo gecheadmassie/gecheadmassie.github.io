@@ -151,7 +151,7 @@
 
         .social-media a {
             color: white;
-            margin: 0 500px;
+            margin: 0 20px;
             text-decoration: none;
             transition: color 0.3s;
         }
@@ -163,7 +163,7 @@
         form {
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 500px;
         }
 
         input[type="text"],
