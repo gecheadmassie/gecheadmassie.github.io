@@ -49,10 +49,10 @@
 
         section {
             margin: 5px;
-            padding: 5px;
+            padding: 2.5px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            width: calc(100% - 5px);
+            width: calc(100% - 2.5px);
             text-align: justify;
         }
 
@@ -78,7 +78,7 @@
 
         footer {
             text-align: center;
-            padding: 20px;
+            padding: 10px;
             background-color: #1626af;
             color: white;
         }
