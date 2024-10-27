@@ -149,6 +149,21 @@
             width: 100%;
         }
 
+        .social-media {
+            margin-top: 10px;
+        }
+
+        .social-media a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .social-media a:hover {
+            color: #ffcc00; /* Change color on hover */
+        }
+
         form {
             display: flex;
             flex-direction: column;
@@ -192,24 +207,21 @@
     </header>
     
     <section id="about">
-    <h2>About Me</h2>
-    <div class="about-container">
-        <div class="about-text">
-            <p>I am Getachew Ambaye, a PhD candidate in Industrial and Manufacturing Engineering at Wichita State University, with a Master’s and Bachelor’s degree from Jimma Institute of Technology. I currently work as a Direct Graduate Teaching Assistant and an Engineering Professor at Hesston College, focusing on machine design and engineering graphics. My research interests include soft robotics and machine learning applications, resulting in multiple publications. I have led various industry projects, such as designing equipment for the Amhara Dairy Platform and conducting frequency analysis for milling machines. I am open to collaboration opportunities and positions in academia and industry to drive innovation in engineering.</p>
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>I am Getachew Ambaye, a PhD candidate in Industrial and Manufacturing Engineering at Wichita State University, with a Master’s and Bachelor’s degree from Jimma Institute of Technology. I currently work as a Direct Graduate Teaching Assistant and an Engineering Professor at Hesston College, focusing on machine design and engineering graphics. My research interests include soft robotics and machine learning applications, resulting in multiple publications. I have led various industry projects, such as designing equipment for the Amhara Dairy Platform and conducting frequency analysis for milling machines. I am open to collaboration opportunities and positions in academia and industry to drive innovation in engineering.</p>
+            </div>
         </div>
-    </div>
     </section>
 
-
-        <section id="projects-community-service">
+    <section id="projects-community-service">
         <h2>Education Experience</h2>
         <p>PhD in Industrial Systems and Manufacturing Engineering at Wichita State University (2024)</p>
         <p>MSc. in Mechanical Design Engineering at Jimma University (2020)</p>
         <p>BSc. in Mechanical Engineering at Jimma University (2016)</p>
     </section>
 
-
-    
     <section id="teaching-experience">
         <h2>Teaching Experience</h2>
         <ul class="teaching-list">
@@ -219,8 +231,7 @@
             <li><strong>Jimma Institute of Technology (JiT)</strong> (Lecturer) 2016-2020</li>
         </ul>
     </section>
-    
-    
+
     <section id="publications">
         <h2>Publications</h2>
         <ul>
@@ -260,6 +271,20 @@
             <input type="email" id="email" name="email" required>
             <input type="submit" value="Submit">
         </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Getachew Ambaye</p>
+        <div class="social-media">
+            <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+            <a href="https://github.com/gecheadmassie" target="_blank">GitHub</a>
+            <a href="https://facebook.com/yourprofile" target="_blank">Facebook</a>
+        </div>
+    </footer>
+</body>
+</html>
+
     </section>
     
     <footer>
