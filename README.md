@@ -140,7 +140,7 @@
 
             section {
                 margin: 5px;
-                padding: 20px;
+                padding: 10px;
             }
         }
     </style>
