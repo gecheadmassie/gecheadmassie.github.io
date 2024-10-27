@@ -146,12 +146,12 @@
         }
 
         .social-media {
-            margin-top: 100px;
+            margin-top: 400px;
         }
 
         .social-media a {
             color: white;
-            margin: 0 50px;
+            margin: 0 400px;
             text-decoration: none;
             transition: color 0.3s;
         }
