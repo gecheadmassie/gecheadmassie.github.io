@@ -162,7 +162,7 @@
 
     <section id="home">
         <h1>Welcome</h1>
-        <p>This is the official website of Getachew Ambaye, a dedicated researcher and professor in Engineering. Feel free to explore my work and connect with me.</p>
+        <p>This is the official website of Getachew Ambaye, a dedicated researcher and a PhD candidate in Industrial Systems and Manufacturing Engineering. Feel free to explore my work and connect with me.</p>
     </section>
 
     <section id="about">
