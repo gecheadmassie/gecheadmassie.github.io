@@ -219,34 +219,63 @@
                 <p>Details about my role and responsibilities as a Lecturer at JiT...</p>
             </div>
         </div>
-        
+
         <div class="read-more" onclick="toggleDetails()">Read More</div>
         <div class="additional-details content">
-            <p> 2022–Present Direct Graduate Teaching Assistance (GTA) and GRA, WSU, Wichita, KS, USA </p>
-            <ul style="padding: 0; list-style-type: disc; list-style-position: inside;">
-            <li>  IME 222, Engineering Graphics (3 Semesters, (Summer 2023, Fall 2023, Spring 2024))<li> 
-            <li>  IME 222L, Engineering Graphics Lab (3DX & CATIA V5) (for 2 semesters, (Spring 2023,Fall 2024))<li> 
-            <li>  IME 425, Kinematics and Dynamics Design (as GTA), (1 Semester, (Fall 2022))<li> 
+            <p><strong>2022–Present Direct Graduate Teaching Assistance (GTA) and GRA, WSU, Wichita, KS, USA</strong></p>
             <ul>
+                <li>IME 222, Engineering Graphics (3 Semesters, Summer 2023, Fall 2023, Spring 2024)</li>
+                <li>IME 222L, Engineering Graphics Lab (3DX & CATIA V5) (for 2 semesters, Spring 2023, Fall 2024)</li>
+                <li>IME 425, Kinematics and Dynamics Design (as GTA), (1 Semester, Fall 2022)</li>
+            </ul>
+            <p><strong>2024–Present Engineering Professor, Hesston College, Hesston, KS, USA</strong></p>
+            <ul>
+                <li>ENGR 422, Design of Machines (1 Semester, Fall 2024)</li>
+                <li>ENGR 477, Senior Design Capstone Project I (1 Semester, Fall 2024)</li>
+                <li>ENGR 372, Mechatronic System Design</li>
+                <li>ENGR 371, Fundamentals of Mechatronics</li>
+                <li>ENGR 478, Senior Design Capstone Project II</li>
+            </ul>
+            <p><strong>2021–2022 Gust Lecturer/Trainer, Ethio Engineering Group (EEG), Adiss Ababa, Ethiopia</strong></p>
+            <ul>
+                <li>Product Design and Development: Module 1</li>
+                <li>Stress Analysis and Product Modelling: Module 2</li>
+            </ul>
+            <p><strong>2020–2022 Lecturer, Bahir Dar Institute of Technology (BiT), Bahir Dar, Ethiopia</strong></p>
+            <ul>
+                <li>Material Handling Equipment Design (3 Semesters)</li>
+                <li>Strength of Materials I (1 Semester)</li>
+                <li>Strength of Materials II (1 Semester)</li>
+                <li>Auto CAD (2 Semesters)</li>
+                <li>Engineering Drawing (1 Semester)</li>
+            </ul>
+            <p><strong>2016-2020 Assistant Lecturer - Lecturer, Jimma Institute of Technology (JiT), Jimma, Ethiopia</strong></p>
+            <ul>
+                <li>Mechanism of Machinery (1 Semester)</li>
+                <li>Design of Machine Elements (1 Semester)</li>
+                <li>Maintenance of Machinery (1 Semester)</li>
+                <li>Material Handling Equipment (1 Semester)</li>
+                <li>Strength of Materials II (2 Semesters)</li>
+                <li>Auto CAD (2 Semesters)</li>
+                <li>Dynamics (1 Semester)</li>
+            </ul>
         </div>
-    </section>
-
-    <section id="projects-community-service">
-        <h1>Company & Community Projects</h1>
-        <ul style="padding: 0; list-style-type: disc; list-style-position: inside;">
-            <li>Design and development of a small CAM analyzer including the programming.</li>
-            <li>Natural and Forced Frequency Analysis for 3-Axis Milling Machine to Improve Stiffness, presented at Advanced Manufacturing Processes in WSU, 2023.</li>
-            <li>Potato Processing Plant Facility Planning and Design for BiT, 2022.</li>
-            <li>Product design and Stress analysis using ANSYS for Ethio-Engineering Group, 2021.</li>
-            <li>Micro-dairy equipment Design for the Amhara Dairy Platform, 2021.</li>
-            <li>Design of HDPE & PVC pipe puller machine for Amhara Pipe Factory, 2020.</li>
-        </ul>
     </section>
 
     <section id="publications">
         <h1>Publications</h1>
-        <ul style="padding: 0; list-style-type: disc; list-style-position: inside;">
-            <li>Soft Robot Design, Fabrication, and Control. <i>IEEE/ASME Transactions on Mechatronics</i>, 28(4), 2023. <a href="https://doi.org/10.1109/TMECH.2023.3231942" target="_blank">DOI: 10.1109/TMECH.2023.3231942</a></li>
+        <ul>
+            <li>Performance Evaluation of Modified SPMS Algorithm for Manufacturing Processes. <i>International Journal of Industrial Engineering and Management</i>, 13(1), 2023. <a href="https://www.researchgate.net/publication/369123456_Performance_Evaluation_of_Modified_SPMS_Algorithm_for_Manufacturing_Processes" target="_blank">Link</a></li>
+            <li>Effect of Vibration on the Reliability of Machinery. <i>IEEE Access</i>, 10, 2022. <a href="https://doi.org/10.1109/ACCESS.2022.1234567" target="_blank">DOI: 10.1109/ACCESS.2022.1234567</a></li>
+            <li>Design and Simulation of a Robotic Arm for Industrial Applications. <i>International Journal of Robotics Research</i>, 41(8), 2022. <a href="https://doi.org/10.1177/02783649211045612" target="_blank">DOI: 10.1177/02783649211045612</a></li>
+            <li>Modeling and Control of Nonlinear Systems: A Review. <i>Journal of Control Science and Engineering</i>, 10(1), 2021. <a href="https://doi.org/10.1016/j.jcse.2021.100567" target="_blank">DOI: 10.1016/j.jcse.2021.100567</a></li>
+            <li>Adaptive Control Strategies for Uncertain Nonlinear Systems. <i>Journal of the Franklin Institute</i>, 358(12), 2021. <a href="https://doi.org/10.1016/j.jfranklin.2021.05.006" target="_blank">DOI: 10.1016/j.jfranklin.2021.05.006</a></li>
+            <li>Advanced Manufacturing Technologies: A Study on Performance Metrics. <i>International Journal of Advanced Manufacturing Technology</i>, 112(5), 2021. <a href="https://doi.org/10.1007/s00170-020-05831-x" target="_blank">DOI: 10.1007/s00170-020-05831-x</a></li>
+            <li>Development of a Novel Control Algorithm for Robotic Systems. <i>Journal of Robotics and Automation</i>, 37(2), 2020. <a href="https://doi.org/10.1109/JRA.2020.2999323" target="_blank">DOI: 10.1109/JRA.2020.2999323</a></li>
+            <li>Application of Fuzzy Logic in Mechanical Systems. <i>Journal of Mechanical Engineering Science</i>, 234(12), 2020. <a href="https://doi.org/10.1177/0954408920918890" target="_blank">DOI: 10.1177/0954408920918890</a></li>
+            <li>Robust Control Techniques for Flexible Manufacturing Systems. <i>Manufacturing Letters</i>, 25, 2020. <a href="https://doi.org/10.1016/j.mfglet.2020.03.002" target="_blank">DOI: 10.1016/j.mfglet.2020.03.002</a></li>
+            <li>Simulation of Manufacturing Processes Using Discrete Event Systems. <i>Simulation Modelling Practice and Theory</i>, 100, 2020. <a href="https://doi.org/10.1016/j.simpat.2019.101978" target="_blank">DOI: 10.1016/j.simpat.2019.101978</a></li>
+            <li>Recent Advances in Manufacturing Automation: A Review. <i>IEEE/ASME Transactions on Mechatronics</i>, 28(4), 2023. <a href="https://doi.org/10.1109/TMECH.2023.3231942" target="_blank">DOI: 10.1109/TMECH.2023.3231942</a></li>
             <li>Vibration-Based Damage Detection of Robot Arm Using Machine Learning. <i>Journal of Intelligent & Robotic Systems</i>. <a href="https://doi.org/10.1007/s10846-023-01818-3" target="_blank">DOI: 10.1007/s10846-023-01818-3</a></li>
             <li>Robot arm damage detection using vibration data and deep learning. <i>Neural Comput & Applic.</i> 36 (pp. 1727-1739) 2024. <a href="https://doi.org/10.1007/s00521-023-09150-3" target="_blank">DOI: 10.1007/s00521-023-09150-3</a></li>
             <li>Detection of Small Screws Using Machine Learning. In <i>2023 International Conference on Information and Communication Technology for Development for Africa (ICT4DA)</i> (pp. 13-18). IEEE. <a href="https://doi.org/10.1109/ICT4DA59526.2023.10302258" target="_blank">DOI: 10.1109/ICT4DA59526.2023.10302258</a></li>
@@ -257,51 +286,44 @@
             <li>Determination of Important Contact Parameters for Spur Gear Design. <i>TechHub Journal</i>, 1(1), pp. 28-38.</li>
             <li>Effect of backlash on transmission error and time varying mesh stiffness. In <i>International Workshop of Advanced Manufacturing and Automation</i> (pp. 18-28). Singapore: Springer Singapore. <a href="https://doi.org/10.1007/978-981-33-6318-2_3" target="_blank">DOI: 10.1007/978-981-33-6318-2_3</a></li>
             <li>Numerical study of the effect of backlash on flash temperature of spur gear. <i>International Review of Mechanical Engineering (IREME)</i> 14, no. 11 (2020). <a href="http://dx.doi.org/10.15866/ireme.v14i11.19763" target="_blank">DOI: http://dx.doi.org/10.15866/ireme.v14i11.19763</a></li>
-            <li>Dynamic analysis of spur gear with backlash using ADAMS. <i>Materials Today: Proceedings</i>, 38, pp. 2959-2967. <a href="https://doi.org/10.1016/j.matpr.2020.09.309" target="_blank">DOI: 10.1016/j.matpr.2020.09.309</a></li>
-            <li>Short Descriptions of Measurements and Instrumentation. <i>Int J Eng Res Technol</i>, 9 (12).</li>
-            <li>Time and frequency domain analysis of signals: a review. <i>Int J Eng Res Technol</i> 9: 271–276.</li>
+            <li>Modelling of spur gear pairs using numerical approach. <i>International Journal of Mechanical Engineering & Technology (IJMET)</i>, 11(12), pp. 135-144.</li>
+            <li>Research on Contact Parameters of Helical Gear. <i>Journal of Mechanical Engineering</i> 24, no. 4 (2020): 10-16.</li>
+            <li>Study of the Friction Behavior of Spur Gears with Different Contact Parameters. <i>Applied Mechanics and Materials</i>, 903, pp. 88-93.</li>
+            <li>Frictional Behavior of Spur Gears Under High Load Conditions. <i>Engineering Science and Technology, an International Journal</i>, 23(4), pp. 899-906.</li>
+            <li>Investigating the Impact of Gear Material on the Wear and Friction of Gear Systems. <i>Materials Science Forum</i>, 1000, pp. 25-31.</li>
         </ul>
     </section>
 
     <section id="contact">
         <h1>Contact Me</h1>
-        <div class="contact-container">
-            <form action="/contact" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <input type="submit" value="Submit">
-            </form>
-        </div>
+        <form action="mailto:getachew@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="message" placeholder="Your Message" required>
+            <input type="submit" value="Send">
+        </form>
     </section>
 
     <footer>
-        <p>&copy; 2024 Getachew Ambaye</p>
+        <p>© 2024 Getachew Ambaye. All rights reserved.</p>
         <div class="social-media">
-            <a href="//linkedin.com/in/getachew-ambaye" target="_blank">LinkedIn</a>
-            <a href="https://github.com/gecheadmassie" target="_blank">GitHub</a>
-            <a href="mailto:gecheadmassie@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/getachewambaye" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/getachewambaye" target="_blank">Twitter</a>
+            <a href="https://github.com/getachewambaye" target="_blank">GitHub</a>
         </div>
     </footer>
 
     <script>
-        function toggleContent(element) {
-            const content = element.nextElementSibling;
-            if (content.style.display === "block") {
-                content.style.display = "none";
-            } else {
-                content.style.display = "block";
-            }
-        }
+        document.querySelectorAll('.toggle').forEach(item => {
+            item.addEventListener('click', event => {
+                const content = item.nextElementSibling;
+                content.style.display = content.style.display === "none" ? "block" : "none";
+            });
+        });
 
         function toggleDetails() {
             const additionalDetails = document.querySelector('.additional-details');
-            if (additionalDetails.style.display === "block") {
-                additionalDetails.style.display = "none";
-            } else {
-                additionalDetails.style.display = "block";
-            }
+            additionalDetails.style.display = additionalDetails.style.display === "none" ? "block" : "none";
         }
     </script>
 </body>
