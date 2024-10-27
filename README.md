@@ -265,32 +265,23 @@
     <section id="publications">
         <h1>Publications</h1>
         <ul>
-            <li>Performance Evaluation of Modified SPMS Algorithm for Manufacturing Processes. <i>International Journal of Industrial Engineering and Management</i>, 13(1), 2023. <a href="https://www.researchgate.net/publication/369123456_Performance_Evaluation_of_Modified_SPMS_Algorithm_for_Manufacturing_Processes" target="_blank">Link</a></li>
-            <li>Effect of Vibration on the Reliability of Machinery. <i>IEEE Access</i>, 10, 2022. <a href="https://doi.org/10.1109/ACCESS.2022.1234567" target="_blank">DOI: 10.1109/ACCESS.2022.1234567</a></li>
-            <li>Design and Simulation of a Robotic Arm for Industrial Applications. <i>International Journal of Robotics Research</i>, 41(8), 2022. <a href="https://doi.org/10.1177/02783649211045612" target="_blank">DOI: 10.1177/02783649211045612</a></li>
-            <li>Modeling and Control of Nonlinear Systems: A Review. <i>Journal of Control Science and Engineering</i>, 10(1), 2021. <a href="https://doi.org/10.1016/j.jcse.2021.100567" target="_blank">DOI: 10.1016/j.jcse.2021.100567</a></li>
-            <li>Adaptive Control Strategies for Uncertain Nonlinear Systems. <i>Journal of the Franklin Institute</i>, 358(12), 2021. <a href="https://doi.org/10.1016/j.jfranklin.2021.05.006" target="_blank">DOI: 10.1016/j.jfranklin.2021.05.006</a></li>
-            <li>Advanced Manufacturing Technologies: A Study on Performance Metrics. <i>International Journal of Advanced Manufacturing Technology</i>, 112(5), 2021. <a href="https://doi.org/10.1007/s00170-020-05831-x" target="_blank">DOI: 10.1007/s00170-020-05831-x</a></li>
-            <li>Development of a Novel Control Algorithm for Robotic Systems. <i>Journal of Robotics and Automation</i>, 37(2), 2020. <a href="https://doi.org/10.1109/JRA.2020.2999323" target="_blank">DOI: 10.1109/JRA.2020.2999323</a></li>
-            <li>Application of Fuzzy Logic in Mechanical Systems. <i>Journal of Mechanical Engineering Science</i>, 234(12), 2020. <a href="https://doi.org/10.1177/0954408920918890" target="_blank">DOI: 10.1177/0954408920918890</a></li>
-            <li>Robust Control Techniques for Flexible Manufacturing Systems. <i>Manufacturing Letters</i>, 25, 2020. <a href="https://doi.org/10.1016/j.mfglet.2020.03.002" target="_blank">DOI: 10.1016/j.mfglet.2020.03.002</a></li>
-            <li>Simulation of Manufacturing Processes Using Discrete Event Systems. <i>Simulation Modelling Practice and Theory</i>, 100, 2020. <a href="https://doi.org/10.1016/j.simpat.2019.101978" target="_blank">DOI: 10.1016/j.simpat.2019.101978</a></li>
-            <li>Recent Advances in Manufacturing Automation: A Review. <i>IEEE/ASME Transactions on Mechatronics</i>, 28(4), 2023. <a href="https://doi.org/10.1109/TMECH.2023.3231942" target="_blank">DOI: 10.1109/TMECH.2023.3231942</a></li>
-            <li>Vibration-Based Damage Detection of Robot Arm Using Machine Learning. <i>Journal of Intelligent & Robotic Systems</i>. <a href="https://doi.org/10.1007/s10846-023-01818-3" target="_blank">DOI: 10.1007/s10846-023-01818-3</a></li>
-            <li>Robot arm damage detection using vibration data and deep learning. <i>Neural Comput & Applic.</i> 36 (pp. 1727-1739) 2024. <a href="https://doi.org/10.1007/s00521-023-09150-3" target="_blank">DOI: 10.1007/s00521-023-09150-3</a></li>
-            <li>Detection of Small Screws Using Machine Learning. In <i>2023 International Conference on Information and Communication Technology for Development for Africa (ICT4DA)</i> (pp. 13-18). IEEE. <a href="https://doi.org/10.1109/ICT4DA59526.2023.10302258" target="_blank">DOI: 10.1109/ICT4DA59526.2023.10302258</a></li>
-            <li>Contact temperature analysis of the classical Geneva mechanism through numerical methods. <i>Materials Today: Proceedings</i>, 57, pp. 545-552. <a href="https://doi.org/10.1016/j.matpr.2022.01.420" target="_blank">DOI: 10.1016/j.matpr.2022.01.420</a></li>
+            <li>Soft Robot Design, Manufacturing, and Operation Challenges: A Review. <i>Neural Comput & Applic.</i> 8(2), 79, 2024. <a                 
+             href="https://doi.org/10.3390/jmmp8020079" target="_blank">DOI: 10.3390/jmmp8020079</a></li>
+            <li>Robot arm damage detection using vibration data and deep learning. <i>Neural Comput & Applic.</i> 36 (pp. 1727-1739) 2024. <a     
+             href="https://doi.org/10.1007/s00521-023-09150-3" target="_blank">DOI: 10.1007/s00521-023-09150-3</a></li>
+            <li>Detection of Small Screws Using Machine Learning. In <i>2023 International Conference on Information and Communication Technology for Development for 
+             Africa (ICT4DA)</i> (pp. 13-18). IEEE. <a href="https://doi.org/10.1109/ICT4DA59526.2023.10302258" target="_blank">DOI: 10.1109/ICT4DA59526.2023.10302258</a></li>
+            <li>Contact temperature analysis of the classical Geneva mechanism through numerical methods. <i>Materials Today: Proceedings</i>, 57, pp. 545-552. <a 
+              href="https://doi.org/10.1016/j.matpr.2022.01.420" target="_blank">DOI: 10.1016/j.matpr.2022.01.420</a></li>
             <li>Numerical Stress Analysis and Fatigue Life Prediction of the Classical External Geneva Mechanism. In <i>International Workshop of Advanced Manufacturing and Automation</i> (pp. 176-186). Singapore: Springer Singapore. <a href="https://doi.org/10.1007/978-981-19-0572-8_23" target="_blank">DOI: 10.1007/978-981-19-0572-8_23</a></li>
             <li>The performance of gear with backlash: A review. <i>Journal of Applied Mechanical Engineering</i>, 10(9), p. 389.</li>
             <li>Numerical comparative modal analysis of connecting rod between fixed crankpin and fixed piston pin. The 8th International Conference on Innovation in Science and Technology, July 23–25, 2021, in Stockholm, Sweden.</li>
             <li>Determination of Important Contact Parameters for Spur Gear Design. <i>TechHub Journal</i>, 1(1), pp. 28-38.</li>
             <li>Effect of backlash on transmission error and time varying mesh stiffness. In <i>International Workshop of Advanced Manufacturing and Automation</i> (pp. 18-28). Singapore: Springer Singapore. <a href="https://doi.org/10.1007/978-981-33-6318-2_3" target="_blank">DOI: 10.1007/978-981-33-6318-2_3</a></li>
             <li>Numerical study of the effect of backlash on flash temperature of spur gear. <i>International Review of Mechanical Engineering (IREME)</i> 14, no. 11 (2020). <a href="http://dx.doi.org/10.15866/ireme.v14i11.19763" target="_blank">DOI: http://dx.doi.org/10.15866/ireme.v14i11.19763</a></li>
-            <li>Modelling of spur gear pairs using numerical approach. <i>International Journal of Mechanical Engineering & Technology (IJMET)</i>, 11(12), pp. 135-144.</li>
-            <li>Research on Contact Parameters of Helical Gear. <i>Journal of Mechanical Engineering</i> 24, no. 4 (2020): 10-16.</li>
-            <li>Study of the Friction Behavior of Spur Gears with Different Contact Parameters. <i>Applied Mechanics and Materials</i>, 903, pp. 88-93.</li>
-            <li>Frictional Behavior of Spur Gears Under High Load Conditions. <i>Engineering Science and Technology, an International Journal</i>, 23(4), pp. 899-906.</li>
-            <li>Investigating the Impact of Gear Material on the Wear and Friction of Gear Systems. <i>Materials Science Forum</i>, 1000, pp. 25-31.</li>
+            <li>Dynamic analysis of spur gear with backlash using ADAMS. <i>Materials Today: Proceedings</i>, 38, pp. 2959-2967. <a href="https://doi.org/10.1016/j.matpr.2020.09.309" target="_blank">DOI: 10.1016/j.matpr.2020.09.309</a></li>
+            <li>Short Descriptions of Measurements and Instrumentation. <i>Int J Eng Res Technol</i>, 9 (12).</li>
+            <li>Time and frequency domain analysis of signals: a review. <i>Int J Eng Res Technol</i> 9: 271–276.</li>
         </ul>
     </section>
 
