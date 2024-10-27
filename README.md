@@ -173,15 +173,6 @@
         <p>I am Getachew Ambaye, a PhD candidate in Industrial and Manufacturing Engineering at Wichita State University, with a Master’s and Bachelor’s degree from Jimma Institute of Technology. I currently work as a Direct Graduate Teaching Assistant and an Engineering Professor at Hesston College, focusing on machine design and engineering graphics. My research interests include soft robotics and machine learning applications, resulting in multiple publications. I have led various industry projects, such as designing equipment for the Amhara Dairy Platform and conducting frequency analysis for milling machines. I am open to collaboration opportunities and positions in academia and industry to drive innovation in engineering.</p>
     </section>
 
-    <section id="projects-community-service">
-        <h1>Company & Community Projects</h1>
-        <p>Design and development of a small CAM analyzer including the programming<p>
-    <p> Natural and Forced Frequency Analysis for 3-Axis Milling Machine to Improve Stiffness, presented at Advanced Manufacturing Processes in WSU, 2023.<p>
-    <p>Potato Processing Plant Facility Planning and Design for BiT, 2022<p>
-    <p>Product design and Stress analysis using ANSYS for Ethio-Engineering Group, 2021.<p>
-    <p>Micro-dairy equipment Design for the Amhara Dairy Platform, 2021<p>
-    <p>Design of HDPE & PVC pipe puller machine for Amhara Pipe Factory, 2020 Degradation on Energy Conversion, 2020</p>
-    </section>
     
     <section id="Education Experience">
         <h1>Education Experience</h1>
@@ -200,6 +191,19 @@
         </ul>
     </section>
 
+
+    <section id="projects-community-service">
+        <h1>Company & Community Projects</h1>
+        <ul style="padding: 0; list-style-type: disc; list-style-position: inside;">
+        <li>Design and development of a small CAM analyzer including the programming<li>
+    <li> Natural and Forced Frequency Analysis for 3-Axis Milling Machine to Improve Stiffness, presented at Advanced Manufacturing Processes in WSU, 2023.<li>
+    <li>Potato Processing Plant Facility Planning and Design for BiT, 2022<li>
+    <li>Product design and Stress analysis using ANSYS for Ethio-Engineering Group, 2021.<li>
+    <li>Micro-dairy equipment Design for the Amhara Dairy Platform, 2021<li>
+    <li>Design of HDPE & PVC pipe puller machine for Amhara Pipe Factory, 2020 Degradation on Energy Conversion, 2020<li>
+    </ul>
+    </section>
+    
     <section id="publications">
         <h1>Publications</h1>
         <ul style="padding: 0; list-style-type: disc; list-style-position: inside;">
