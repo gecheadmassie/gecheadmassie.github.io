@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,24 +11,19 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background: linear-gradient(to bottom right, #f0f4c3, #e1f5fe);
             color: #333;
         }
+
         .header-container {
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: flex-start;
+            margin: 5px 0;
             background-color: #1626af;
-            padding: 10px 20px;
-            color: white;
+            padding: 10px;
         }
-        .profile-pic {
-            border-radius: 50%;
-            width: 100px;
-            height: 100px;
-            object-fit: cover;
-            margin-right: 15px;
-        }
+
         nav ul {
             list-style-type: none;
             padding: 0;
@@ -35,44 +31,116 @@
             margin: 0;
             color: white;
         }
+
         nav ul li {
             margin: 0 10px;
         }
+
         nav ul li a {
             color: white;
             text-decoration: none;
+            transition: color 0.3s;
         }
+
+        nav ul li a:hover {
+            color: #ffeb3b;
+        }
+
         section {
             margin: 10px;
             padding: 30px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            background-color: white;
             width: calc(100% - 40px);
             text-align: justify;
         }
+
+        #about {
+            background-color: #e0f7fa;
+        }
+
+        #projects-community-service {
+            background-color: #ffe0b2;
+        }
+
+        #teaching-experience {
+            background-color: #e1bee7;
+        }
+
+        #publications {
+            background-color: #c8e6c9;
+        }
+
+        #videos {
+            background-color: #bbdefb;
+        }
+
+        #contact {
+            background-color: #fff3e0;
+        }
+
         footer {
             text-align: center;
             padding: 20px;
             background-color: #1626af;
             color: white;
         }
-        input[type="text"], input[type="email"], input[type="submit"] {
+
+        .social-media a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+
+        .social-media a:hover {
+            color: #ffeb3b;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        input[type="text"],
+        input[type="email"] {
             padding: 10px;
             margin-bottom: 15px;
             border: 1px solid #ccc;
             border-radius: 4px;
-            width: 100%;
-            max-width: 400px;
         }
+
         input[type="submit"] {
+            padding: 10px;
             background-color: #4CAF50;
             color: white;
             border: none;
+            border-radius: 4px;
             cursor: pointer;
+            transition: background-color 0.3s;
         }
+
         input[type="submit"]:hover {
             background-color: #45a049;
+        }
+
+        @media (max-width: 600px) {
+            .header-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            section {
+                margin: 5px;
+                padding: 20px;
+            }
         }
     </style>
 </head>
@@ -80,7 +148,7 @@
 <body>
 
     <div class="header-container">
-        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic">
+        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 50%; width: 100px; height: 100px; object-fit: cover; margin-right: 5px;">
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
@@ -107,7 +175,7 @@
 
     <section id="teaching-experience">
         <h1>Teaching Experience</h1>
-        <ul>
+        <ul class="teaching-list" style="list-style-type: none; padding: 0;">
             <li><strong>Wichita State University (WSU)</strong> (Direct Graduate Teaching Assistant) 2022-</li>
             <li><strong>Hesston College</strong> (Engineering Professor) 2024-</li>
             <li><strong>Bahir Dar Institute of Technology (BiT)</strong> (Lecturer) 2020-2022</li>
@@ -117,23 +185,30 @@
 
     <section id="publications">
         <h1>Publications</h1>
-        <ul>
+        <ul style="padding: 0; list-style-type: disc; list-style-position: inside;">
             <li>Soft Robot Design, Manufacturing, and Operation Challenges: A Review. <i>Neural Comput & Applic.</i> 8(2), 79, 2024. <a href="https://doi.org/10.3390/jmmp8020079" target="_blank">DOI: 10.3390/jmmp8020079</a></li>
             <li>Robot arm damage detection using vibration data and deep learning. <i>Neural Comput & Applic.</i> 36 (pp. 1727-1739) 2024. <a href="https://doi.org/10.1007/s00521-023-09150-3" target="_blank">DOI: 10.1007/s00521-023-09150-3</a></li>
             <li>Detection of Small Screws Using Machine Learning. In <i>2023 International Conference on Information and Communication Technology for Development for Africa (ICT4DA)</i> (pp. 13-18). IEEE. <a href="https://doi.org/10.1109/ICT4DA59526.2023.10302258" target="_blank">DOI: 10.1109/ICT4DA59526.2023.10302258</a></li>
             <li>Contact temperature analysis of the classical Geneva mechanism through numerical methods. <i>Materials Today: Proceedings</i>, 57, pp. 545-552. <a href="https://doi.org/10.1016/j.matpr.2022.01.420" target="_blank">DOI: 10.1016/j.matpr.2022.01.420</a></li>
             <li>Numerical Stress Analysis and Fatigue Life Prediction of the Classical External Geneva Mechanism. In <i>International Workshop of Advanced Manufacturing and Automation</i> (pp. 176-186). Singapore: Springer Singapore. <a href="https://doi.org/10.1007/978-981-19-0572-8_23" target="_blank">DOI: 10.1007/978-981-19-0572-8_23</a></li>
-            <!-- Add more publications as needed -->
+            <li>The performance of gear with backlash: A review. <i>Journal of Applied Mechanical Engineering</i>, 10(9), p. 389.</li>
+            <li>Numerical comparative modal analysis of connecting rod between fixed crankpin and fixed piston pin. The 8th International Conference on Innovation in Science and Technology, July 23–25, 2021, in Stockholm, Sweden.</li>
+            <li>Determination of Important Contact Parameters for Spur Gear Design. <i>TechHub Journal</i>, 1(1), pp. 28-38.</li>
+            <li>Effect of backlash on transmission error and time varying mesh stiffness. In <i>International Workshop of Advanced Manufacturing and Automation</i> (pp. 18-28). Singapore: Springer Singapore. <a href="https://doi.org/10.1007/978-981-33-6318-2_3" target="_blank">DOI: 10.1007/978-981-33-6318-2_3</a></li>
+            <li>Numerical study of the effect of backlash on flash temperature of spur gear. <i>International Review of Mechanical Engineering (IREME)</i> 14, no. 11 (2020). <a href="http://dx.doi.org/10.15866/ireme.v14i11.19763" target="_blank">DOI: http://dx.doi.org/10.15866/ireme.v14i11.19763</a></li>
+            <li>Dynamic analysis of spur gear with backlash using ADAMS. <i>Materials Today: Proceedings</i>, 38, pp. 2959-2967. <a href="https://doi.org/10.1016/j.matpr.2020.09.309" target="_blank">DOI: 10.1016/j.matpr.2020.09.309</a></li>
+            <li>Short Descriptions of Measurements and Instrumentation. <i>Int J Eng Res Technol</i>, 9 (12).</li>
+            <li>Time and frequency domain analysis of signals: a review. <i>Int J Eng Res Technol</i> 9: 271–276.</li>
         </ul>
     </section>
 
     <section id="videos">
         <h1>Video Links</h1>
-        <ul>
+        <ul class="video-list" style="list-style-type: none; padding: 0;">
             <li>
                 <strong>Video 1:</strong>
                 <a href="https://www.youtube.com/@IME222L" target="_blank">Watch here</a>
-                <img src="Screenshot (34).png" alt="Video 1 Thumbnail" style="width: 100%; max-width: 300px; border-radius: 5px; margin-top: 10px;">
+                <img src="Screenshot (34).png" alt="Video 1 Thumbnail" class="video-thumbnail" style="width: 100%; max-width: 300px; border-radius: 5px; margin-top: 10px;">
             </li>
         </ul>
     </section>
@@ -141,7 +216,7 @@
     <section id="contact">
         <h1>Contact Me</h1>
         <div class="contact-container">
-            <form action="/contact" method="post" onsubmit="return validateForm()">
+            <form action="/contact" method="post">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
                 <label for="email">Email:</label>
@@ -149,17 +224,6 @@
                 <input type="submit" value="Submit">
             </form>
         </div>
-        <script>
-            function validateForm() {
-                const name = document.getElementById('name').value;
-                const email = document.getElementById('email').value;
-                if (!name || !email) {
-                    alert("Please fill out all fields.");
-                    return false;
-                }
-                return true;
-            }
-        </script>
     </section>
 
     <footer>
@@ -170,6 +234,6 @@
             <a href="mailto:gecheadmassie@gmail.com">Email</a>
         </div>
     </footer>
-
 </body>
+
 </html>
