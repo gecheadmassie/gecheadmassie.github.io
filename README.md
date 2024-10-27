@@ -49,7 +49,7 @@
 
         section {
             background-color: white;
-            margin: 0;
+            margin: 20px;
             padding: 30px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
