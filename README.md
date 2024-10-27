@@ -240,10 +240,9 @@
         </p> </div>
              
     
-
              
         <li>
-            <strong style="font-size: 1.1em;"Contact temperature analysis of the classical Geneva mechanism through numerical methods.</strong> 
+            <strong style="font-size: 1.1em;">Contact temperature analysis of the classical Geneva mechanism through numerical methods.</strong> 
             <i>Materials Today: Proceedings</i>, 57, pp. 545-552. 
             <a href="https://doi.org/10.1016/j.matpr.2022.01.420" target="_blank">DOI</a>
 
@@ -254,7 +253,7 @@
 
               
             <li>
-             <strong style="font-size: 1.1em;"Numerical Stress Analysis and Fatigue Life Prediction of the Classical External Geneva Mechanism.</strong> 
+             <strong style="font-size: 1.1em;">Numerical Stress Analysis and Fatigue Life Prediction of the Classical External Geneva Mechanism.</strong> 
              <i>International Workshop of Advanced Manufacturing and Automation (pp. 176-186). Singapore: Springer Singapore. 
              <a href="https://doi.org/10.1007/978-981-19-0572-8_23" target="_blank">DOI</a>
 
@@ -266,7 +265,7 @@
     
             
             <li>
-            <strong style="font-size: 1.1em;"The performance of gear with backlash: A review.</strong>  
+            <strong style="font-size: 1.1em;">The performance of gear with backlash: A review.</strong>  
             <i>Journal of Applied Mechanical Engineering, 10(9), p. 389.
                               <div class="read-more" onclick="toggleDetails(this)">Read More</div>
                 <div class="content">
@@ -276,7 +275,7 @@
 
             
             <li>
-            <strong style="font-size: 1.1em;"Numerical comparative modal analysis of connecting rod between fixed crankpin and fixed piston pin.</strong>  
+            <strong style="font-size: 1.1em;">Numerical comparative modal analysis of connecting rod between fixed crankpin and fixed piston pin.</strong>  
             <i>The 8th International Conference on Innovation in Science and Technology, July 23–25, 2021, in Stockholm, Sweden.
              <div class="read-more" onclick="toggleDetails(this)">Read More</div>
                             <div class="content">
@@ -286,7 +285,7 @@
 
             
             <li>
-            <strong style="font-size: 1.1em;"Determination of Important Contact Parameters for Spur Gear Design.</strong>   
+            <strong style="font-size: 1.1em;">Determination of Important Contact Parameters for Spur Gear Design.</strong>   
             <i>TechHub Journal</i>, 1(1), pp. 28-38.
              <div class="read-more" onclick="toggleDetails(this)">Read More</div>
                             <div class="content">
@@ -295,7 +294,7 @@
                     
             
             <li>
-            <strong style="font-size: 1.1em;"Effect of backlash on transmission error and time varying mesh stiffness.</strong>   
+            <strong style="font-size: 1.1em;">Effect of backlash on transmission error and time varying mesh stiffness.</strong>   
             <i>International Workshop of Advanced Manufacturing and Automation (pp. 18-28). Singapore: Springer Singapore. 
             <a href="https://doi.org/10.1007/978-981-33-6318-2_3" target="_blank">DOI</a>
              <div class="read-more" onclick="toggleDetails(this)">Read More</div>
@@ -307,7 +306,7 @@
                     
             
             <li>
-            <strong style="font-size: 1.1em;"Numerical study of the effect of backlash on flash temperature of spur gear.</strong>   
+            <strong style="font-size: 1.1em;">Numerical study of the effect of backlash on flash temperature of spur gear.</strong>   
             <i>International Review of Mechanical Engineering (IREME) 14, no. 11 (2020). 
             <a href="http://dx.doi.org/10.15866/ireme.v14i11.19763" target="_blank">DOI</a>
                                         <div class="content">
@@ -317,7 +316,7 @@
 
             
             <li>
-             <strong style="font-size: 1.1em;"Dynamic analysis of spur gear with backlash using ADAMS.</strong>   
+             <strong style="font-size: 1.1em;">Dynamic analysis of spur gear with backlash using ADAMS.</strong>   
              <i>Materials Today: Proceedings, 38, pp. 2959-2967. 
              <a href="https://doi.org/10.1016/j.matpr.2020.09.309" target="_blank">DOI</a>
                      <div class="content">
