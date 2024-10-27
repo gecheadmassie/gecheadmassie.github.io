@@ -192,7 +192,7 @@
         <li>PhD in Industrial Systems and Manufacturing Engineering at Wichita State University (2024)</li>
         <li>MSc. in Mechanical Design Engineering at Jimma University (2020)</li>
         <li>BSc. in Mechanical Engineering at Jimma University (2016)</li>
-        <ul>
+        </ul>
     </section>
 
     <section id="teaching-experience">
