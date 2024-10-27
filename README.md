@@ -137,7 +137,7 @@
         
         footer {
             text-align: center;
-            padding: 20px;
+            padding: 100px;
             background-color: #1626af;
             color: white;
             position: relative;
@@ -146,12 +146,12 @@
         }
 
         .social-media {
-            margin-top: 20px;
+            margin-top: 100px;
         }
 
         .social-media a {
             color: white;
-            margin: 0 20px;
+            margin: 0 50px;
             text-decoration: none;
             transition: color 0.3s;
         }
@@ -168,13 +168,13 @@
 
         input[type="text"],
         input[type="email"] {
-            padding: 10px;
+            padding: 20px;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
 
         input[type="submit"] {
-            padding: 10px;
+            padding: 20px;
             border: none;
             background-color: #1626af;
             color: white;
@@ -196,11 +196,11 @@
 
         .contact-column {
             flex: 1;
-            max-width: 50%; /* Adjust to fit two columns */
+            max-width: 100%; /* Adjust to fit two columns */
             padding: 20px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
-            margin: 10px;
+            margin: 50px;
             background-color: #f9f9f9; /* Light background for contrast */
         }
     </style>
