@@ -10,8 +10,8 @@
 
 <body style="margin: 0; font-family: Arial, sans-serif;">
 
-    <div class="header-container" style="display: flex; align-items: center; justify-content: flex-start; margin: 10px 0; background-color: #1626af; padding: 10px;">
-        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 50%; width: 100px; height: 100px; object-fit: cover; margin-right: 20px;">
+    <div class="header-container" style="display: flex; align-items: center; justify-content: flex-start; margin: 5px 0; background-color: #1626af; padding: 10px;">
+        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 50%; width: 100px; height: 100px; object-fit: cover; margin-right: 5px;">
         <nav>
             <ul style="list-style-type: none; padding: 0; display: flex; margin: 0; color: white;">
                 <li style="margin: 0 10px;"><a href="#about" style="color: white; text-decoration: none;">About</a></li>
