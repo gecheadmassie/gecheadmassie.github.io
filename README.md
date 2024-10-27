@@ -222,7 +222,12 @@
         
         <div class="read-more" onclick="toggleDetails()">Read More</div>
         <div class="additional-details content">
-            <p>Additional teaching experience details can go here, including specific courses taught, methodologies used, and student engagement initiatives...</p>
+            <p> 2022–Present Direct Graduate Teaching Assistance (GTA) and GRA, WSU, Wichita, KS, USA </p>
+            <ul style="padding: 0; list-style-type: disc; list-style-position: inside;">
+            <li>  IME 222, Engineering Graphics (3 Semesters, (Summer 2023, Fall 2023, Spring 2024))<li> 
+            <li>  IME 222L, Engineering Graphics Lab (3DX & CATIA V5) (for 2 semesters, (Spring 2023,Fall 2024))<li> 
+            <li>  IME 425, Kinematics and Dynamics Design (as GTA), (1 Semester, (Fall 2022))<li> 
+            <ul>
         </div>
     </section>
 
