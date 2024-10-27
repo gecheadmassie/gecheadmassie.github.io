@@ -146,7 +146,7 @@
         }
 
         .social-media {
-            margin-top: 0;
+            margin-top: 100px;
         }
 
         .social-media a {
@@ -163,7 +163,7 @@
         form {
             display: flex;
             flex-direction: column;
-            gap: 500px;
+            gap: 10px;
         }
 
         input[type="text"],
