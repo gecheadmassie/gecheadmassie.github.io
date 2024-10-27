@@ -137,7 +137,7 @@
         
         footer {
             text-align: center;
-            padding: 100px;
+            padding: 400px;
             background-color: #1626af;
             color: white;
             position: relative;
@@ -146,12 +146,12 @@
         }
 
         .social-media {
-            margin-top: 400px;
+            margin-top: 20px;
         }
 
         .social-media a {
             color: white;
-            margin: 0 400px;
+            margin: 0 20px;
             text-decoration: none;
             transition: color 0.3s;
         }
@@ -168,13 +168,13 @@
 
         input[type="text"],
         input[type="email"] {
-            padding: 20px;
+            padding: 100px;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
 
         input[type="submit"] {
-            padding: 20px;
+            padding: 100px;
             border: none;
             background-color: #1626af;
             color: white;
