@@ -65,7 +65,7 @@
         }
 
         #teaching-experience {
-            background-color: #FFFFFF;
+            background-color: #fff3e0;
         }
 
         #publications {
