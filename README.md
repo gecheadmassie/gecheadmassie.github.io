@@ -12,19 +12,16 @@
 
     <div class="header-container" style="display: flex; align-items: center; justify-content: flex-start; margin: 10px 0; background-color: #1626af; padding: 10px;">
         <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 50%; width: 100px; height: 100px; object-fit: cover; margin-right: 20px;">
-        <div style="color: white;">
-            <h1 style="margin: 0;">Getachew Ambaye</h1>
-            <nav>
-                <ul style="list-style-type: none; padding: 0; display: flex; margin: 0;">
-                    <li style="margin: 0 10px;"><a href="#about" style="color: white; text-decoration: none;">About</a></li>
-                    <li style="margin: 0 10px;"><a href="#teaching-experience" style="color: white; text-decoration: none;">Teaching Experience</a></li>
-                    <li style="margin: 0 10px;"><a href="#projects-community-service" style="color: white; text-decoration: none;">Projects and Community Service</a></li>
-                    <li style="margin: 0 10px;"><a href="#publications" style="color: white; text-decoration: none;">Publications</a></li>
-                    <li style="margin: 0 10px;"><a href="#videos" style="color: white; text-decoration: none;">Videos</a></li>
-                    <li style="margin: 0 10px;"><a href="#contact" style="color: white; text-decoration: none;">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <ul style="list-style-type: none; padding: 0; display: flex; margin: 0; color: white;">
+                <li style="margin: 0 10px;"><a href="#about" style="color: white; text-decoration: none;">About</a></li>
+                <li style="margin: 0 10px;"><a href="#teaching-experience" style="color: white; text-decoration: none;">Teaching Experience</a></li>
+                <li style="margin: 0 10px;"><a href="#projects-community-service" style="color: white; text-decoration: none;">Projects and Community Service</a></li>
+                <li style="margin: 0 10px;"><a href="#publications" style="color: white; text-decoration: none;">Publications</a></li>
+                <li style="margin: 0 10px;"><a href="#videos" style="color: white; text-decoration: none;">Videos</a></li>
+                <li style="margin: 0 10px;"><a href="#contact" style="color: white; text-decoration: none;">Contact</a></li>
+            </ul>
+        </nav>
     </div>
 
     <section id="about" style="margin: 10px; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); background-color: #e0f7fa; width: calc(100% - 40px);">
