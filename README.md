@@ -309,7 +309,8 @@
             <strong style="font-size: 1.1em;">Numerical study of the effect of backlash on flash temperature of spur gear.</strong>   
             <i>International Review of Mechanical Engineering (IREME) 14, no. 11 (2020). 
             <a href="http://dx.doi.org/10.15866/ireme.v14i11.19763" target="_blank">DOI</a>
-                                        <div class="content">
+            <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+                        <div class="content">
                         <p> <em> This article presents the effect of backlash on flash temperature of spur gears. Backlash in gears is one of the nonlinear parameters that can act as internal excitation and highly influence the life of gear teeth. To investigate the influence of friction coefficient on the flash temperature of the gear, a spur gear with a backlash from 0 mm to 1 mm, with 0.2 mm increment, is modelled by considering a pinion and gear in contact where the pinion is subjected to a constant angular velocity. The results of finite element analysis in ABAQUS with plane strain assumption and analytical results are compared with the experimental results from the literature. The results obtained in this study show that the flash temperature is maximum on the gear without backlash and the finite element and analytical results are in good agreement specifically within a single tooth contact region.</em>
                     </p> </div>
             
@@ -319,6 +320,7 @@
              <strong style="font-size: 1.1em;">Dynamic analysis of spur gear with backlash using ADAMS.</strong>   
              <i>Materials Today: Proceedings, 38, pp. 2959-2967. 
              <a href="https://doi.org/10.1016/j.matpr.2020.09.309" target="_blank">DOI</a>
+             <div class="read-more" onclick="toggleDetails(this)">Read More</div>
                      <div class="content">
                     <p> <em> Gear tooth profile can deviate from its initial design shape and size as a result of increasing service time under time-varying load, introducing external agents like debris, overheating due to friction, wear, and in generally due to other nonlinear factors such as backlash. As a result, the dynamics of the gear will also vary depending on the resulting gear tooth profile. In this study, the worn-out gear tooth is modelled as a backlash by assuming a uniformly distributed worn out surface and the effect on the dynamic performance is investigated. By changing the amount of backlash of the gear tooth from 0 mm to 1 mm by 0.2 mm increment, the gear is modelled and analysed for three loading cases using MSC ADAMS software. This paper discusses the effect of backlash or uniformly worn out spur gear tooth faces on the dynamics specifically the contact and angular accelerations of the gear.</em>
                     </p> </div>
