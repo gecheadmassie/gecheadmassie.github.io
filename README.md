@@ -64,10 +64,10 @@
 
         .profile-pic {
             border-radius: 50%;
-            width: 150px; 
-            height: 150px; 
+            width: 200px; 
+            height: 200px; 
             object-fit: cover; 
-            margin-right: 20px; /* Space between image and text */
+            margin-right: 30px; /* Space between image and text */
         }
 
         .section-heading {
@@ -80,14 +80,14 @@
         }
 
         .about-text {
-            max-width: 600px; /* Set a maximum width for the text */
+            max-width: 0; /* Set a maximum width for the text */
         }
 
         #teaching-experience {
             background-color: hsl(78, 14%, 85%);
             border-radius: 8px;
             padding: 20px;
-            margin: 20px 0;
+            margin: 0 0;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
@@ -109,7 +109,7 @@
             background-color: #f4f4f4; 
             border-radius: 8px; 
             padding: 20px; 
-            margin: 20px 0; 
+            margin: 0 0; 
             box-shadow: 0 40px 80px rgba(0, 0, 0, 0.2); 
         }
 
@@ -130,7 +130,7 @@
         }
         
         .video-thumbnail {
-            width: 100px; 
+            width: 0; 
             height: auto; 
             margin-left: 10px; 
         }
@@ -142,7 +142,7 @@
             color: white;
             position: relative;
             bottom: 0;
-            width: 100%;
+            width: 0;
         }
 
         .social-media {
