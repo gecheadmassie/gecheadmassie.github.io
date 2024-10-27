@@ -197,33 +197,23 @@
 
 
     <section id="teaching-experience">
-    <h1>Teaching Experience</h1>
-    <ul>
-        <li>
-            <strong>Wichita State University (WSU)</strong> <p>- Direct Graduate Teaching Assistant (2022-)</p>
-            <div class="content">
-                <p>Details about my role and responsibilities as a Direct Graduate Teaching Assistant...</p>
-            </div>
-        </li>
-        <li>
-            <strong>Hesston College</strong> - Engineering Professor (2024-)
-            <div class="content">
-                <p>Details about my role and responsibilities as an Engineering Professor...</p>
-            </div>
-        </li>
-        <li>
-            <strong>Bahir Dar Institute of Technology (BiT)</strong> - Lecturer (2020-2022)
-            <div class="content">
-                <p>Details about my role and responsibilities as a Lecturer at BiT...</p>
-            </div>
-        </li>
-        <li>
-            <strong>Jimma Institute of Technology (JiT)</strong> - Lecturer (2016-2020)
-            <div class="content">
-                <p>Details about my role and responsibilities as a Lecturer at JiT...</p>
-            </div>
-        </li>
-    </ul>
+        <h1>Teaching Experience</h1>
+        <ul>
+            <li>
+                <strong>Wichita State University (WSU)</strong> - Direct Graduate Teaching Assistant (2022-)
+            </li>
+            <li>
+                <strong>Hesston College</strong> - Engineering Professor (2024-)
+            </li>
+            <li>
+                <strong>Bahir Dar Institute of Technology (BiT)</strong> - Lecturer (2020-2022)
+            </li>
+            <li>
+                <strong>Jimma Institute of Technology (JiT)</strong> - Lecturer (2016-2020)
+            </li>
+        </ul>
+
+
 
 
 
