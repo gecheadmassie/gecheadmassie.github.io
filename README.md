@@ -327,8 +327,8 @@
         <p>
             <a href="https://scholar.google.com/citations?user=YOUR_PROFILE_ID" target="_blank" style="color: white; text-decoration: none;">Google Scholar</a> |
             <a href="https://www.researchgate.net/profile/Getachew-Ambaye" target="_blank" style="color: white; text-decoration: none;">ResearchGate</a> |
-            <a href="https://orcid.org/YOUR_ORCID_ID" target="_blank" style="color: white; text-decoration: none;">ORCID</a> |
-            <a href="https://publoons.com/YOUR_PROFILE_ID" target="_blank" style="color: white; text-decoration: none;">PubLoons</a>
+            <a href="https://orcid.org/0000-0003-4197-0188" target="_blank" style="color: white; text-decoration: none;">ORCID</a> |
+            <a href="https://www.webofscience.com/wos/author/record/AAO-1275-2021" target="_blank" style="color: white; text-decoration: none;">PubLoons</a>
         </p>
     </div>
 </footer>
@@ -349,30 +349,6 @@
 
 
 
-    <footer>
-        <p>© 2024 Getachew Ambaye. All rights reserved.</p>
-        <div class="social-media">
-            <a href="https://www.linkedin.com/in/getachew-ambaye" target="_blank">LinkedIn</a>
-            <a href="https://github.com/gecheadmassie" target="_blank">GitHub</a>
-        </div>
-        <p><a href="#home" style="color: white; text-decoration: underline;">Home</a></p>
-    </footer>
-
-
-
-    <script>
-        document.querySelectorAll('.toggle').forEach(item => {
-            item.addEventListener('click', event => {
-                const content = item.nextElementSibling;
-                content.style.display = content.style.display === "none" ? "block" : "none";
-            });
-        });
-
-        function toggleDetails() {
-            const additionalDetails = document.querySelector('.additional-details');
-            additionalDetails.style.display = additionalDetails.style.display === "none" ? "block" : "none";
-        }
-    </script>
 </body>
 
 </html>
