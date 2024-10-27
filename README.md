@@ -49,7 +49,7 @@
 
         section {
             margin: 5px;
-            padding: 30px;
+            padding: 10px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             width: calc(100% - 5px);
@@ -65,7 +65,7 @@
         }
 
         #teaching-experience {
-            background-color: #e1bee7;
+            background-color: #FFFFFF;
         }
 
         #publications {
@@ -167,7 +167,7 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#education-experience">Education Experience</a></li>
+                <li><a href="#education-experience">Education</a></li>
                 <li><a href="#teaching-experience">Teaching Experience</a></li>
                 <li><a href="#projects-community-service">Projects & Community Service</a></li>
                 <li><a href="#publications">Publications</a></li>
@@ -187,7 +187,7 @@
     </section>
 
     <section id="education-experience">
-        <h1>Education Experience</h1>
+        <h1>Education</h1>
         <p>PhD in Industrial Systems and Manufacturing Engineering at Wichita State University (2024)</p>
         <p>MSc. in Mechanical Design Engineering at Jimma University (2020)</p>
         <p>BSc. in Mechanical Engineering at Jimma University (2016)</p>
