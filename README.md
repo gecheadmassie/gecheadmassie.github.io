@@ -157,6 +157,28 @@
             margin-top: 10px;
             text-decoration: underline;
         }
+
+
+        <script>
+    document.querySelectorAll('.toggle').forEach(item => {
+        item.addEventListener('click', event => {
+            const expandableDiv = item.closest('li').querySelector('.expandable');
+            if (expandableDiv.style.display === "none") {
+                expandableDiv.style.display = "block";
+                item.textContent = "Hide Details";
+            } else {
+                expandableDiv.style.display = "none";
+                item.textContent = "Abstract";
+            }
+        });
+    });
+
+
+
+    .expandable {
+        display: none;
+    }
+
     </style>
 </head>
 
@@ -277,7 +299,7 @@
                 </p>
             </div>
             <p style="margin: 10px 0;">
-                <strong>Read More:</strong> <a href="#" class="toggle">Toggle Details</a>
+                <strong>Read More:</strong> <a href="#" class="toggle">Abstract</a>
             </p>
 </li>
 
