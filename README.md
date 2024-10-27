@@ -56,7 +56,7 @@
 
         .header-container {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             justify-content: center;
             margin: 20px 0;
         }
@@ -78,10 +78,8 @@
             margin: 10px 0; 
         }
 
-        .teaching-columns {
-            display: flex;
-            justify-content: space-between;
-            margin: 20px 0;
+        .about-text {
+            max-width: 600px; /* Set a maximum width for the text */
         }
 
         #teaching-experience {
@@ -221,15 +219,14 @@
         </nav>
     </header>
     
-    <div class="header-container">
-        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic">
-        <div class="section-heading">
-            <h2>About Me</h2>
-        </div>
-    </div>
-    
     <section id="about">
-        <p>I am Getachew Ambaye, a PhD candidate in Industrial and Manufacturing Engineering at Wichita State University, with a Master’s and Bachelor’s degree from Jimma Institute of Technology. I currently work as a Direct Graduate Teaching Assistant and an Engineering Professor at Hesston College, focusing on machine design and engineering graphics. My research interests include soft robotics and machine learning applications, resulting in multiple publications. I have led various industry projects, such as designing equipment for the Amhara Dairy Platform and conducting frequency analysis for milling machines. I am open to collaboration opportunities and positions in academia and industry to drive innovation in engineering.</p>
+        <div class="header-container">
+            <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic">
+            <div class="section-heading about-text">
+                <h2>About Me</h2>
+                <p>I am Getachew Ambaye, a PhD candidate in Industrial and Manufacturing Engineering at Wichita State University, with a Master’s and Bachelor’s degree from Jimma Institute of Technology. I currently work as a Direct Graduate Teaching Assistant and an Engineering Professor at Hesston College, focusing on machine design and engineering graphics. My research interests include soft robotics and machine learning applications, resulting in multiple publications. I have led various industry projects, such as designing equipment for the Amhara Dairy Platform and conducting frequency analysis for milling machines. I am open to collaboration opportunities and positions in academia and industry to drive innovation in engineering.</p>
+            </div>
+        </div>
     </section>
 
     <section id="projects-community-service">
