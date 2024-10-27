@@ -21,6 +21,8 @@
             margin: 5px 0;
             background-color: #1626af;
             padding: 10px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
         }
 
         nav ul {
