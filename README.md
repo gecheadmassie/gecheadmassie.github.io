@@ -293,14 +293,14 @@
     <strong style="font-size: 1.1em;">Soft Robot Design, Manufacturing, and Operation Challenges: A Review.</strong>
     <i>J. Manuf. Mater. Process.</i> 8(2), 79, 2024. 
     <a href="https://doi.org/10.3390/jmmp8020079" target="_blank">DOI</a>
-  <div class="expandable" style="display: none; max-width: 900px; margin: 0 auto; padding: 15px; font-size: 0.8em; line-height: 1.5;">
+
+     <div class="read-more" style="display: none; max-width: 900px; margin: 0 auto; padding: 15px; font-size: 0.8em; line-height: 1.5; onclick="toggleDetails()">Abstract</div>
+        <div class="additional-details content">
                 <p>
   <em>Advancements in smart manufacturing have embraced the adoption of soft robots for improved productivity, flexibility, and automation as well as safety in smart factories. Hence, soft robotics is seeing a significant surge in popularity by garnering considerable attention from researchers and practitioners. Bionic soft robots, which are composed of compliant materials like silicones, offer compelling solutions to manipulating delicate objects, operating in unstructured environments, and facilitating safe human–robot interactions. However, despite their numerous advantages, there are some fundamental challenges to overcome, which particularly concern motion precision and stiffness compliance in performing physical tasks that involve external forces. In this regard, enhancing the operation performance of soft robots necessitates intricate, complex structural designs, compliant multifunctional materials, and proper manufacturing methods. The objective of this literature review is to chronicle a comprehensive overview of soft robot design, manufacturing, and operation challenges in conjunction with recent advancements and future research directions for addressing these technical challenges.</em>
                 </p>
             </div>
-            <p style="margin: 10px 0;">
-                <strong>Read More:</strong> <a href="#" class="toggle">Abstract</a>
-            </p>
+
 </li>
 
 <li>
