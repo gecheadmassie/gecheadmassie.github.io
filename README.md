@@ -1,6 +1,3 @@
-
-
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -189,6 +186,30 @@
         input[type="submit"]:hover {
             background-color: #003366;
         }
+
+        /* New styles for the two-column layout */
+        .contact-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .contact-column {
+            flex: 1;
+            max-width: 50%; /* Adjust to fit two columns */
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin: 10px;
+            background-color: #f9f9f9; /* Light background for contrast */
+        }
+
+        .contact-column img {
+            width: 100%; /* Ensure image is responsive */
+            height: auto;
+            border-radius: 8px; /* Rounded corners for image */
+        }
     </style>
 </head>
 <body>
@@ -264,13 +285,20 @@
     
     <section id="contact">
         <h2>Contact Me</h2>
-        <form action="/contact" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <input type="submit" value="Submit">
-        </form>
+        <div class="contact-container">
+            <div class="contact-column">
+                <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic">
+            </div>
+            <div class="contact-column">
+                <form action="/contact" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
     </section>
     
     <footer>
@@ -282,7 +310,6 @@
             <a href="https://github.com/gecheadmassie" target="_blank">
                 <img src="Github.png" alt="GitHub" style="width: 30px; height: 30px;"> GitHub
             </a>
-
             <a href="mailto:gecheadmassie@gmail.com">
                 <img src="Email.jpg" alt="Email" style="width: 30px; height: 30px;"> Email
             </a>
@@ -291,4 +318,3 @@
 
 </body>
 </html>
-
