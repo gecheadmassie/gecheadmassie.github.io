@@ -277,14 +277,14 @@
         <p>&copy; 2024 Getachew Ambaye</p>
         <div class="social-media">
             <a href="//linkedin.com/in/getachew-ambaye" target="_blank">
-                <img src="Linkedin.png" alt="LinkedIn" style="width: 50px; height: 50px;"> LinkedIn
+                <img src="Linkedin.png" alt="LinkedIn" style="width: 30px; height: 30px;"> LinkedIn
             </a>
             <a href="https://github.com/gecheadmassie" target="_blank">
-                <img src="Github.png" alt="GitHub" style="width: 50px; height: 50px;"> GitHub
+                <img src="Github.png" alt="GitHub" style="width: 30px; height: 30px;"> GitHub
             </a>
 
             <a href="mailto:gecheadmassie@gmail.com">
-                <img src="Email.jpg" alt="Email" style="width: 50px; height: 50px;"> Email
+                <img src="Email.jpg" alt="Email" style="width: 30px; height: 30px;"> Email
             </a>
         </div>
     </footer>
@@ -292,10 +292,3 @@
 </body>
 </html>
 
-    </section>
-    
-    <footer>
-        <p>&copy; 2024 Getachew Ambaye</p>
-    </footer>
-</body>
-</html>
