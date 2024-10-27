@@ -304,7 +304,7 @@
         <p>© 2024 Getachew Ambaye. All rights reserved.</p>
         <div class="social-media">
             <a href="https://www.linkedin.com/in/getachew-ambaye" target="_blank">LinkedIn</a>
-            <a href="mailto:gecheadmassie@gmail.com" target="_blank">Email</a>
+            
             <a href="https://github.com/gecheadmassie" target="_blank">GitHub</a>
         </div>
         <p><a href="#home" style="color: white; text-decoration: underline;">Home</a></p>
