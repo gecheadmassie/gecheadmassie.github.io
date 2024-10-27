@@ -300,15 +300,17 @@
         </form>
     </section>
 
+
     <footer>
         <p>© 2024 Getachew Ambaye. All rights reserved.</p>
         <div class="social-media">
             <a href="https://www.linkedin.com/in/getachew-ambaye" target="_blank">LinkedIn</a>
-            
             <a href="https://github.com/gecheadmassie" target="_blank">GitHub</a>
         </div>
         <p><a href="#home" style="color: white; text-decoration: underline;">Home</a></p>
     </footer>
+
+
 
     <script>
         document.querySelectorAll('.toggle').forEach(item => {
