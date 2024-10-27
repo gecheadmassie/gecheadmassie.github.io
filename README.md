@@ -56,8 +56,8 @@
 
         .header-container {
             display: flex;
-            align-items: flex-start;
-            justify-content: center;
+            align-items: center;
+            justify-content: flex-start;
             margin: 20px 0;
         }
 
@@ -221,8 +221,8 @@
     
     <section id="about">
         <div class="header-container">
-            <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic">
-            <div class="section-heading about-text">
+            <img src="your-photo.jpg" alt="Getachew Ambaye" class="profile-pic">
+            <div class="section-heading">
                 <h2>About Me</h2>
                 <p>I am Getachew Ambaye, a PhD candidate in Industrial and Manufacturing Engineering at Wichita State University, with a Master’s and Bachelor’s degree from Jimma Institute of Technology. I currently work as a Direct Graduate Teaching Assistant and an Engineering Professor at Hesston College, focusing on machine design and engineering graphics. My research interests include soft robotics and machine learning applications, resulting in multiple publications. I have led various industry projects, such as designing equipment for the Amhara Dairy Platform and conducting frequency analysis for milling machines. I am open to collaboration opportunities and positions in academia and industry to drive innovation in engineering.</p>
             </div>
@@ -264,7 +264,7 @@
             </div>
         </div>
         <ul>
-            <li>Detection of Pockets in Parts Using Machine Learning. In <i>Journal of Ambient Intelligence and Humanized Computing</i> (pp. 1727-1739). <a href="https://doi.org/10.1007/s00521-023-09150-3" target="_blank">DOI: 10.1007/s00521-023-09150-3</a></li>
+            <li>Application of Machine Learning for Efficient Operational Resource Management in an Industry. In <i>Journal of Ambient Intelligence and Humanized Computing</i> (pp. 1727-1739). <a href="https://doi.org/10.1007/s00521-023-09150-3" target="_blank">DOI: 10.1007/s00521-023-09150-3</a></li>
             <li>Detection of Small Screws Using Machine Learning. In <i>2023 International Conference on Information and Communication Technology for Development for Africa (ICT4DA)</i> (pp. 13-18). IEEE. <a href="https://doi.org/10.1109/ICT4DA59526.2023.10302258" target="_blank">DOI: 10.1109/ICT4DA59526.2023.10302258</a></li>
             <li>Contact temperature analysis of the classical Geneva mechanism through numerical methods. <i>Materials Today: Proceedings</i>, 57, pp. 545-552. <a href="https://doi.org/10.1016/j.matpr.2022.01.420" target="_blank">DOI: 10.1016/j.matpr.2022.01.420</a></li>
             <li>Numerical Stress Analysis and Fatigue Life Prediction of the Classical External Geneva Mechanism. In <i>International Workshop of Advanced Manufacturing and Automation</i> (pp. 176-186). Singapore: Springer Singapore. <a href="https://doi.org/10.1007/978-981-19-0572-8_23" target="_blank">DOI: 10.1007/978-981-19-0572-8_23</a></li>
@@ -278,7 +278,7 @@
             <li>Time and frequency domain analysis of signals: a review. <i>Int J Eng Res Technol</i> 9: 271–276.</li>
         </ul>
     </section>
-    
+
     <section id="videos">
         <div class="header-container">
             <img src="your-photo.jpg" alt="Getachew Ambaye" class="profile-pic">
@@ -294,7 +294,7 @@
             </li>
         </ul>
     </section>
-    
+
     <section id="contact">
         <div class="header-container">
             <img src="your-photo.jpg" alt="Getachew Ambaye" class="profile-pic">
@@ -314,7 +314,7 @@
             </div>
         </div>
     </section>
-    
+
     <footer>
         <p>&copy; 2024 Getachew Ambaye</p>
         <div class="social-media">
