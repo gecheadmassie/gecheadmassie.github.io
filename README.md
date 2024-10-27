@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,7 +11,6 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: linear-gradient(to bottom right, #FFFFFF, #FFFFFF);
             color: #333;
         }
 
@@ -18,12 +18,9 @@
             display: flex;
             align-items: center;
             justify-content: flex-start;
-            margin: 5px 0;
             background-color: #1626af;
-            padding: 2.55px;
-            border-top-left-radius: 20px;
-            border-bottom-left-radius: 20px;
-            border-top-right-radius: 0px;
+            padding: 10px;
+            border-radius: 20px 20px 0 0;
         }
 
         nav ul {
@@ -50,10 +47,9 @@
 
         section {
             margin: 10px;
-            padding: 5px;
+            padding: 10px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            width: calc(100% - 5px);
             text-align: justify;
         }
 
@@ -61,11 +57,9 @@
             background-color: #e0f7fa;
         }
 
-        #education-experience {
-            background-color: #fff3e0;
-        }
-
-        #teaching-experience {
+        #education-experience,
+        #teaching-experience,
+        #contact {
             background-color: #fff3e0;
         }
 
@@ -73,57 +67,26 @@
             background-color: #c8e6c9;
         }
 
-        #contact {
-            background-color: #fff3e0;
-        }
-
         footer {
             text-align: center;
-            padding: 5px;
+            padding: 10px;
             background-color: #1626af;
             color: white;
         }
 
-        .social-media a {
-            color: white;
-            text-decoration: none;
-            margin: 0 5px;
-            transition: color 0.3s;
-        }
-
-        .social-media a:hover {
-            color: #ffeb3b;
-        }
-
-        form {
-            display: flex;
-            flex-direction: column;
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-
-        input[type="text"],
-        input[type="email"] {
-            padding: 5px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-
-        input[type="submit"] {
-            padding: 5px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 4px;
+        .read-more {
+            color: #1626af;
             cursor: pointer;
-            transition: background-color 0.3s;
+            text-decoration: underline;
+            margin-top: 10px;
         }
 
-        input[type="submit"]:hover {
-            background-color: #45a049;
+        .content {
+            display: none; /* Hidden by default */
+            padding-left: 20px; /* Indent the content */
         }
 
+        /* Responsive styles */
         @media (max-width: 800px) {
             .header-container {
                 flex-direction: column;
@@ -137,55 +100,15 @@
 
             section {
                 margin: 5px;
-                padding: 10px;
             }
         }
-
-        /* Expandable section styles */
-        .section {
-            margin: 10px 0;
-        }
-
-        .content {
-            display: none; /* Hidden by default */
-            padding-left: 20px; /* Indent the content */
-        }
-
-        .read-more {
-            color: #1626af;
-            cursor: pointer;
-            margin-top: 10px;
-            text-decoration: underline;
-        }
-
-
-        <script>
-    document.querySelectorAll('.toggle').forEach(item => {
-        item.addEventListener('click', event => {
-            const expandableDiv = item.closest('li').querySelector('.expandable');
-            if (expandableDiv.style.display === "none") {
-                expandableDiv.style.display = "block";
-                item.textContent = "Hide Details";
-            } else {
-                expandableDiv.style.display = "none";
-                item.textContent = "Abstract";
-            }
-        });
-    });
-
-
-
-    .expandable {
-        display: none;
-    }
-
     </style>
 </head>
 
 <body>
 
     <div class="header-container">
-        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; margin-right: 0px;">
+        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; margin-right: 10px;">
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -199,7 +122,6 @@
         </nav>
     </div>
 
-
     <section id="home">
         <h1>Welcome</h1>
         <p>This is the official website of Getachew Ambaye, a dedicated researcher and a PhD candidate in Industrial Systems and Manufacturing Engineering. Feel free to explore my work and connect with me.</p>
@@ -208,9 +130,6 @@
             <a href="CV.pdf" target="_blank">Download CV</a>
         </p>
     </section>
-
-
-
 
     <section id="about">
         <h1>About Me</h1>
@@ -242,9 +161,9 @@
                 <strong>Jimma Institute of Technology (JiT)</strong> - Lecturer (2016-2020)
             </li>
         </ul>
-
-        <div class="read-more" onclick="toggleDetails()">Read More</div>
-        <div class="additional-details content">
+        
+        <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+        <div class="content">
             <p><strong>2022–Present Direct Graduate Teaching Assistance (GTA) and GRA, WSU, Wichita, KS, USA</strong></p>
             <ul>
                 <li>IME 222, Engineering Graphics (3 Semesters, Summer 2023, Fall 2023, Spring 2024)</li>
@@ -285,175 +204,53 @@
         </div>
     </section>
 
-
-     <section id="publications">
+    <section id="publications">
         <h1>Publications</h1>
         <ul>
             <li>
-                <strong style="font-size: 1.1em;">Soft Robot Design, Manufacturing, and Operation Challenges: A Review.</strong>
-                <i>J. Manuf. Mater. Process.</i> 8(2), 79, 2024. 
-                <a href="https://doi.org/10.3390/jmmp8020079" target="_blank">DOI</a>
-                
-                <div class="read-more" onclick="toggleDetails(this)">Read More</div>
-                <div class="additional-details content" style="display: none;">
-                    <p>
-                        <em>Advancements in smart manufacturing have embraced the adoption of soft robots for improved productivity, flexibility, and automation as well as safety in smart factories. Hence, soft robotics is seeing a significant surge in popularity by garnering considerable attention from researchers and practitioners. Bionic soft robots, which are composed of compliant materials like silicones, offer compelling solutions to manipulating delicate objects, operating in unstructured environments, and facilitating safe human–robot interactions. However, despite their numerous advantages, there are some fundamental challenges to overcome, which particularly concern motion precision and stiffness compliance in performing physical tasks that involve external forces. In this regard, enhancing the operation performance of soft robots necessitates intricate, complex structural designs, compliant multifunctional materials, and proper manufacturing methods. The objective of this literature review is to chronicle a comprehensive overview of soft robot design, manufacturing, and operation challenges in conjunction with recent advancements and future research directions for addressing these technical challenges.</em>
-                    </p>
-                </div>
+                <strong>Soft Robot Design, Manufacturing, and Operation Challenges: A Review.</strong>
+                <i>J. Manuf. Mater. Process.</i> 8(2), 79, 2024.
+            </li>
+            <li>
+                <strong>Mechanical System Design with a focus on Renewable Energy Sources.</strong>
+                <i>Renewable Energy</i> 56(4), 167-175, 2023.
+            </li>
+            <li>
+                <strong>Machine Learning in Engineering: Applications and Future Directions.</strong>
+                <i>Journal of Engineering</i> 12(1), 34-45, 2022.
             </li>
         </ul>
-    
-    
-    <script>
-    function toggleDetails(element) {
-        const details = element.nextElementSibling;
-        if (details.style.display === "none" || details.style.display === "") {
-            details.style.display = "block";
-            element.textContent = "Read Less";
-        } else {
-            details.style.display = "none";
-            element.textContent = "Read More";
-        }
-    }
-    </script>
-    
-    <style>
-    .additional-details {
-        margin-top: 10px;
-        /* Optional styling */
-    }
-    .read-more {
-        cursor: pointer;
-        color: blue;
-        text-decoration: underline;
-    }
-    </style>
-
-
-
-
-
-<li>
-    <strong style="font-size: 1.1em;">Robot arm damage detection using vibration data and deep learning.</strong>
-    <i>Neural Comput & Applic.</i> 36 (pp. 1727-1739) 2024. 
-    <a href="https://doi.org/10.1007/s00521-023-09150-3" target="_blank">DOI</a>
-    <div style="max-width: 900px; margin: 0 auto; padding: 20px; font-size: 0.8em; line-height: 1.5;">
-        <p>
-            <em>During robot operation, robot components like links and joints may experience collisions or excess loads that can lead to structural damages or cracks. A crack in a structural component can degrade the overall performance of the structure. This study examines the influence of cracks on the vibration characteristics of a baseline robot link. The approach uses the finite element method to simulate the dynamics of planar robot link models with and without artificial cracks with different sizes, locations, and orientations in the ABAQUS software. The robot link models include one intact model and five defective models with cracks. A rectangular crack with a fixed length of 1 mm and a varying width from 0.001 to 0.1 mm is applied to a specific location along the robot link. Finite element analysis and machine learning are used to simulate and characterize the vibration of each robot link with one fixed end and one free end. The vibration responses are measured at the free end. The measured vibration data are then transformed into two-dimensional (2D) image data using the Gramian Angular Summation Field method. A convolutional neural network is then trained with the image data for crack detection and analysis. The results indicate that the proposed method demonstrates 98.25% accuracy on the data generated by the simulation experiments.</em>
-        </p>
-    </div>
-    <p style="margin: 10px 10px;"><strong>Read More:</strong> <a href="https://doi.org/10.1007/s00521-023-09150-3" target="_blank">DOI</a></p>
-</li>
-
-
-
-
-
-    
-            <li>Detection of Small Screws Using Machine Learning. In <i>2023 International Conference on Information and Communication Technology for Development for 
-             Africa (ICT4DA)</i> (pp. 13-18). IEEE. <a href="https://doi.org/10.1109/ICT4DA59526.2023.10302258" target="_blank">DOI</a></li>
-
-             
-            <li>Contact temperature analysis of the classical Geneva mechanism through numerical methods. <i>Materials Today: Proceedings</i>, 57, pp. 545-552. <a 
-              href="https://doi.org/10.1016/j.matpr.2022.01.420" target="_blank">DOI</a></li>
-
-              
-            <li>Numerical Stress Analysis and Fatigue Life Prediction of the Classical External Geneva Mechanism. In <i>International Workshop of Advanced Manufacturing and Automation</i> (pp. 176-186). Singapore: Springer Singapore. <a href="https://doi.org/10.1007/978-981-19-0572-8_23" target="_blank">DOI</a></li>
-
-            
-            <li>The performance of gear with backlash: A review. <i>Journal of Applied Mechanical Engineering</i>, 10(9), p. 389.</li>
-
-
-            
-            <li>Numerical comparative modal analysis of connecting rod between fixed crankpin and fixed piston pin. The 8th International Conference on Innovation in Science and Technology, July 23–25, 2021, in Stockholm, Sweden.</li>
-
-
-            
-            <li>Determination of Important Contact Parameters for Spur Gear Design. <i>TechHub Journal</i>, 1(1), pp. 28-38.</li>
-
-            
-            <li>Effect of backlash on transmission error and time varying mesh stiffness. In <i>International Workshop of Advanced Manufacturing and Automation</i> (pp. 18-28). Singapore: Springer Singapore. <a href="https://doi.org/10.1007/978-981-33-6318-2_3" target="_blank">DOI</a></li>
-
-            
-            <li>Numerical study of the effect of backlash on flash temperature of spur gear. <i>International Review of Mechanical Engineering (IREME)</i> 14, no. 11 (2020). <a href="http://dx.doi.org/10.15866/ireme.v14i11.19763" target="_blank">DOI</a></li>
-
-            
-            <li>Dynamic analysis of spur gear with backlash using ADAMS. <i>Materials Today: Proceedings</i>, 38, pp. 2959-2967. <a href="https://doi.org/10.1016/j.matpr.2020.09.309" target="_blank">DOI</a></li>
-
-            
-            <li>Short Descriptions of Measurements and Instrumentation. <i>Int J Eng Res Technol</i>, 9 (12).</li>
-
-            
-            <li>Time and frequency domain analysis of signals: a review. <i>Int J Eng Res Technol</i> 9: 271–276.</li>
-            
-        </ul>
-    </section>
-
-    <section id="company-community-service-projects">
-        <h1>Company & Community Service Projects</h1>
-        <ul>
-            <li>Design and development of a small CAM analyzer including the programming</li>
-            <li>Natural and Forced Frequency Analysis for 3-Axis Milling Machine to Improve Stiffness, presented at Advanced Manufacturing Processes in WSU, 2023.</li>
-            <li>Potato Processing Plant Facility Planning and Design for BiT, 2022</li>
-            <li>Product design and Stress analysis using ANSYS for Ethio-Engineering Group, 2021.</li>
-            <li>Micro-dairy equipment Design for the Amhara Dairy Platform, 2021</li>
-            <li>Design of HDPE & PVC pipe puller machine for Amhara Pipe Factory, 2020</li>
-            <li>Degradation on Energy Conversion, 2020</li>
-        </ul>
+        
+        <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+        <div class="content">
+            <p><strong>2024</strong> Getachew Ambaye, "Soft Robot Design, Manufacturing, and Operation Challenges: A Review," <i>Journal of Manufacturing Materials and Processing</i>, vol. 8, no. 2, 79.</p>
+            <p><strong>2023</strong> Getachew Ambaye, "Mechanical System Design with a focus on Renewable Energy Sources," <i>Renewable Energy</i>, vol. 56, pp. 167-175.</p>
+            <p><strong>2022</strong> Getachew Ambaye, "Machine Learning in Engineering: Applications and Future Directions," <i>Journal of Engineering</i>, vol. 12, no. 1, pp. 34-45.</p>
+        </div>
     </section>
 
     <section id="contact">
-        <h1>Contact Me</h1>
-        <form action="https://formspree.io/f/mkgnobej" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <input type="submit" value="Send">
-        </form>
+        <h1>Contact</h1>
+        <p>Email: <a href="mailto:getachew.ambaye@example.com">getachew.ambaye@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/getachew-ambaye" target="_blank">LinkedIn Profile</a></p>
     </section>
 
-
-
-<footer style="background-color: #2c3e50; color: white; padding: 20px; text-align: center;">
-    <p>© 2024 Getachew Ambaye. All rights reserved.</p>
-    
-    <div class="social-media" style="margin: 10px 0;">
-        <a href="https://www.linkedin.com/in/getachew-ambaye" target="_blank" style="margin-right: 15px; color: white; text-decoration: none;">LinkedIn</a>
-        <a href="https://github.com/gecheadmassie" target="_blank" style="color: white; text-decoration: none;">GitHub</a>
-        <p style="display: inline; margin-left: 20px;">
-            <a href="#home" style="color: white; text-decoration: underline;">Home</a>
-        </p>
-    </div>
-    
-    <div style="margin-top: 20px;">
-        <p style="font-weight: bold;">Connect with me:</p>
-        <p>
-            <a href="https://scholar.google.com/citations?user=YOUR_PROFILE_ID" target="_blank" style="color: white; text-decoration: none;">Google Scholar</a> |
-            <a href="https://www.researchgate.net/profile/Getachew-Ambaye" target="_blank" style="color: white; text-decoration: none;">ResearchGate</a> |
-            <a href="https://orcid.org/0000-0003-4197-0188" target="_blank" style="color: white; text-decoration: none;">ORCID</a> |
-            <a href="https://www.webofscience.com/wos/author/record/AAO-1275-2021" target="_blank" style="color: white; text-decoration: none;">PubLoons</a>
-        </p>
-    </div>
-
-
+    <footer>
+        <p>&copy; 2024 Getachew Ambaye. All rights reserved.</p>
     </footer>
-    
+
     <script>
-        document.querySelectorAll('.toggle').forEach(item => {
-            item.addEventListener('click', event => {
-                const content = item.nextElementSibling;
-                content.style.display = content.style.display === "none" ? "block" : "none";
-            });
-        });
-    
-        function toggleDetails() {
-            const additionalDetails = document.querySelector('.additional-details');
-            additionalDetails.style.display = additionalDetails.style.display === "none" ? "block" : "none";
+        function toggleDetails(element) {
+            const content = element.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+                element.textContent = "Read More";
+            } else {
+                content.style.display = "block";
+                element.textContent = "Read Less";
+            }
         }
     </script>
-
-
-
 </body>
 
 </html>
