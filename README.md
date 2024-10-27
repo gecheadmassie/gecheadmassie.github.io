@@ -16,194 +16,200 @@
             background-color: #f8f8f8;
         }
         
-        header {
-            background-color: #1626af;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            margin: 0;
-        }
-
-        nav ul li {
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            padding: 8px 16px;
-            transition: background-color 0.3s;
-        }
-
-        nav ul li a:hover {
-            background-color: #ffffff;
-            border-radius: 5px;
-        }
-
-        section {
-            background-color: white;
-            margin: 30px;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .header-container {
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            margin: 20px 0;
-        }
-
-        .profile-pic {
-            border-radius: 50%;
-            width: 150px; 
-            height: 150px; 
-            object-fit: cover; 
-            margin-right: 20px; /* Space between image and text */
-        }
-
-        .section-heading {
-            text-align: left; 
-            color: #003366; 
-        }
-
-        h2 {
-            margin: 10px 0; 
-        }
-
-        .about-text {
-            max-width: 600px; /* Set a maximum width for the text */
-        }
-
-        #teaching-experience {
-            background-color: hsl(78, 14%, 85%);
-            border-radius: 8px;
-            padding: 20px;
-            margin: 20px 0;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .teaching-list {
-            list-style-type: none;
-            padding: 0; 
-        }
-
-        .teaching-list li {
-            padding: 10px 0;
-            border-bottom: 1px solid #ccc; 
-        }
-
-        .teaching-list li:last-child {
-            border-bottom: none; 
-        }
-
-        #videos {
-            background-color: #f4f4f4; 
-            border-radius: 8px; 
-            padding: 20px; 
-            margin: 20px 0; 
-            box-shadow: 0 40px 80px rgba(0, 0, 0, 0.2); 
-        }
-
-        .video-list {
-            list-style-type: none; 
-            padding: 0; 
-        }
+    header {
+        background-color: #1626af;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    nav ul li {
+        margin: 0 15px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 8px 16px;
+        transition: background-color 0.3s;
+    }
+    
+    nav ul li a:hover {
+        background-color: #ffffff;
+        border-radius: 5px;
+    }
+    
+    /* Update section styles for full-screen sections */
+    section {
+        background-color: white;
+        height: 100vh; /* Make each section full-screen */
+        display: flex; /* Flexbox for alignment */
+        flex-direction: column; /* Arrange content vertically */
+        justify-content: center; /* Center content vertically */
+        align-items: center; /* Center content horizontally */
+        margin: 0; /* Remove margin to fit the full screen */
+        padding: 30px; /* Padding inside the section */
+        border-radius: 0; /* Remove border-radius for full width */
+        box-shadow: none; /* Remove shadow for a cleaner look */
+    }
+    
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 20px 0;
+    }
+    
+    .profile-pic {
+        border-radius: 50%;
+        width: 150px; 
+        height: 150px; 
+        object-fit: cover; 
+        margin-right: 20px; /* Space between image and text */
+    }
+    
+    .section-heading {
+        text-align: left; 
+        color: #003366; 
+    }
+    
+    h2 {
+        margin: 10px 0; 
+    }
+    
+    .about-text {
+        max-width: 600px; /* Set a maximum width for the text */
+    }
+    
+    #teaching-experience {
+        background-color: hsl(78, 14%, 85%);
+        border-radius: 8px;
+        padding: 20px;
+        margin: 20px 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .teaching-list {
+        list-style-type: none;
+        padding: 0; 
+    }
+    
+    .teaching-list li {
+        padding: 10px 0;
+        border-bottom: 1px solid #ccc; 
+    }
+    
+    .teaching-list li:last-child {
+        border-bottom: none; 
+    }
+    
+    #videos {
+        background-color: #f4f4f4; 
+        border-radius: 8px; 
+        padding: 20px; 
+        margin: 20px 0; 
+        box-shadow: 0 40px 80px rgba(0, 0, 0, 0.2); 
+    }
+    
+    .video-list {
+        list-style-type: none; 
+        padding: 0; 
+    }
         
-        .video-list li {
-            display: flex; 
-            align-items: center; 
-            padding: 10px 0; 
-            border-bottom: 1px solid #ccc; 
-        }
+    .video-list li {
+        display: flex; 
+        align-items: center; 
+        padding: 10px 0; 
+        border-bottom: 1px solid #ccc; 
+    }
         
-        .video-list li:last-child {
-            border-bottom: none; 
-        }
+    .video-list li:last-child {
+        border-bottom: none; 
+    }
         
-        .video-thumbnail {
-            width: 100px; 
-            height: auto; 
-            margin-left: 10px; 
-        }
+    .video-thumbnail {
+        width: 100px; 
+        height: auto; 
+        margin-left: 10px; 
+    }
         
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #1626af;
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #1626af;
+        color: white;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .social-media {
+        margin-top: 10px;
+    }
+    
+    .social-media a {
+        color: white;
+        margin: 0 10px;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    
+    .social-media a:hover {
+        color: #ffcc00; /* Change color on hover */
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    input[type="text"],
+    input[type="email"] {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    input[type="submit"] {
+        padding: 10px;
+        border: none;
+        background-color: #1626af;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #003366;
+    }
+    
+    /* New styles for the two-column layout */
+    .contact-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    .contact-column {
+        flex: 1;
+        max-width: 50%; /* Adjust to fit two columns */
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin: 10px;
+        background-color: #f9f9f9; /* Light background for contrast */
+    }
 
-        .social-media {
-            margin-top: 10px;
-        }
-
-        .social-media a {
-            color: white;
-            margin: 0 10px;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .social-media a:hover {
-            color: #ffcc00; /* Change color on hover */
-        }
-
-        form {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        input[type="text"],
-        input[type="email"] {
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-
-        input[type="submit"] {
-            padding: 10px;
-            border: none;
-            background-color: #1626af;
-            color: white;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #003366;
-        }
-
-        /* New styles for the two-column layout */
-        .contact-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            flex-wrap: wrap;
-        }
-
-        .contact-column {
-            flex: 1;
-            max-width: 50%; /* Adjust to fit two columns */
-            padding: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            margin: 10px;
-            background-color: #f9f9f9; /* Light background for contrast */
-        }
-    </style>
 </head>
 <body>
     <div class="header-container">
