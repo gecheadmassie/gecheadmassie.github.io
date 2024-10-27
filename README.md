@@ -137,12 +137,12 @@
         
         footer {
             text-align: center;
-            padding: 100%;
+            
             background-color: #1626af;
             color: white;
             position: relative;
             bottom: 0;
-            width: 0;
+            width: 100%;
         }
 
         .social-media {
