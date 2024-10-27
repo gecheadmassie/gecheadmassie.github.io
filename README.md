@@ -146,7 +146,7 @@
 <body>
 
     <div class="header-container">
-        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 50%; width: 100px; height: 100px; object-fit: cover; margin-right: 5px;">
+        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; margin-right: 0px;">
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -155,7 +155,6 @@
                 <li><a href="#teaching-experience">Teaching Experience</a></li>
                 <li><a href="#projects-community-service">Projects & Community Service</a></li>
                 <li><a href="#publications">Publications</a></li>
-                <li><a href="#videos">Videos</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
