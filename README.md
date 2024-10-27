@@ -1,7 +1,5 @@
 <html lang="en">
-    <div class="header-container">
-            <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic">
-            <div class="section-heading">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -208,19 +206,25 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Getachew Ambaye</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#teaching-experience">Teaching Experience</a></li>
-                <li><a href="#projects-community-service">Projects and Community Service</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#videos">Videos</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="header-container">
+        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic">
+        <div class="section-heading">
+            <header>
+                <h1>Getachew Ambaye</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#teaching-experience">Teaching Experience</a></li>
+                        <li><a href="#projects-community-service">Projects and Community Service</a></li>
+                        <li><a href="#publications">Publications</a></li>
+                        <li><a href="#videos">Videos</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+</body>
     
     <section id="about">
 
