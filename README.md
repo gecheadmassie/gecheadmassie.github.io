@@ -210,22 +210,6 @@
     margin: 0 auto; /* Center the paragraph */
     }
     
-    #publications {
-        max-width: 800px; /* Optional: set a maximum width for better readability */
-        margin: 0 auto; /* Center the section */
-    }
-    
-    #publications ul {
-        padding: 0; /* Remove default padding */
-        list-style-position: inside; /* Optional: move list markers inside */
-    }
-    
-    #publications li {
-        text-align: justify; /* Justifies the text inside the list item */
-        display: block; /* Ensure list items act as block elements */
-        margin: 10px 0; /* Optional: add space between items */
-    }
-
     </style>
 
 </head>
@@ -276,10 +260,9 @@
     </section>
 
     <section id="publications">
-                <h1>Publications</h1>
-
+        <h1>Publications</h1>
         <ul>
-        <li>Soft Robot Design, Manufacturing, and Operation Challenges: A Review. <i>Neural Comput & Applic.</i> 8(2), 79, 2024. <a href=" https://doi.org/10.3390/jmmp8020079" target="_blank">DOI: 10.3390/jmmp8020079</a></li>
+            <li>Soft Robot Design, Manufacturing, and Operation Challenges: A Review. <i>Neural Comput & Applic.</i> 8(2), 79, 2024. <a href="https://doi.org/10.3390/jmmp8020079" target="_blank">DOI: 10.3390/jmmp8020079</a></li>
             <li>Robot arm damage detection using vibration data and deep learning. <i>Neural Comput & Applic.</i> 36 (pp. 1727-1739) 2024. <a href="https://doi.org/10.1007/s00521-023-09150-3" target="_blank">DOI: 10.1007/s00521-023-09150-3</a></li>
             <li>Detection of Small Screws Using Machine Learning. In <i>2023 International Conference on Information and Communication Technology for Development for Africa (ICT4DA)</i> (pp. 13-18). IEEE. <a href="https://doi.org/10.1109/ICT4DA59526.2023.10302258" target="_blank">DOI: 10.1109/ICT4DA59526.2023.10302258</a></li>
             <li>Contact temperature analysis of the classical Geneva mechanism through numerical methods. <i>Materials Today: Proceedings</i>, 57, pp. 545-552. <a href="https://doi.org/10.1016/j.matpr.2022.01.420" target="_blank">DOI: 10.1016/j.matpr.2022.01.420</a></li>
@@ -294,6 +277,25 @@
             <li>Time and frequency domain analysis of signals: a review. <i>Int J Eng Res Technol</i> 9: 271–276.</li>
         </ul>
     </section>
+    
+    <style>
+        #publications {
+            max-width: 800px; /* Optional: set a maximum width for better readability */
+            margin: 0 auto; /* Center the section */
+        }
+    
+        #publications ul {
+            padding: 0; /* Remove default padding */
+            list-style-position: inside; /* Optional: move list markers inside */
+        }
+    
+        #publications li {
+            text-align: justify; /* Justifies the text inside the list item */
+            display: block; /* Ensure list items act as block elements */
+            margin: 10px 0; /* Optional: add space between items */
+        }
+    </style>
+
 
     <section id="videos">
 
