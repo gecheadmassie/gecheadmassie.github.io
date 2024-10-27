@@ -279,10 +279,10 @@
             <a href="//linkedin.com/in/getachew-ambaye" target="_blank">
                 <img src="Linkedin.png" alt="LinkedIn" style="width: 16px; height: 16px;"> LinkedIn
             </a>
-            <a href="https://github.com/gecheadmassie" target="_blank">GitHub</a>
-                 <img src="Github.png" alt="Github" style="width: 16px; height: 16px;"> Github
+            <a href="https://github.com/gecheadmassie" target="_blank">
+                <img src="Github.png" alt="GitHub" style="width: 16px; height: 16px;"> GitHub
             </a>
-            
+
             <a href="mailto:gecheadmassie@gmail.com">
                 <img src="Email.jpg" alt="Email" style="width: 16px; height: 16px;"> Email
             </a>
