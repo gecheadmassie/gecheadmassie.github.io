@@ -137,7 +137,7 @@
         
         footer {
             text-align: center;
-            padding: 100px;
+            padding: 500px;
             background-color: #1626af;
             color: white;
             position: relative;
