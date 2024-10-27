@@ -20,7 +20,7 @@
             justify-content: flex-start;
             margin: 5px 0;
             background-color: #1626af;
-            padding: 5px;
+            padding: 2.55px;
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
         }
@@ -49,7 +49,7 @@
 
         section {
             margin: 10px;
-            padding: 10px;
+            padding: 5px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             width: calc(100% - 5px);
