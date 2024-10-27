@@ -174,6 +174,16 @@
     </section>
 
     <section id="projects-community-service">
+        <h1>Company & Community Projects</h1>
+        <p>Design and development of a small CAM analyzer including the programming<p>
+    <p> Natural and Forced Frequency Analysis for 3-Axis Milling Machine to Improve Stiffness, presented at Advanced Manufacturing Processes in WSU, 2023.<p>
+    <p>Potato Processing Plant Facility Planning and Design for BiT, 2022<p>
+    <p>Product design and Stress analysis using ANSYS for Ethio-Engineering Group, 2021.<p>
+    <p>Micro-dairy equipment Design for the Amhara Dairy Platform, 2021<p>
+    <p>Design of HDPE & PVC pipe puller machine for Amhara Pipe Factory, 2020 Degradation on Energy Conversion, 2020</p>
+    </section>
+    
+    <section id="Education Experience">
         <h1>Education Experience</h1>
         <p>PhD in Industrial Systems and Manufacturing Engineering at Wichita State University (2024)</p>
         <p>MSc. in Mechanical Design Engineering at Jimma University (2020)</p>
