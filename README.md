@@ -137,7 +137,7 @@
         
         footer {
             text-align: center;
-            padding: 10px;
+            padding: 100px;
             background-color: #1626af;
             color: white;
             position: relative;
@@ -151,7 +151,7 @@
 
         .social-media a {
             color: white;
-            margin: 20 20px;
+            margin: 20 200px;
             text-decoration: none;
             transition: color 0.3s;
         }
