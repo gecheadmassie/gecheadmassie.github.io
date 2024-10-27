@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Official website of Getachew Ambaye, a professor and researcher in Engineering. Explore my teaching experience, publications, and contact information.">
+    <meta name="description" content="Official website of Getachew Ambaye, a researcher in Engineering. Explore my teaching experience, publications, and contact information.">
     <meta name="keywords" content="Getachew Ambaye, Engineering, Teaching, Research, Publications">
     <meta name="author" content=" ">
-    <title> Getachew Ambaye - Engineering Professor and Researcher </title>
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
