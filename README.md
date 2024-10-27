@@ -201,6 +201,14 @@
     </section>
 
 
+        <section id="projects-community-service">
+        <h2>Education Experience</h2>
+        <p>PhD in Industrial Systems and Manufacturing Engineering at Wichita State University (2024)</p>
+        <p>MSc. in Mechanical Design Engineering at Jimma University (2020)</p>
+        <p>BSc. in Mechanical Engineering at Jimma University (2016)</p>
+    </section>
+
+
     
     <section id="teaching-experience">
         <h2>Teaching Experience</h2>
@@ -212,12 +220,6 @@
         </ul>
     </section>
     
-    <section id="projects-community-service">
-        <h2>Education Experience</h2>
-        <p>PhD in Industrial Systems and Manufacturing Engineering at Wichita State University (2024)</p>
-        <p>MSc. in Mechanical Design Engineering at Jimma University (2020)</p>
-        <p>BSc. in Mechanical Engineering at Jimma University (2016)</p>
-    </section>
     
     <section id="publications">
         <h2>Publications</h2>
