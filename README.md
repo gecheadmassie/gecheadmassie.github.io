@@ -146,7 +146,7 @@
         }
 
         .social-media {
-            margin-top: 20px;
+            margin-top: 0;
         }
 
         .social-media a {
@@ -200,7 +200,7 @@
             padding: 20px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
-            margin: 50px;
+            margin: 20px;
             background-color: #f9f9f9; /* Light background for contrast */
         }
     </style>
