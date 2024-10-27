@@ -276,11 +276,11 @@
     <footer>
         <p>&copy; 2024 Getachew Ambaye</p>
         <div class="social-media">
-                <a href="linkedin.com/in/getachew-ambaye" target="_blank">
+            <a href="//linkedin.com/in/getachew-ambaye" target="_blank">
                 <img src="linkedin-icon.png" alt="LinkedIn" style="width: 16px; height: 16px;"> LinkedIn
             </a>
             <a href="https://github.com/gecheadmassie" target="_blank">GitHub</a>
-            <a href="https://facebook.com/yourprofile" target="_blank">Facebook</a>
+            
             <a href="mailto:gecheadmassie@gmail.com">
                 <img src="email-icon.png" alt="Email" style="width: 16px; height: 16px;"> Email
             </a>
