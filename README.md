@@ -21,8 +21,9 @@
             margin: 5px 0;
             background-color: #1626af;
             padding: 2.55px;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 0px;
         }
 
         nav ul {
@@ -175,6 +176,18 @@
             </ul>
         </nav>
     </div>
+
+
+    <section id="home">
+        <h1>Welcome</h1>
+        <p>This is the official website of Getachew Ambaye, a dedicated researcher and a PhD candidate in Industrial Systems and Manufacturing Engineering. Feel free to explore my work and connect with me.</p>
+        <p>
+            <a href="Resume.pdf" target="_blank">Download Resume</a> | 
+            <a href="CV.pdf" target="_blank">Download CV</a>
+        </p>
+    </section>
+
+
 
     <section id="home">
         <h1>Welcome</h1>
