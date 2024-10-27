@@ -21,8 +21,8 @@
             margin: 5px 0;
             background-color: #1626af;
             padding: 10px;
-            border-top-left-radius: 8px;
-            border-top-right-radius: 8px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
         }
 
         nav ul {
@@ -152,6 +152,7 @@
         <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 50%; width: 100px; height: 100px; object-fit: cover; margin-right: 5px;">
         <nav>
             <ul>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#teaching-experience">Teaching Experience</a></li>
                 <li><a href="#projects-community-service">Projects and Community Service</a></li>
@@ -161,6 +162,11 @@
             </ul>
         </nav>
     </div>
+
+    <section id="home">
+        <h1>Welcome to My Website</h1>
+        <p>This is the official website of Getachew Ambaye, a dedicated researcher and professor in Engineering. Feel free to explore my work and connect with me.</p>
+    </section>
 
     <section id="about">
         <h1>About Me</h1>
