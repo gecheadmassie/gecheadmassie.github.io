@@ -97,7 +97,7 @@
         form {
             display: flex;
             flex-direction: column;
-            max-width: 800px;
+            max-width: 1000px;
             margin: 0 auto;
         }
 
