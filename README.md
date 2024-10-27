@@ -6,7 +6,7 @@
     <meta name="description" content="Official website of Getachew Ambaye, a professor and researcher in Engineering. Explore my teaching experience, publications, and contact information.">
     <meta name="keywords" content="Getachew Ambaye, Engineering, Teaching, Research, Publications">
     <meta name="author" content=" ">
-    <title>  </title>
+    <title> Getachew Ambaye - Engineering Professor and Researcher </title>
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
