@@ -151,7 +151,7 @@
 
         .social-media a {
             color: white;
-            margin: 0 10px;
+            margin: 0 500px;
             text-decoration: none;
             transition: color 0.3s;
         }
@@ -168,13 +168,13 @@
 
         input[type="text"],
         input[type="email"] {
-            padding: 200px;
+            padding: 20px;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
 
         input[type="submit"] {
-            padding: 200px;
+            padding: 20px;
             border: none;
             background-color: #1626af;
             color: white;
