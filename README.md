@@ -14,14 +14,15 @@
             color: #333;
         }
 
-        p {
-            margin: 15px 0; /* Margin for paragraphs */
-        }
+p {
+    margin: 15px 0; /* Margin for paragraphs */
+}
 
-        ul, ol {
-            margin: 15px 0; /* Margin for unordered and ordered lists */
-            padding-left: 20px; /* Optional: Padding for list indentation */
-        }
+ul, ol {
+    margin: 15px 0; /* Margin for unordered and ordered lists */
+    padding-left: 20px; /* Optional: Padding for list indentation */
+    padding-right: 20px; /* Optional: Padding for list indentation */
+}
 
         .header-container {
             display: flex;
@@ -147,7 +148,7 @@
 <body>
 
     <div class="header-container">
-        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 100%; width: 75px; height: 75px; object-fit: cover; margin-right: 5px;">
+        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 100%; width: 50px; height: 50px; object-fit: cover; margin-right: 5px;">
         <nav>
             <ul>
                 
