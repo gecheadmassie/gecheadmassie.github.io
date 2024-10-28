@@ -16,6 +16,8 @@
 
 p {
     margin: 15px 0; /* Margin for paragraphs */
+    padding-left: 20px; /* Optional: Padding for list indentation */
+    padding-right: 20px; /* Optional: Padding for list indentation */
 }
 
 ul, ol {
@@ -30,7 +32,7 @@ ul, ol {
             justify-content: flex-start;
             background-color: #1626af;
             padding: 1px;
-            border-radius: 100px 0px  100px  0px;
+            border-radius: 750px 0px  750px  0px;
         }
 
         nav ul {
@@ -148,7 +150,7 @@ ul, ol {
 <body>
 
     <div class="header-container">
-        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 100%; width: 50px; height: 50px; object-fit: cover; margin-right: 5px;">
+        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 100%; width: 75px; height: 75px; object-fit: cover; margin-right: 5px;">
         <nav>
             <ul>
                 
