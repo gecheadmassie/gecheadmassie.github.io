@@ -138,7 +138,7 @@
 <body>
 
     <div class="header-container">
-        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 100%; width: 100px; height: 100px; object-fit: cover; margin-right: 5px;">
+        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 100%; width: 75px; height: 75px; object-fit: cover; margin-right: 5px;">
         <nav>
             <ul>
                 
