@@ -19,8 +19,8 @@
             align-items: center;
             justify-content: flex-start;
             background-color: #1626af;
-            padding: 2.5px;
-            border-radius: 50px 20px 50px  0;
+            padding: 5px;
+            border-radius: 50px 0px 0px  50px;
         }
 
         nav ul {
