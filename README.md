@@ -99,7 +99,7 @@
             }
 
             section {
-                margin: 5px;
+                margin: 10px;
             }
         }
     </style>
