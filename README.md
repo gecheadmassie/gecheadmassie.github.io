@@ -20,7 +20,7 @@
             justify-content: flex-start;
             background-color: #1626af;
             padding: 5px;
-            border-radius: 100px 0px 0px  100px;
+            border-radius: 100px 0px  100px  0px;
         }
 
         nav ul {
@@ -137,7 +137,7 @@
 <body>
 
     <div class="header-container">
-        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 80%; width: 200px; height: 200px; object-fit: cover; margin-right: 5px;">
+        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 80%; width: 200px; height: 200px; object-fit: cover; margin-right: 0px;">
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
