@@ -9,7 +9,7 @@
     <title>Getachew Ambaye - PhD Candidate and Researcher</title>
     <style>
         body {
-            margin: 10px;
+            margin: 20px;
             font-family: Arial, sans-serif;
             color: #333;
         }
@@ -138,7 +138,7 @@
 <body>
 
     <div class="header-container">
-        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 100%; width: 200px; height: 200px; object-fit: cover; margin-right: 0px;">
+        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 100%; width: 100px; height: 100px; object-fit: cover; margin-right: 5px;">
         <nav>
             <ul>
                 
