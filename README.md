@@ -104,10 +104,11 @@
     </style>
 </head>
 
+
 <body>
 
     <div class="header-container">
-        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; margin-right: 10px;">
+        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; margin-right: 0px;">
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -120,6 +121,9 @@
             </ul>
         </nav>
     </div>
+    
+
+
 
     <section id="home">
         <h1>Welcome</h1>
@@ -202,6 +206,12 @@
             </ul>
         </div>
     </section>
+
+
+
+
+
+
 
     <section id="publications">
         <h1>Publications</h1>
@@ -334,13 +344,22 @@
              </section>
             
 
+    </section>
 
+    <section id="company-community-service-projects">
+        <h1>Company & Community Service Projects</h1>
+        <ul>
+            <li>Design and development of a small CAM analyzer including the programming</li>
+            <li>Natural and Forced Frequency Analysis for 3-Axis Milling Machine to Improve Stiffness, presented at Advanced Manufacturing Processes in WSU, 2023.</li>
+            <li>Potato Processing Plant Facility Planning and Design for BiT, 2022</li>
+            <li>Product design and Stress analysis using ANSYS for Ethio-Engineering Group, 2021.</li>
+            <li>Micro-dairy equipment Design for the Amhara Dairy Platform, 2021</li>
+            <li>Design of HDPE & PVC pipe puller machine for Amhara Pipe Factory, 2020</li>
+            <li>Degradation on Energy Conversion, 2020</li>
+        </ul>
+    </section>
 
-
-
-
-
-
+    
 
 
     <section id="contact">
