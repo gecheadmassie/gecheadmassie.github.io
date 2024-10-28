@@ -331,8 +331,10 @@
             
             <li>Time and frequency domain analysis of signals: a review. <i>Int J Eng Res Technol</i> 9: 271–276.</li>
             
-        </ul>
-    </section>
+
+
+
+
 
 
 
@@ -340,27 +342,57 @@
 
 
     <section id="contact">
-        <h1>Contact</h1>
-        <p>Email: <a href="mailto:getachew.ambaye@example.com">getachew.ambaye@example.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/getachew-ambaye" target="_blank">LinkedIn Profile</a></p>
+        <h1>Contact Me</h1>
+        <form action="https://formspree.io/f/mkgnobej" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send">
+        </form>
     </section>
 
-    <footer>
-        <p>&copy; 2024 Getachew Ambaye. All rights reserved.</p>
-    </footer>
 
+
+     <footer style="background-color: #2c3e50; color: white; padding: 20px; text-align: center;">
+        <p>© 2024 Getachew Ambaye. All rights reserved.</p>
+    
+    <div class="social-media" style="margin: 10px 0;">
+        <a href="https://www.linkedin.com/in/getachew-ambaye" target="_blank" style="margin-right: 15px; color: white; text-decoration: none;">LinkedIn</a>
+        <a href="https://github.com/gecheadmassie" target="_blank" style="color: white; text-decoration: none;">GitHub</a>
+        <p style="display: inline; margin-left: 20px;">
+            <a href="#home" style="color: white; text-decoration: underline;">Home</a>
+        </p>
+    </div>
+    
+    <div style="margin-top: 20px;">
+        <p style="font-weight: bold;">Connect with me:</p>
+        <p>
+            <a href="https://scholar.google.com/citations?user=YOUR_PROFILE_ID" target="_blank" style="color: white; text-decoration: none;">Google Scholar</a> |
+            <a href="https://www.researchgate.net/profile/Getachew-Ambaye" target="_blank" style="color: white; text-decoration: none;">ResearchGate</a> |
+            <a href="https://orcid.org/0000-0003-4197-0188" target="_blank" style="color: white; text-decoration: none;">ORCID</a> |
+            <a href="https://www.webofscience.com/wos/author/record/AAO-1275-2021" target="_blank" style="color: white; text-decoration: none;">PubLoons</a>
+        </p>
+    </div>
+
+
+    </footer>
+    
     <script>
-        function toggleDetails(element) {
-            const content = element.nextElementSibling;
-            if (content.style.display === "block") {
-                content.style.display = "none";
-                element.textContent = "Read More";
-            } else {
-                content.style.display = "block";
-                element.textContent = "Read Less";
-            }
+        document.querySelectorAll('.toggle').forEach(item => {
+            item.addEventListener('click', event => {
+                const content = item.nextElementSibling;
+                content.style.display = content.style.display === "none" ? "block" : "none";
+            });
+        });
+    
+        function toggleDetails() {
+            const additionalDetails = document.querySelector('.additional-details');
+            additionalDetails.style.display = additionalDetails.style.display === "none" ? "block" : "none";
         }
     </script>
+
+
+
 </body>
 
 </html>
