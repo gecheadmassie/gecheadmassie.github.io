@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -19,7 +19,7 @@
             align-items: center;
             justify-content: flex-start;
             background-color: #1626af;
-            padding: 10px;
+            padding: 5px;
             border-radius: 20px 20px 0 0;
         }
 
@@ -125,7 +125,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#education-experience">Education</a></li>
                 <li><a href="#teaching-experience">Teaching Experience</a></li>
-                <li><a href="#projects">Projects & Community Service</a></li>
+                <li><a href="#company-community-service-projects">Projects & Community Service</a></li>
                 <li><a href="#publications">Publications</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
