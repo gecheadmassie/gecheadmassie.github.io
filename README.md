@@ -344,8 +344,6 @@
              </section>
             
 
-    </section>
-
     <section id="company-community-service-projects">
         <h1>Company & Community Service Projects</h1>
         <ul>
