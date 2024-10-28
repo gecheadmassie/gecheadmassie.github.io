@@ -347,6 +347,7 @@
             <li>Time and frequency domain analysis of signals: a review. <i>Int J Eng Res Technol</i> 9: 271–276.
 
         </ul>
+     </section>
 
 
 
@@ -401,8 +402,6 @@
             <a href="https://www.webofscience.com/wos/author/record/AAO-1275-2021" target="_blank" style="color: white; text-decoration: none;">PubLoons</a>
         </p>
     </div>
-
-
     </footer>
     
     <script>
@@ -420,6 +419,6 @@
     </script>
 
 
-
-</body>
-</html>
+    
+    </body>
+    </html>
