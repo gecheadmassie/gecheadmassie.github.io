@@ -32,7 +32,7 @@ ul, ol {
             justify-content: flex-start;
             background-color: #1626af;
             padding: 1px;
-            border-radius: 750px 0px  750px  0px;
+            border-radius: 750px 0px  0px  0px;
         }
 
         nav ul {
