@@ -13,7 +13,12 @@
             font-family: Arial, sans-serif;
             color: #333;
         }
-                ul, ol {
+
+        p {
+            margin: 15px 0; /* Margin for paragraphs */
+        }
+
+        ul, ol {
             margin: 15px 0; /* Margin for unordered and ordered lists */
             padding-left: 20px; /* Optional: Padding for list indentation */
         }
