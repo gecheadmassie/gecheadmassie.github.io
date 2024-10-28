@@ -20,7 +20,7 @@
             justify-content: flex-start;
             background-color: #1626af;
             padding: 5px;
-            border-radius: 50px 0px 0px  50px;
+            border-radius: 80px 0px 0px  80px;
         }
 
         nav ul {
