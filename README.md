@@ -301,7 +301,7 @@
             <li>
             <strong style="font-size: 1.1em;">Effect of backlash on transmission error and time varying mesh stiffness.</strong>   
             <i>International Workshop of Advanced Manufacturing and Automation</i> (pp. 18-28). Singapore: Springer Singapore. 
-            <a href="https://doi.org/10.1007/978-981-33-6318-2_3" target="_blank">DOI</a> </li> 
+            <a href="https://doi.org/10.1007/978-981-33-6318-2_3" target="_blank">DOI</a> 
              <div class="read-more" onclick="toggleDetails(this)">Read More</div>
                             <div class="content">
                         <p> <em> Gears suffer by unavoidable time-varying mesh stiffness. Noise and vibrations amplitudes show the transmission error occurred within the components of power transmission error. The Gear Trax software has been used to model the gear with different amounts of backlash (from 0 mm to 1 mm by 0.2 mm increments) so that this gives a backlash due to the reduction of the thickness of the gear tooth. A plane strain analysis is used to predict the static transmission error, dynamic transmission error and time-varying mesh stiffness of spur gear with different backlash at different coefficients of friction using ABAQUS software. For finite element analysis, the mesh convergence has been done for maximum contact pressure and von Mises stress. The analytical mesh stiffness and the finite element mesh stiffness for gear without backlash have been compared, based on this the prediction time-varying mesh stiffness and transmission errors are continued to predict for the spur gear with different backlashes and coefficient of friction.</em> </p> 
@@ -337,8 +337,69 @@
         </ul>
     </section>
 
-    <footer>
-        <p>&copy; 2024 Getachew Ambaye. All rights reserved.</p>
+
+
+    <section id="company-community-service-projects">
+        <h1>Company & Community Service Projects</h1>
+        <ul>
+            <li>Design and development of a small CAM analyzer including the programming </li> 
+            <li>Natural and Forced Frequency Analysis for 3-Axis Milling Machine to Improve Stiffness, presented at Advanced Manufacturing Processes in WSU, 2023.</li> 
+            <li>Potato Processing Plant Facility Planning and Design for BiT, 2022</li> 
+            <li>Product design and Stress analysis using ANSYS for Ethio-Engineering Group, 2021.</li> 
+            <li>Micro-dairy equipment Design for the Amhara Dairy Platform, 2021</li> 
+            <li>Design of HDPE & PVC pipe puller machine for Amhara Pipe Factory, 2020</li> 
+            <li>Degradation on Energy Conversion, 2020</li> 
+        </ul>
+    </section>
+
+    
+
+
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <form action="https://formspree.io/f/mkgnobej" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+
+     <footer style="background-color: #2c3e50; color: white; padding: 20px; text-align: center;">
+        <p>© 2024 Getachew Ambaye. All rights reserved.</p>
+    
+    <div class="social-media" style="margin: 10px 0;">
+        <a href="https://www.linkedin.com/in/getachew-ambaye" target="_blank" style="margin-right: 15px; color: white; text-decoration: none;">LinkedIn</a>
+        <a href="https://github.com/gecheadmassie" target="_blank" style="color: white; text-decoration: none;">GitHub</a>
+        <p style="display: inline; margin-left: 20px;">
+            <a href="#home" style="color: white; text-decoration: underline;">Home</a>
+        </p>
+    </div>
+    
+    <div style="margin-top: 20px;">
+        <p style="font-weight: bold;">Connect with me:</p>
+        <p>
+            <a href="https://scholar.google.com/citations?user=YOUR_PROFILE_ID" target="_blank" style="color: white; text-decoration: none;">Google Scholar</a> |
+            <a href="https://www.researchgate.net/profile/Getachew-Ambaye" target="_blank" style="color: white; text-decoration: none;">ResearchGate</a> |
+            <a href="https://orcid.org/0000-0003-4197-0188" target="_blank" style="color: white; text-decoration: none;">ORCID</a> |
+            <a href="https://www.webofscience.com/wos/author/record/AAO-1275-2021" target="_blank" style="color: white; text-decoration: none;">PubLoons</a>
+        </p>
+    </div>
     </footer>
+    
+    <script>
+        document.querySelectorAll('.toggle').forEach(item => {
+            item.addEventListener('click', event => {
+                const content = item.nextElementSibling;
+                content.style.display = content.style.display === "none" ? "block" : "none";
+            });
+        });
+    
+        function toggleDetails() {
+            const additionalDetails = document.querySelector('.additional-details');
+            additionalDetails.style.display = additionalDetails.style.display === "none" ? "block" : "none";
+        }
+    </script>
 </body>
 </html>
