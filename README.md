@@ -27,7 +27,7 @@
             list-style-type: none;
             padding: 0;
             display: flex;
-            margin: 10px;
+            margin: 10px; for the discription 
             color: white;
         }
 
