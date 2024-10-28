@@ -20,7 +20,7 @@
             justify-content: flex-start;
             background-color: #1626af;
             padding: 5px;
-            border-radius: 100px 0px  100px  0px;
+            border-radius: 150px 0px  150px  0px;
         }
 
         nav ul {
@@ -140,7 +140,7 @@
         <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 100%; width: 200px; height: 200px; object-fit: cover; margin-right: 0px;">
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
+                
                 <li><a href="#about">About</a></li>
                 <li><a href="#education-experience">Education</a></li>
                 <li><a href="#teaching-experience">Teaching Experience</a></li>
@@ -154,7 +154,7 @@
 
 <style>
     .header-container nav ul li a {
-        font-size: 1.15em; /* Increase font size */
+        font-size: 1.05em; /* Increase font size */
         font-weight: bold; /* Optional: Make text bold */
         color: white; /* Ensure text color is white */
     }
