@@ -326,10 +326,10 @@
                     </p> </div>
 
             
-            <li>Short Descriptions of Measurements and Instrumentation. <i>Int J Eng Res Technol</i>, 9 (12).</li>
+            <li>Short Descriptions of Measurements and Instrumentation. <i>Int J Eng Res Technol</i>, 9 (12).
 
             
-            <li>Time and frequency domain analysis of signals: a review. <i>Int J Eng Res Technol</i> 9: 271–276.</li>
+            <li>Time and frequency domain analysis of signals: a review. <i>Int J Eng Res Technol</i> 9: 271–276.
             </ul>
              </section>
             
