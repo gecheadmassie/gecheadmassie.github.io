@@ -19,7 +19,7 @@
             align-items: center;
             justify-content: flex-start;
             background-color: #1626af;
-            padding: 20px;
+            padding: 1px;
             border-radius: 100px 0px  100px  0px;
         }
 
