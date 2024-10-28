@@ -32,7 +32,7 @@
         }
 
         nav ul li {
-            margin: 0 10px;
+            margin: 0 5px;
         }
 
         nav ul li a {
