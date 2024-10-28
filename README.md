@@ -137,7 +137,7 @@
 <body>
 
     <div class="header-container">
-        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover; margin-right: 10px;">
+        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 80%; width: 200px; height: 200px; object-fit: cover; margin-right: 5px;">
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -166,7 +166,7 @@
 
     <section id="home">
         <h1>Welcome</h1>
-        <p>This is the official website of Getachew Ambaye, a dedicated researcher and a PhD candidate in Industrial Systems and Manufacturing Engineering. Feel free to explore my work and connect with me.</p>
+        <p>This is the official website of Getachew Ambaye,  a PhD candidate and Reserecher in Industrial Systems and Manufacturing Engineering. Feel free to explore my work and connect with me.</p>
         <p>
             <a href="Resume.pdf" target="_blank">Download Resume</a> | 
             <a href="CV.pdf" target="_blank">Download CV</a>
