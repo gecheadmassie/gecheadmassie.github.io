@@ -9,7 +9,7 @@
     <title>Getachew Ambaye - PhD Candidate and Researcher</title>
     <style>
         body {
-            margin: 0;
+            margin: 10px;
             font-family: Arial, sans-serif;
             color: #333;
         }
@@ -84,6 +84,7 @@
         .content {
             display: none; /* Hidden by default */
             padding-left: 20px; /* Indent the content */
+            padding-right: 20px; /* Indent the content */
         }
 
         /* Responsive styles */
@@ -99,7 +100,7 @@
             }
 
             section {
-                margin: 10px;
+                margin: 5px;
             }
         }
     </style>
