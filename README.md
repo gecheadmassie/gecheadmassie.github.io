@@ -27,7 +27,7 @@
             list-style-type: none;
             padding: 0;
             display: flex;
-            margin: 5px;
+            margin: 0px;
             color: white;
         }
 
