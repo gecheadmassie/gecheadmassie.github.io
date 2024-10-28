@@ -137,7 +137,7 @@
 <body>
 
     <div class="header-container">
-        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 50%; width: 250px; height: 150px; object-fit: cover; margin-right: 10px;">
+        <img src="Photo.jpg" alt="Getachew Ambaye" class="profile-pic" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover; margin-right: 10px;">
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -154,7 +154,7 @@
 
 <style>
     .header-container nav ul li a {
-        font-size: 1.25em; /* Increase font size */
+        font-size: 1.15em; /* Increase font size */
         font-weight: bold; /* Optional: Make text bold */
         color: white; /* Ensure text color is white */
     }
