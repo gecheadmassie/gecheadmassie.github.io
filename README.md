@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Official website of Getachew Ambaye, a researcher in Engineering. Explore my teaching experience, publications, and contact information.">
     <meta name="keywords" content="Getachew Ambaye, Engineering, Teaching, Research, Publications">
-    <title>Getachew Ambaye - Engineering Professor and Researcher</title>
+    <title>Getachew Ambaye - PhD Candidate and Researcher</title>
     <style>
         body {
             margin: 0;
@@ -150,6 +150,19 @@
             </ul>
         </nav>
     </div>
+
+
+<style>
+    .header-container nav ul li a {
+        font-size: 1.25em; /* Increase font size */
+        font-weight: bold; /* Optional: Make text bold */
+        color: white; /* Ensure text color is white */
+    }
+
+    /* Other existing styles */
+</style>
+
+
 
     <section id="home">
         <h1>Welcome</h1>
