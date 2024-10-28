@@ -236,6 +236,97 @@
                 </div>
             </li>
 
+
+    <li>
+    <strong style="font-size: 1.1em;">Detection of Small Screws Using Machine Learning.</strong> 
+    <i>2023 International Conference on Information and Communication Technology for Development for Africa (ICT4DA)</i> (pp. 13-18). IEEE. 
+    <a href="https://doi.org/10.1109/ICT4DA59526.2023.10302258" target="_blank">DOI</a> 
+     <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+                <div class="content">
+            <p> <em> Small screws are commonly employed in assenrbling similar or dissimilar components of various industrial or consumer products. In automated assembly lines, detecting and sorting small targets like screws require accurate sensing and machine learning. Identifying the size of the screw is crucial for assembling and disassembling. This study focuses on the detection of small screws captured in images using a recent machine learning platform named You Only Look Once (YOLO) Version 8. This algorithmic platform offers powerful supervised machine-learning engines with highly competitive accuracy and speed. The data set from this study consists of images of small black carbon steel flat head screws. The dataset is divided into training, development, and testing subsets. There are 24 classes of screws with extremely small difference in attributes in their sizes. The dataset is annotated using the Make Sense open-source annotating tool. The results indicate that the machine learning method demonstrates 99.3% mean average precision (mAP). This detection performance is promising in comparison to the results documented by previous studies.</em></p> 
+        </div> </li>
+             
+    
+             
+        <li>
+            <strong style="font-size: 1.1em;">Contact temperature analysis of the classical Geneva mechanism through numerical methods.</strong> 
+            <i>Materials Today: Proceedings</i>, 57, pp. 545-552. 
+            <a href="https://doi.org/10.1016/j.matpr.2022.01.420" target="_blank">DOI</a> 
+                 <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+                <div class="content">
+            <p> <em> In this study, the flash temperature of the classical Geneva mechanism has been studied using the numerical method. An excessive sliding motion between the wheel and pin leads to the generation of heat at the contact surfaces, which raises the surface temperature of the two contacting bodies. The flash temperature has been anticipated for different loading cases and coefficients of friction. The analytical Blok equation results are compared with the finite element results, and the results are satisfactory for maximum temperature. Based on the simulation results, the maximum contact temperature occurred in the driving crankpin within 10-15° and 70–75° of the angular position, and as the load increased the contact temperature also increases. In addition, the angular velocity increment produced higher temperatures than the torque load increments.</em></p>
+        </div> </li>
+
+              
+            <li>
+             <strong style="font-size: 1.1em;">Numerical Stress Analysis and Fatigue Life Prediction of the Classical External Geneva Mechanism.</strong> 
+             <i>International Workshop of Advanced Manufacturing and Automation (pp. 176-186).</i> Singapore: Springer Singapore. 
+             <a href="https://doi.org/10.1007/978-981-19-0572-8_23" target="_blank">DOI</a>
+              <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+                <div class="content">
+            <p> <em>  This study examined the stress distribution and predicting the fatigue life of the classical external Geneva mechanism using analytical and finite element methods for three loading cases. The life cycles were analyzed using FE SAFE software by using the stress output database of ABAQUS software, which has been used for stress analysis of the Geneva wheel mechanism. The maximum stress is found at 45∘ of the angular position of the driving crank located at the bottom part of the end of the wheel slot and pin. Doubling the angular speed of the driving crank and doubling the torque that applied on the wheel yields almost equal contact pressure and von Mises stress. The wheel has a lower fatigue life cycle compared to the pin. </em></p> 
+        </div></li>
+
+    
+            
+            <li>
+            <strong style="font-size: 1.1em;">The performance of gear with backlash: A review.</strong>  
+            <i>Journal of Applied Mechanical Engineering</i>, 10(9), p. 389.
+              <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+                <div class="content">
+            <p> <em>  As the service time of the gear increases, its tooth profile could be deviated from its initial design shape and size as a result of time-varying load, overheating, wear, friction, and other working environmental impacts. Gear backlash is one of the non-linear parameters of the gear that adversely affects the performance of the transmission system. Backlash can be introduced deliberately for lubrication and free paly purposes or due to the gear tooth wear (reduction of the gear tooth thickness). The objective of this paper is to review and encapsulate this literature to provide a wide and good reference for scholars to be utilized. Assessing the effect of backlash on the dynamics and flash temperature of the gear is the main target of this review paper.</em></p> 
+        </div></li>
+
+
+            
+            <li>
+            <strong style="font-size: 1.1em;">Numerical comparative modal analysis of connecting rod between fixed crankpin and fixed piston pin.</strong>  
+            <i>The 8th International Conference on Innovation in Science and Technology</i>, July 23–25, 2021, in Stockholm, Sweden.
+             <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+                            <div class="content">
+                        <p> <em> Connecting rods are subjected to a tensile (inertial force), compressive (gas pressure), and bending (eccentricity) loadings. The boundary conditions used for the determination of its natural frequency depends on the loading type. For free vibration analysis, when the piston moves upward the crankpin needs to be fixed and free piston pin, while when it moves down the piston pin should be considered as a fixed and free crankpin. This paper presents a numerical (ABAQUS software) comparison of the first six dominant mode shapes and natural frequencies of the connecting rod when it is fixed at the crankpin and free at the piston pin (case 1) and fixed at the piston pin and free at the crankpin (case 2) of an optimized geometry that found from literature. The mode shapes and natural frequencies of the two cases are compared, and it shows that the natural frequency of case 2 is lower than case 1. Therefore, for design purpose, the loading frequency should be less than the natural frequency of the connecting rod when it is fixed at the piston pin.</em></p> 
+                    </div></li>
+
+
+            
+            <li>
+            <strong style="font-size: 1.1em;">Determination of Important Contact Parameters for Spur Gear Design.</strong>   
+            <i>TechHub Journal</i>, 1(1), pp. 28-38.
+             <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+                            <div class="content">
+                        <p> <em> This study focused on the determination of the important contact pa-rameters of spur gear design for the investigation of different parametric studies such as the maximum pressure, contact width, contact film thickness, sliding velocities, and others. The single and double tooth contact region has been de-termined for the given gear parameters along with their contact lengths. The contact width and pressure can be determined by considering the engaged spur tooth as a cylindrical object. The film thickness will vary from the mesh ap-proach (minimum) to the mesh recesses (maximum). The film thickness is de-creased in a single tooth contact region a maximum value at the mesh termina-tion.</em> </p> 
+                    </div></li>
+                    
+            
+            <li>
+            <strong style="font-size: 1.1em;">Effect of backlash on transmission error and time varying mesh stiffness.</strong>   
+            <i>International Workshop of Advanced Manufacturing and Automation</i> (pp. 18-28). Singapore: Springer Singapore. 
+            <a href="https://doi.org/10.1007/978-981-33-6318-2_3" target="_blank">DOI</a> </li> 
+             <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+                            <div class="content">
+                        <p> <em> Gears suffer by unavoidable time-varying mesh stiffness. Noise and vibrations amplitudes show the transmission error occurred within the components of power transmission error. The Gear Trax software has been used to model the gear with different amounts of backlash (from 0 mm to 1 mm by 0.2 mm increments) so that this gives a backlash due to the reduction of the thickness of the gear tooth. A plane strain analysis is used to predict the static transmission error, dynamic transmission error and time-varying mesh stiffness of spur gear with different backlash at different coefficients of friction using ABAQUS software. For finite element analysis, the mesh convergence has been done for maximum contact pressure and von Mises stress. The analytical mesh stiffness and the finite element mesh stiffness for gear without backlash have been compared, based on this the prediction time-varying mesh stiffness and transmission errors are continued to predict for the spur gear with different backlashes and coefficient of friction.</em> </p> 
+                    </div></li>
+
+        
+            
+            <li>
+            <strong style="font-size: 1.1em;">Numerical study of the effect of backlash on flash temperature of spur gear.</strong>   
+            <i>International Review of Mechanical Engineering (IREME)</i> 14, no. 11 (2020). 
+            <a href="http://dx.doi.org/10.15866/ireme.v14i11.19763" target="_blank">DOI</a> 
+            <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+                        <div class="content">
+                        <p> <em> This article presents the effect of backlash on flash temperature of spur gears. Backlash in gears is one of the nonlinear parameters that can act as internal excitation and highly influence the life of gear teeth. To investigate the influence of friction coefficient on the flash temperature of the gear, a spur gear with a backlash from 0 mm to 1 mm, with 0.2 mm increment, is modelled by considering a pinion and gear in contact where the pinion is subjected to a constant angular velocity. The results of finite element analysis in ABAQUS with plane strain assumption and analytical results are compared with the experimental results from the literature. The results obtained in this study show that the flash temperature is maximum on the gear without backlash and the finite element and analytical results are in good agreement specifically within a single tooth contact region.</em></p> 
+                    </div></li>
+            
+            
+            <li>
+             <strong style="font-size: 1.1em;">Dynamic analysis of spur gear with backlash using ADAMS.</strong>   
+             <i>Materials Today: Proceedings</i>, 38, pp. 2959-2967. 
+             <a href="https://doi.org/10.1016/j.matpr.2020.09.309" target="_blank">DOI</a> 
+             <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+                     <div class="content">
+                    <p> <em> Gear tooth profile can deviate from its initial design shape and size as a result of increasing service time under time-varying load, introducing external agents like debris, overheating due to friction, wear, and in generally due to other nonlinear factors such as backlash. As a result, the dynamics of the gear will also vary depending on the resulting gear tooth profile. In this study, the worn-out gear tooth is modelled as a backlash by assuming a uniformly distributed worn out surface and the effect on the dynamic performance is investigated. By changing the amount of backlash of the gear tooth from 0 mm to 1 mm by 0.2 mm increment, the gear is modelled and analysed for three loading cases using MSC ADAMS software. This paper discusses the effect of backlash or uniformly worn out spur gear tooth faces on the dynamics specifically the contact and angular accelerations of the gear.</em></p> 
+                    </div></li>
             
             <li>
                 <strong>Short Descriptions of Measurements and Instrumentation.</strong> <i>Int J Eng Res Technol</i>, 9 (12).
