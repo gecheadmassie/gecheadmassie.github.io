@@ -100,7 +100,7 @@
             }
 
             section {
-                margin: 5px;
+                margin: 20px;
             }
         }
     </style>
