@@ -113,6 +113,25 @@
             }
         }
     </script>
+
+
+
+    <script>
+        function toggleDetails(element) {
+            const content = element.nextElementSibling;
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block"; // Show the content
+                element.textContent = "Less"; // Change text to "Less"
+            } else {
+                content.style.display = "none"; // Hide the content
+                element.textContent = "Read More"; // Change text to "Read More"
+            }
+        }
+    </script>
+
+
+
+    
 </head>
 
 <body>
@@ -383,7 +402,7 @@
             <a href="https://scholar.google.com/citations?user=YOUR_PROFILE_ID" target="_blank" style="color: white; text-decoration: none;">Google Scholar</a> |
             <a href="https://www.researchgate.net/profile/Getachew-Ambaye" target="_blank" style="color: white; text-decoration: none;">ResearchGate</a> |
             <a href="https://orcid.org/0000-0003-4197-0188" target="_blank" style="color: white; text-decoration: none;">ORCID</a> |
-            <a href="https://www.webofscience.com/wos/author/record/AAO-1275-2021" target="_blank" style="color: white; text-decoration: none;">PubLoons</a>
+            <a href="https://www.webofscience.com/wos/author/record/AAO-1275-2021" target="_blank" style="color: white; text-decoration: none;">PubLons</a>
         </p>
     </div>
     </footer>
