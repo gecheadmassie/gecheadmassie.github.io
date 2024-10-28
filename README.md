@@ -121,7 +121,7 @@
             const content = element.nextElementSibling;
             if (content.style.display === "none" || content.style.display === "") {
                 content.style.display = "block"; // Show the content
-                element.textContent = "Less"; // Change text to "Less"
+                element.textContent = "Show Less"; // Change text to "Less"
             } else {
                 content.style.display = "none"; // Hide the content
                 element.textContent = "Read More"; // Change text to "Read More"
@@ -373,6 +373,57 @@
 
     
 
+
+
+<section id="contact">
+    <h1>Contact Me</h1>
+    <form action="https://formspree.io/f/mkgnobej" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required style="height: 150px;"></textarea>
+        <input type="submit" value="Send">
+    </form>
+</section>
+
+<style>
+    /* Additional styles for the contact form */
+    section#contact form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px; /* Space between form elements */
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 10px;
+        font-size: 1em; /* Adjust font size for better readability */
+        border: 1px solid #ccc; /* Add a border */
+        border-radius: 5px; /* Rounded corners */
+        width: 100%; /* Full width */
+        box-sizing: border-box; /* Include padding and border in the element's total width */
+    }
+
+    textarea {
+        resize: none; /* Disable resizing */
+    }
+
+    input[type="submit"] {
+        background-color: #1626af;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0e1a7b; /* Darker shade on hover */
+    }
+</style>
+
+ 
 
     <section id="contact">
         <h1>Contact Me</h1>
