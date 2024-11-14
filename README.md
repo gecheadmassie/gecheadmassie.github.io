@@ -387,7 +387,7 @@ ul, ol {
     <section id="company-community-service-projects">
         <h1>Company & Community Service Projects</h1>
         <ul>
-            <li> <strong>Industry 4.0 Lab, WSU, Wichita, KS (2022-present)</strong>
+            <li> <strong>Industry 4.0 Lab, WSU, Wichita, KS (2022-present)</li></strong>
             <p><em>Graduate Research Assistant </em></p>
             <ul>
                 <li> Predicting the Working Space of a Pneumatic Soft Actuator Using Deep Learning.</li>
@@ -395,8 +395,8 @@ ul, ol {
                 <li> Robot Arm Damage Detection Using Vibration Data and Deep Learning.</li>
                 <li> Detection of Small Screws Using Machine Learning.</li>
             </ul>
-             <ul>
-            <li> <strong>Wichita State University, Wichita, KS (2022–Present) </strong>
+             
+            <li> <strong>Wichita State University, Wichita, KS (2022–Present)</li> </strong>
                 <p><em>Engineering Graphics Instructor</em></p>
                 <ul>
                     <li>  IME 222L (Engineering Graphics lab) using CATIAV5 and 3DX software.</li>
@@ -404,15 +404,15 @@ ul, ol {
                     <li>  Conducted research in robotics, soft actuators, and machine vision.</li>
             </ul>
             
-            <ul>
-            <li> <strong>Hesston College, Hesston, KS (2024–Present)  </strong>
+            
+            <li> <strong>Hesston College, Hesston, KS (2024–Present)</li></strong>
                 <p><em> Engineering Professor</em></p>
                 <ul>
                 <li> Design of Machines (ENGR 422) and Senior Design Capstone Project (ENGR 477), 
                 Fundamentals of mechatronics, and Mechatronics system design.</li>
             </ul>
-            <ul>
-            <li> <strong>Advanced Manufacturing Processes Lab, Wichita, KS (2022-2023, 5 months)</strong>
+            
+            <li> <strong>Advanced Manufacturing Processes Lab, Wichita, KS (2022-2023, 5 months)</li></strong>
                 <p><em> Mechanical Design of Machine Tools </em></p>
                 <ul>
                 <li> 3-axis milling machine stiffness improvement </li> 
