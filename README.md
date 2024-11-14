@@ -261,26 +261,20 @@ ul, ol {
 
 
 
-<style>
-        /* Style the text inside the <span> to make it smaller and blue */
-        .small-blue-text {
-            font-size: 0.7em;  /* Make text smaller, adjust the value as needed */
-            color: blue;       /* Set text color to blue */
-        }
-    </style>
+
     
 <style>
     /* Flex container for image-text pairing */
     .content-row {
         display: flex;
         align-items: flex-start; /* Align images and text at the top */
-        margin-bottom: 25px; /* Spacing between rows */
+        margin-bottom: 35px; /* Spacing between rows */
     }
 
     /* Column for image */
     .image-column {
         flex: 1; /* The image takes up one column */
-        padding-right: 15px; /* Space between image and text */
+        padding-right: 25px; /* Space between image and text */
     }
 
     /* Column for text */
