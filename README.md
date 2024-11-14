@@ -388,7 +388,7 @@ ul, ol {
         <h1>Company & Community Service Projects</h1>
         <ul>
             <li> <strong>Industry 4.0 Lab, WSU, Wichita, KS (2022-present)</strong>
-            <p><strong>Graduate Research Assistant <strong></p>
+            <p><em>Graduate Research Assistant </em></p>
             <ul>
                 <li> Predicting the Working Space of a Pneumatic Soft Actuator Using Deep Learning.</li>
                 <li> Detecting Misalignments of Drilled Holes Using Machine Vision.</li>
