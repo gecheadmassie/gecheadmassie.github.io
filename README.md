@@ -268,9 +268,10 @@ ul, ol {
             <ul>
                 <li> Predicting the Working Space of a Pneumatic Soft Actuator Using Deep Learning.</li>
                 <li>Soft Robot Design, Manufacturing, and Operation Challenges: A Review</li> <div class="read-more" onclick="toggleDetails(this)">Read More</div>
-                <div class="content"> <p><em> <img src="Picture1.png" >  </em></p></div>
-                <div class="content"> <p><em> <img src="Picture2.png" >  </em></p></div>
-                <div class="content"> <p><em> <img src="Picture3.png" >  </em></p></div>
+                
+                <div class="content"> <p><em> <img src="Picture1.png" >  </em></p>
+                class="content"> <p><em> <img src="Picture2.png" >  </em></p>
+                class="content"> <p><em> <img src="Picture3.png" >  </em></p></div>
                 
                 <li> Detecting Misalignments of Drilled Holes Using Machine Vision.</li>
                 <li> Robot Arm Damage Detection Using Vibration Data and Deep Learning.</li>
