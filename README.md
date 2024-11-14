@@ -274,7 +274,7 @@ ul, ol {
     /* Column for image */
     .image-column {
         flex: 1; /* The image takes up one column */
-        padding-right: 80px; /* Space between image and text */
+        padding-right: 30px; /* Space between image and text */
     }
 
     /* Column for text */
@@ -316,7 +316,7 @@ ul, ol {
             <div class="extra-content" style="display:none;">
                 <div class="content-row">
                     <div class="image-column">
-                        <img src="Picture1.png" width="450" alt="Image 1">
+                        <img src="Picture1.png" width="850" alt="Image 1">
                     </div>
                     <div class="text-column">
                         <span class="small-blue-text">This figure presents FEA simulation models of a pneumatic soft actuator design that is inspired by an elephant trunk.</span>
@@ -325,7 +325,7 @@ ul, ol {
             
                 <div class="content-row">
                     <div class="image-column">
-                        <img src="Picture2.png" width="450" alt="Image 2">
+                        <img src="Picture2.png" width="850" alt="Image 2">
                     </div>
                     <div class="text-column">
                         <span class="small-blue-text">This figure is a pie chart of soft material usages documented in the selected literature. These materials are mostly used as structural elements, but soft materials with electromagnetic properties may also facilitate sensing and control.</span>
@@ -334,7 +334,7 @@ ul, ol {
             
                 <div class="content-row">
                     <div class="image-column">
-                        <img src="Picture4.png" width="450" alt="Image 4">
+                        <img src="Picture4.png" width="850" alt="Image 4">
                     </div>
                     <div class="text-column">
                         <span class="small-blue-text">This figure shows an illustration of multi-material 3D printing that uses restricting and actuating materials along with certain design parameter settings, such as A, B, C, D, and E, to fabricate bio-inspired flexible parts with self-shaping properties.</span>
@@ -343,7 +343,7 @@ ul, ol {
             
                 <div class="content-row">
                     <div class="image-column">
-                        <img src="Picture5.png" width="450" alt="Image 5">
+                        <img src="Picture5.png" width="850" alt="Image 5">
                     </div>
                     <div class="text-column">
                         <span class="small-blue-text">This figure presents the illustrations of common soft actuator functions and their stimuli.</span>
@@ -352,7 +352,7 @@ ul, ol {
             
                 <div class="content-row">
                     <div class="image-column">
-                        <img src="Picture3.png" width="450" alt="Image 3">
+                        <img src="Picture3.png" width="850" alt="Image 3">
                     </div>
                     <div class="text-column">
                         <span class="small-blue-text">This figure presents the movements of a soft actuator with two asymmetric pneumatic chambers. The soft actuator design, left, is inspired by an elephant trunk. The end trajectories of soft actuator movements are illustrated in a reference frame, right. The bending movements are planar.</span>
