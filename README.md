@@ -271,9 +271,9 @@ ul, ol {
                     <li> Soft Robot Design, Manufacturing, and Operation Challenges: A Review
                         <div class="read-more" onclick="toggleDetails(this)">Read More</div>
                         <div class="extra-content" style="display:none;">
-                            <p><em><img src="Picture1.png" width="150"  alt="Image 1"></em></p>
-                            <p><em><img src="Picture2.png" width="150"  alt="Image 2"></em></p>
-                            <p><em><img src="Picture3.png" width="150"  alt="Image 3"></em></p>
+                            <p><em><img src="Picture1.png" width="250"  alt="Image 1"></em> This figure presents FEA simulation models of a pneumatic soft actuator design that is inspired by an elephant trunk.</p>
+                            <p><em><img src="Picture2.png" width="250"  alt="Image 2"></em>This figure is a pie chart of soft material usages documented in the selected literature. These ma-terials are mostly used as structural elements, but soft materials with electromagnetic properties may also facilitate sensing and control.</p>
+                            <p><em><img src="Picture3.png" width="250"  alt="Image 3"></em>This figure presents the movements of a soft actuator with two asymmetric pneumatic chambers. The soft actuator design, left, is inspired by an elephant trunk. The end trajectories of soft actuator movements are illustrated in a reference frame, right. The bending movements are planar.</p>
                         </div>
                     </li>
                                 
