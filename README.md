@@ -314,6 +314,17 @@ ul, ol {
     
             <div class="read-more" onclick="toggleDetails(this)">Read More</div>
             <div class="extra-content" style="display:none;">
+
+                            <div class="content-row">
+                    <div class="image-column">
+                        <img src="Picture6.png" width="850" alt="Image 1">
+                    </div>
+                    <div class="text-column">
+                        <span class="small-blue-text">Key technical challenges in soft robotics.</span>
+                    </div>
+                </div>
+
+                
                 <div class="content-row">
                     <div class="image-column">
                         <img src="Picture1.png" width="850" alt="Image 1">
