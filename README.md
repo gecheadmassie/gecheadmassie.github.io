@@ -387,6 +387,15 @@ ul, ol {
     <section id="company-community-service-projects">
         <h1>Company & Community Service Projects</h1>
         <ul>
+            <li> Industry 4.0 Lab, WSU, Wichita, KS (2022-present)
+            Graduate Research Assistant 
+            <ul>
+                <li> Predicting the Working Space of a Pneumatic Soft Actuator Using Deep Learning.</li>
+                <li> Detecting Misalignments of Drilled Holes Using Machine Vision.</li>
+                <li> Robot Arm Damage Detection Using Vibration Data and Deep Learning.</li>
+                <li> Detection of Small Screws Using Machine Learning.</li>
+            </ul>
+
             <li>Design and development of a small CAM analyzer including the programming </li> 
             <li>Natural and Forced Frequency Analysis for 3-Axis Milling Machine to Improve Stiffness, presented at Advanced Manufacturing Processes in WSU, 2023.</li> 
             <li>Potato Processing Plant Facility Planning and Design for BiT, 2022</li> 
