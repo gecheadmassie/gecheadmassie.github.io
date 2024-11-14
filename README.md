@@ -332,6 +332,76 @@ ul, ol {
 
 
 
+
+/* Flex container for image-text pairing */
+.content-row {
+    display: flex;
+    align-items: flex-start; /* Align images and text at the top */
+    margin-bottom: 100px; /* Spacing between rows */
+    gap: 20px; /* Space between image and text columns */
+}
+
+/* Column for image */
+.image-column {
+    flex: 2; /* Increase the flex ratio for the image column */
+    max-width: 1200px; /* Increase max-width for the image container */
+    position: relative; /* Allow positioning of the text within the image */
+}
+
+/* Column for text */
+.text-column {
+    flex: 1; /* The text takes up less space */
+    font-size: 14px; /* Standard font size for the text */
+    line-height: 1.5; /* Spacing between lines of text */
+    color: #333; /* Dark gray text for better contrast */
+}
+
+/* Make the images larger */
+.image-column img {
+    width: 100%; /* Ensure the image takes up 100% of the column's width */
+    max-width: 100%; /* Make sure the image expands fully */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Small blue text styling */
+.small-blue-text {
+    color: #1E90FF; /* Blue color for descriptions */
+    font-size: 14px; /* Font size for description */
+    line-height: 1.4; /* Tighter line height */
+    margin-top: 10px; /* Space between image and text */
+}
+
+/* Optional: Read more button styling */
+.read-more {
+    color: #007BFF;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 15px; /* Space above the button */
+}
+
+/* Hover effect for "Read More" */
+.read-more:hover {
+    color: #0056b3;
+}
+
+/* Optional: Extra content visibility toggling */
+.extra-content {
+    display: none; /* Initially hidden */
+}
+
+/* Adjusted spacing for the read-more-container */
+.read-more-container {
+    margin-top: 20px; /* Add some space above the button */
+    margin-bottom: 10px; /* Space below the button */
+}
+
+
+
+
     <section id="company-community-service-projects">
         <h1>Professional Experience and Projects</h1>
         <ul>
