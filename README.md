@@ -267,6 +267,10 @@ ul, ol {
             <p><em>Graduate Research Assistant </em></p>
             <ul>
                 <li> Predicting the Working Space of a Pneumatic Soft Actuator Using Deep Learning.</li>
+                <li>Soft Robot Design, Manufacturing, and Operation Challenges: A Review</li>
+                <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+                <div class="content"> <p><em>   </em></p>
+                
                 <li> Detecting Misalignments of Drilled Holes Using Machine Vision.</li>
                 <li> Robot Arm Damage Detection Using Vibration Data and Deep Learning.</li>
                 <li> Detection of Small Screws Using Machine Learning.</li>
@@ -328,8 +332,8 @@ ul, ol {
                     <ul>
                     <li> Design of machine components
                     </ul>
-        </ul>
-    </section>
+                </ul>
+            </section>
 
 
     
