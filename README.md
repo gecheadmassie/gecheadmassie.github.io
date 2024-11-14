@@ -263,43 +263,46 @@ ul, ol {
 
 
     
-<style>
-    /* Flex container for image-text pairing */
-    .content-row {
-        display: flex;
-        align-items: flex-start; /* Align images and text at the top */
-        margin-bottom: 30px; /* Spacing between rows */
-    }
+/* Flex container for image-text pairing */
+.content-row {
+    display: flex;
+    align-items: flex-start; /* Align images and text at the top */
+    margin-bottom: 30px; /* Spacing between rows */
+}
 
-    /* Column for image */
-    .image-column {
-        flex: 1; /* The image takes up one column */
-        padding-right: 30px; /* Space between image and text */
-    }
+/* Column for image */
+.image-column {
+    flex: 1; /* The image takes up one column */
+    padding-right: 20px; /* Space between image and text */
+}
 
-    /* Column for text */
-    .text-column {
-        flex: 2; /* The text takes up more space */
-    }
+/* Column for text */
+.text-column {
+    flex: 2; /* The text takes up more space */
+}
 
-    /* Optional: Make the images responsive */
-    .image-column img {
-        max-width: 100%; /* Images will scale with the column */
-        height: auto;
-    }
+/* Make the images larger */
+.image-column img {
+    width: 100%; /* Make the image width take up 100% of the column's width */
+    max-width: 600px; /* Maximum width for larger images */
+    height: auto; /* Keep the aspect ratio intact */
+}
 
-    /* Small text styling */
-    .small-blue-text {
-        color: #1E90FF; /* Set text color to a shade of blue */
-        font-size: 10px; /* Adjust the font size */
-    }
+/* Small text styling */
+.small-blue-text {
+    color: #1E90FF; /* Set text color to a shade of blue */
+    font-size: 14px; /* Adjust the font size to a more readable size */
+    line-height: 1.4; /* Adjust line height for better readability */
+}
 
-    /* Optional: Read more button styling */
-    .read-more {
-        color: #007BFF;
-        cursor: pointer;
-    }
-</style>
+/* Optional: Read more button styling */
+.read-more {
+    color: #007BFF;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
 
     <section id="company-community-service-projects">
         <h1>Professional Experience and Projects</h1>
