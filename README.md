@@ -269,7 +269,43 @@ ul, ol {
         }
     </style>
     
+<style>
+    /* Flex container for image-text pairing */
+    .content-row {
+        display: flex;
+        align-items: flex-start; /* Align images and text at the top */
+        margin-bottom: 15px; /* Spacing between rows */
+    }
 
+    /* Column for image */
+    .image-column {
+        flex: 1; /* The image takes up one column */
+        padding-right: 15px; /* Space between image and text */
+    }
+
+    /* Column for text */
+    .text-column {
+        flex: 2; /* The text takes up more space */
+    }
+
+    /* Optional: Make the images responsive */
+    .image-column img {
+        max-width: 100%; /* Images will scale with the column */
+        height: auto;
+    }
+
+    /* Small text styling */
+    .small-blue-text {
+        color: #1E90FF; /* Set text color to a shade of blue */
+        font-size: 14px; /* Adjust the font size */
+    }
+
+    /* Optional: Read more button styling */
+    .read-more {
+        color: #007BFF;
+        cursor: pointer;
+    }
+</style>
 
     <section id="company-community-service-projects">
         <h1>Professional Experience and Projects</h1>
@@ -279,25 +315,58 @@ ul, ol {
             <ul>
                 <li> Predicting the Working Space of a Pneumatic Soft Actuator Using Deep Learning.</li>
                 
-                    <li> Soft Robot Design, Manufacturing, and Operation Challenges: A Review
-                        <div class="read-more" onclick="toggleDetails(this)">Read More</div>
-                        <div class="extra-content" style="display:none;">
-                            <p><em><img src="Picture1.png" width="350"  alt="Image 1"></em>
-                            <span class="small-blue-text">This figure presents FEA simulation models of a pneumatic soft actuator design that is inspired by an elephant trunk.</span></p>
-                            <p><em><img src="Picture2.png" width="350"  alt="Image 2"></em>
-                            <span class="small-blue-text">This figure is a pie chart of soft material usages documented in the selected literature. These materials are mostly used as structural elements, but soft materials with electromagnetic properties may also facilitate sensing and control.</span></p>
+            <li> 
+            Soft Robot Design, Manufacturing, and Operation Challenges: A Review
+            <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+            <div class="extra-content" style="display:none;">
+                <div class="content-row">
+                    <div class="image-column">
+                        <img src="Picture1.png" width="350" alt="Image 1">
+                    </div>
+                    <div class="text-column">
+                        <span class="small-blue-text">This figure presents FEA simulation models of a pneumatic soft actuator design that is inspired by an elephant trunk.</span>
+                    </div>
+                </div>
+            
+                <div class="content-row">
+                    <div class="image-column">
+                        <img src="Picture2.png" width="350" alt="Image 2">
+                    </div>
+                    <div class="text-column">
+                        <span class="small-blue-text">This figure is a pie chart of soft material usages documented in the selected literature. These materials are mostly used as structural elements, but soft materials with electromagnetic properties may also facilitate sensing and control.</span>
+                    </div>
+                </div>
+            
+                <div class="content-row">
+                    <div class="image-column">
+                        <img src="Picture4.png" width="350" alt="Image 4">
+                    </div>
+                    <div class="text-column">
+                        <span class="small-blue-text">This figure shows an illustration of multi-material 3D printing that uses restricting and actuating materials along with certain design parameter settings, such as A, B, C, D, and E, to fabricate bio-inspired flexible parts with self-shaping properties.</span>
+                    </div>
+                </div>
+            
+                <div class="content-row">
+                    <div class="image-column">
+                        <img src="Picture5.png" width="350" alt="Image 5">
+                    </div>
+                    <div class="text-column">
+                        <span class="small-blue-text">This figure presents the illustrations of common soft actuator functions and their stimuli.</span>
+                    </div>
+                </div>
+            
+                <div class="content-row">
+                    <div class="image-column">
+                        <img src="Picture3.png" width="350" alt="Image 3">
+                    </div>
+                    <div class="text-column">
+                        <span class="small-blue-text">This figure presents the movements of a soft actuator with two asymmetric pneumatic chambers. The soft actuator design, left, is inspired by an elephant trunk. The end trajectories of soft actuator movements are illustrated in a reference frame, right. The bending movements are planar.</span>
+                    </div>
+                </div>
+            
+            </div>
+            </li>
 
-                                <p><em><img src="Picture4.png" width="350"  alt="Image 4"></em> 
-                            <span class="small-blue-text">This figure shows an illustration of multi-material 3D printing that uses restricting and actuating materials along with certain design parameter settings, such as A, B, C, D, and E, to fabricate bio-inspired flexible parts with self-shaping properties.</span></p>
-
-                                <p><em><img src="Picture5.png" width="350"  alt="Image 5"></em> 
-                            <span class="small-blue-text">This figure presents the illustrations of common soft actuator functions and their stimuli. </span></p>
-                            
-                            <p><em><img src="Picture3.png" width="350"  alt="Image 3"></em> 
-                            <span class="small-blue-text">This figure presents the movements of a soft actuator with two asymmetric pneumatic chambers. The soft actuator design, left, is inspired by an elephant trunk. The end trajectories of soft actuator movements are illustrated in a reference frame, right. The bending movements are planar.</span></p>
-                            
-                        </div>
-                    </li>
                                 
                 <li> Detecting Misalignments of Drilled Holes Using Machine Vision.</li>
                 <li> Robot Arm Damage Detection Using Vibration Data and Deep Learning.</li>
