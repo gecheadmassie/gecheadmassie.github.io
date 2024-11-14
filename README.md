@@ -268,14 +268,14 @@ ul, ol {
     .content-row {
         display: flex;
         align-items: flex-start; /* Align images and text at the top */
-        margin-bottom: 30px; /* Spacing between rows */
+        margin-bottom: 100px; /* Spacing between rows */
         gap: 20px; /* Space between image and text columns */
     }
 
     /* Column for image */
     .image-column {
         flex: 1; /* The image takes up one column */
-        max-width: 600px; /* Max width for the image container */
+        max-width: 800px; /* Max width for the image container */
     }
 
     /* Column for text */
@@ -289,7 +289,7 @@ ul, ol {
     /* Make the images larger */
     .image-column img {
         width: 100%; /* Ensure the image takes up 100% of the column's width */
-        max-width: 600px; /* Maximum width to prevent it from growing too large */
+        max-width: 800px; /* Maximum width to prevent it from growing too large */
         height: auto; /* Keep aspect ratio */
         border-radius: 8px; /* Slightly rounded corners */
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
