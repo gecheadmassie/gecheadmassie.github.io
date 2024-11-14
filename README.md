@@ -274,7 +274,7 @@ ul, ol {
     .content-row {
         display: flex;
         align-items: flex-start; /* Align images and text at the top */
-        margin-bottom: 15px; /* Spacing between rows */
+        margin-bottom: 25px; /* Spacing between rows */
     }
 
     /* Column for image */
@@ -297,7 +297,7 @@ ul, ol {
     /* Small text styling */
     .small-blue-text {
         color: #1E90FF; /* Set text color to a shade of blue */
-        font-size: 14px; /* Adjust the font size */
+        font-size: 10px; /* Adjust the font size */
     }
 
     /* Optional: Read more button styling */
