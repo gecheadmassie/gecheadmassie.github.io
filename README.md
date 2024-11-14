@@ -268,13 +268,13 @@ ul, ol {
     .content-row {
         display: flex;
         align-items: flex-start; /* Align images and text at the top */
-        margin-bottom: 10px; /* Spacing between rows */
+        margin-bottom: 30px; /* Spacing between rows */
     }
 
     /* Column for image */
     .image-column {
         flex: 1; /* The image takes up one column */
-        padding-right: 25px; /* Space between image and text */
+        padding-right: 80px; /* Space between image and text */
     }
 
     /* Column for text */
