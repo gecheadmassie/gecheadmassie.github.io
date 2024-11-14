@@ -263,44 +263,72 @@ ul, ol {
 
 
     
-        /* Flex container for image-text pairing */
-        .content-row {
-            display: flex;
-            align-items: flex-start; /* Align images and text at the top */
-            margin-bottom: 300px; /* Spacing between rows */
-        }
-        
-        /* Column for image */
-        .image-column {
-            flex: 1; /* The image takes up one column */
-            padding-right: 20px; /* Space between image and text */
-        }
-        
-        /* Column for text */
-        .text-column {
-            flex: 2; /* The text takes up more space */
-        }
-        
-        /* Make the images larger */
-        .image-column img {
-            width: 100%; /* Make the image width take up 100% of the column's width */
-            max-width: 350px; /* Maximum width for larger images */
-            height: auto; /* Keep the aspect ratio intact */
-        }
-        
-        /* Small text styling */
-        .small-blue-text {
-            color: #1E90FF; /* Set text color to a shade of blue */
-            font-size: 14px; /* Adjust the font size to a more readable size */
-            line-height: 1.4; /* Adjust line height for better readability */
-        }
-        
-        /* Optional: Read more button styling */
-        .read-more {
-            color: #007BFF;
-            cursor: pointer;
-            font-size: 16px;
-        }
+<style>
+    /* Flex container for image-text pairing */
+    .content-row {
+        display: flex;
+        align-items: flex-start; /* Align images and text at the top */
+        margin-bottom: 30px; /* Spacing between rows */
+        gap: 20px; /* Space between image and text columns */
+    }
+
+    /* Column for image */
+    .image-column {
+        flex: 1; /* The image takes up one column */
+        max-width: 600px; /* Max width for the image container */
+    }
+
+    /* Column for text */
+    .text-column {
+        flex: 2; /* The text takes up more space */
+        font-size: 14px; /* Standard font size for the text */
+        line-height: 1.5; /* Spacing between lines of text */
+        color: #333; /* Dark gray text for better contrast */
+    }
+
+    /* Make the images larger */
+    .image-column img {
+        width: 100%; /* Ensure the image takes up 100% of the column's width */
+        max-width: 600px; /* Maximum width to prevent it from growing too large */
+        height: auto; /* Keep aspect ratio */
+        border-radius: 8px; /* Slightly rounded corners */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    }
+
+    /* Small blue text styling */
+    .small-blue-text {
+        color: #1E90FF; /* Blue color for descriptions */
+        font-size: 14px; /* Font size for description */
+        line-height: 1.4; /* Tighter line height */
+        margin-top: 10px; /* Space between image and text */
+    }
+
+    /* Optional: Read more button styling */
+    .read-more {
+        color: #007BFF;
+        cursor: pointer;
+        font-size: 16px;
+        text-decoration: underline;
+        font-weight: bold;
+        margin-top: 15px; /* Space above the button */
+    }
+
+    /* Hover effect for "Read More" */
+    .read-more:hover {
+        color: #0056b3;
+    }
+
+    /* Optional: Extra content visibility toggling */
+    .extra-content {
+        display: none; /* Initially hidden */
+    }
+
+    /* Adjusted spacing for the read-more-container */
+    .read-more-container {
+        margin-top: 20px; /* Add some space above the button */
+        margin-bottom: 10px; /* Space below the button */
+    }
+</style>
 
 
 
