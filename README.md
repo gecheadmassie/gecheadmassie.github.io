@@ -268,7 +268,7 @@ ul, ol {
     .content-row {
         display: flex;
         align-items: flex-start; /* Align images and text at the top */
-        margin-bottom: 35px; /* Spacing between rows */
+        margin-bottom: 10px; /* Spacing between rows */
     }
 
     /* Column for image */
@@ -311,8 +311,6 @@ ul, ol {
                 
             <li> 
             Soft Robot Design, Manufacturing, and Operation Challenges: A Review
-            li {
-    margin-bottom: 1px; /* Reduced space between list items */}
     
             <div class="read-more" onclick="toggleDetails(this)">Read More</div>
             <div class="extra-content" style="display:none;">
