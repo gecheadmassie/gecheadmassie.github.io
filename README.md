@@ -420,7 +420,39 @@ ul, ol {
                 <li> Natural and forced frequencies for different mode-shapes using 3DX SIMULIA </li>
                 </ul>
 
+                  <li><strong>  Ethio Engineering Group, Ethiopia (2020–2022, 6 months) </li></strong>
+                    <p><em>Engineering Product design, and analysis Trainer</em></p>
+                    <ul>
+                    <li>  Bench griding machine design and analysis </li> 
+                    <li>  Delivered specialized training modules on product design and stress analysis.</li> 
+                    </ul>
 
+                    <li><strong> Potato Processing Plant Facility Planning & Design, BiT, Ethiopia (2021-2022)</li></strong>
+                    <p><em>Plant layout designer </em></p>
+                    <ul>
+                    <li> Potato processing plant layout design using Autodesk Inventor software.</li> 
+                    </ul>
+
+                    
+                   <li><strong> Amhara Pipe Factor, Ethiopia (2020-2021)</li></strong>
+                    <p><em>Machine designer</em></p>
+                    <ul>
+                    <li> Design of HDPE and PVC pipe pulling machine</li> 
+                    <li> Performed analysis to determine the load required to pull pipes from the extrusion process to the 
+                    final cutter machine, taking into account the load imposed by vacuum tank seals.</li> 
+                    </ul>
+                    
+                    <li><strong>Micro-Dairy Equipment Design for the Amhara Dairy Platform, Ethiopia (2020-2021, 6 month)</li></strong>
+                    <p><em>Machine designer </em></p>
+                    <ul>
+                    <li> Designed processing equipment to enhance local dairy production.</li> 
+                    </ul>
+
+                    
+                    <li><strong>Textile industry (internship) 2015-2016</li></strong>
+                    <ul>
+                    <li> Design of machine components
+                    </ul>
 
             <li>Design and development of a small CAM analyzer including the programming </li> 
             <li>Natural and Forced Frequency Analysis for 3-Axis Milling Machine to Improve Stiffness, presented at Advanced Manufacturing Processes in WSU, 2023.</li> 
