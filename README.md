@@ -267,8 +267,8 @@ ul, ol {
             <p><em>Graduate Research Assistant </em></p>
             <ul>
                 <li> Predicting the Working Space of a Pneumatic Soft Actuator Using Deep Learning.</li>
-                <li>Soft Robot Design, Manufacturing, and Operation Challenges: A Review 
-                <div class="read-more" onclick="toggleDetails(this)">Read More</div>  </li> 
+                <li>Soft Robot Design, Manufacturing, and Operation Challenges: A Review </li> 
+                <div class="read-more" onclick="toggleDetails(this)">Read More</div>  
                 <div> <p><em> <img src="Picture1.png"; width: 100%; height: auto >  </em></p>
                 <p><em> <img src="Picture2.png"; width: 100%; height: auto >  </em></p>
                 <p><em> <img src="Picture3.png"; width: 100%; height: auto >  </em></p></div>
