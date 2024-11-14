@@ -271,9 +271,9 @@ ul, ol {
                     <li> Soft Robot Design, Manufacturing, and Operation Challenges: A Review
                         <div class="read-more" onclick="toggleDetails(this)">Read More</div>
                         <div class="extra-content" style="display:none;">
-                            <p><em><img src="Picture1.png" width="75" height="75" alt="Image 1"></em></p>
-                            <p><em><img src="Picture2.png" width="75" height="75" alt="Image 2"></em></p>
-                            <p><em><img src="Picture3.png" width="75" height="75" alt="Image 3"></em></p>
+                            <p><em><img src="Picture1.png" width="150"  alt="Image 1"></em></p>
+                            <p><em><img src="Picture2.png" width="150"  alt="Image 2"></em></p>
+                            <p><em><img src="Picture3.png" width="150"  alt="Image 3"></em></p>
                         </div>
                     </li>
                                 
