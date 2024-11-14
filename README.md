@@ -311,6 +311,9 @@ ul, ol {
                 
             <li> 
             Soft Robot Design, Manufacturing, and Operation Challenges: A Review
+            li {
+    margin-bottom: 1px; /* Reduced space between list items */}
+    
             <div class="read-more" onclick="toggleDetails(this)">Read More</div>
             <div class="extra-content" style="display:none;">
                 <div class="content-row">
