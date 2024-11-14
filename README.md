@@ -395,6 +395,32 @@ ul, ol {
                 <li> Robot Arm Damage Detection Using Vibration Data and Deep Learning.</li>
                 <li> Detection of Small Screws Using Machine Learning.</li>
             </ul>
+             <ul>
+            <li> <strong>Wichita State University, Wichita, KS (2022–Present) </strong>
+                <p><em>Engineering Graphics Instructor</em></p>
+                <ul>
+                    <li>  IME 222L (Engineering Graphics lab) using CATIAV5 and 3DX software.</li>
+                    <li> IME 222(Engineering Graphics lecture) principles of drawings and GD&T</li>
+                    <li>  Conducted research in robotics, soft actuators, and machine vision.</li>
+            </ul>
+            
+            <ul>
+            <li> <strong>Hesston College, Hesston, KS (2024–Present)  </strong>
+                <p><em> Engineering Professor</em></p>
+                <ul>
+                <li> Design of Machines (ENGR 422) and Senior Design Capstone Project (ENGR 477), 
+                Fundamentals of mechatronics, and Mechatronics system design.</li>
+            </ul>
+            <ul>
+            <li> <strong>Advanced Manufacturing Processes Lab, Wichita, KS (2022-2023, 5 months)</strong>
+                <p><em> Mechanical Design of Machine Tools </em></p>
+                <ul>
+                <li> 3-axis milling machine stiffness improvement </li> 
+                <li> Finite element (FE) stress & deformation analysis using 3DX SIMULIA </li>
+                <li> Natural and forced frequencies for different mode-shapes using 3DX SIMULIA </li>
+                </ul>
+
+
 
             <li>Design and development of a small CAM analyzer including the programming </li> 
             <li>Natural and Forced Frequency Analysis for 3-Axis Milling Machine to Improve Stiffness, presented at Advanced Manufacturing Processes in WSU, 2023.</li> 
