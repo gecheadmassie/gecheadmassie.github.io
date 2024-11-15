@@ -765,7 +765,7 @@ ul, ol {
                     
 
 
-        <li><strong>Ethio Engineering Group, Ethiopia (2020–2022, 6 months) </strong></li>
+        <li><strong>Ethio Engineering Group, Ethiopia (2021–2022) </strong></li>
         <p><em>Engineering Product design, and analysis Trainer</em></p>
         <ul>
             <li> Bench grinding machine design and analysis </li> 
@@ -873,7 +873,7 @@ ul, ol {
                     
                     </div>
 
-        <li><strong>Potato Processing Plant Facility Planning & Design, BiT, Ethiopia (2021-2022)</strong></li>
+        <li><strong>Potato Processing Plant Facility Planning & Design, BiT, Ethiopia (2021, 6 months)</strong></li>
         <p><em>Plant layout designer</em></p>
         <ul>
             <li> Potato processing plant layout design using Autodesk Inventor software.</li> 
