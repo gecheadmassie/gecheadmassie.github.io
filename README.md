@@ -508,6 +508,20 @@ ul, ol {
             <li> Bench grinding machine design and analysis </li> 
             <li> Delivered specialized training modules on product design and stress analysis.</li> 
         </ul>
+        <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+                <div class="extra-content" style="display:none;">
+                    <!-- Content Row with Image and Text -->
+                    <div class="content-row">
+                        <div class="text-column">
+                            <span class="small-blue-text">Static analysis of manual bench gridning machine transmission components</span>
+                        </div>
+                        <div class="image-column">
+                            <img src="Review/Picture24.png" width="850" alt="Image 1">
+                            <img src="Review/Picture25.png" width="850" alt="Image 1">
+                            <img src="Review/Picture28.png" width="850" alt="Image 1">
+                            <img src="Review/Picture29.png" width="850" alt="Image 1">
+                        </div>
+                    </div>
 
         <li><strong>Potato Processing Plant Facility Planning & Design, BiT, Ethiopia (2021-2022)</strong></li>
         <p><em>Plant layout designer</em></p>
