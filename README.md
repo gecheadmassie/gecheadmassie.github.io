@@ -516,7 +516,10 @@ ul, ol {
                             <span class="small-blue-text">Static analysis of manual bench gridning machine transmission components</span>
                         </div>
                         <div class="image-column">
-                            <img src="Review/Picture24.png" width="850" alt="Image 1">
+                            <img src="EEG/Picture24.png" width="850" alt="Image 1">
+                            <img src="EEG/Picture25.png" width="850" alt="Image 1">
+                            <img src="EEG/Picture28.png" width="850" alt="Image 1">
+                            <img src="EEG/Picture29.png" width="850" alt="Image 1">
 
                         </div>
                     </div>
