@@ -462,9 +462,9 @@ ul, ol {
 
         <!-- Hidden PDF container that will be toggled -->
         <div class="pdf-container" id="pdf-container">
-            <iframe src="3XM/Project_1-file.pdf" alt="PDF File"></iframe>
-            <iframe src="3XM/Project_2-file.pdf" alt="PDF File"></iframe>
-            <iframe src="3XM/Project_3-file.pdf" alt="PDF File"></iframe>
+            <iframe src="3XM/Project_1.pdf" alt="PDF File"></iframe>
+            <iframe src="3XM/Project_2.pdf" alt="PDF File"></iframe>
+            <iframe src="3XM/Project_3.pdf" alt="PDF File"></iframe>
         </div>
                     
 
