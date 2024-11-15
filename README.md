@@ -253,29 +253,64 @@ ul, ol {
         }
     </style>
 
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read More and Play Video</title>
+    <style>
+        /* Style for the 'Read More' link */
+        .read-more {
+            color: #1626af;
+            cursor: pointer;
+            text-decoration: underline;
+            margin-top: 10px;
+            padding: 5px 10px;
+            border: 2px solid #1626af;
+            border-radius: 5px;
+            background-color: #f0f8ff;
+            display: inline-block;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .read-more:hover {
+            background-color: #1626af;
+            color: white;
+        }
+
+        /* Style for the video container */
+        .video-container {
+            display: none; /* Initially hide the video */
+            margin-top: 20px;
+        }
+
+        /* Style for the video */
+        video {
+            width: 100%;  /* Make the video responsive */
+            max-width: 600px; /* Set a maximum width */
+        }
+    </style>
+
     <script>
+        // Function to show the video and play it
         function showVideo() {
             // Show the video container
             var videoContainer = document.getElementById("video-container");
             videoContainer.style.display = "block"; // Make the video visible
 
-            // Play the video (YouTube will autoplay because of the URL parameter)
+            // Play the video
             var video = document.getElementById("myVideo");
-            if (video.tagName === "IFRAME") {
-                // YouTube video: Starts automatically due to the autoplay=1 in the URL
-            } else {
-                // For HTML5 video
-                video.play(); // Start playing the video
-            }
+            video.play(); // Start playing the video
 
-            // Optionally, change the Read More text to "Read Less"
+            // Change the 'Read More' text to 'Read Less'
             var readMoreText = document.querySelector(".read-more");
             readMoreText.textContent = "Read Less";
 
-            // Update the function for Read Less functionality
+            // Update the function to hide the video
             readMoreText.setAttribute("onclick", "hideVideo()");
         }
 
+        // Function to hide the video and pause it
         function hideVideo() {
             // Hide the video container
             var videoContainer = document.getElementById("video-container");
@@ -283,21 +318,13 @@ ul, ol {
 
             // Pause the video
             var video = document.getElementById("myVideo");
-            if (video.tagName === "IFRAME") {
-                // YouTube video can't be paused with JavaScript in this case
-                // You can manually hide it or reload the iframe
-                var iframe = document.querySelector("iframe");
-                iframe.src = iframe.src; // Reload the iframe to stop the video
-            } else {
-                // For HTML5 video
-                video.pause(); // Pause the video
-            }
+            video.pause(); // Pause the video
 
-            // Change the Read Less text back to Read More
+            // Change the 'Read Less' text back to 'Read More'
             var readMoreText = document.querySelector(".read-more");
             readMoreText.textContent = "Read More";
 
-            // Update the function for Read More functionality
+            // Update the function to show the video again
             readMoreText.setAttribute("onclick", "showVideo()");
         }
     </script>
@@ -682,16 +709,15 @@ ul, ol {
                 <!-- Read More link -->
     <div class="read-more" onclick="showVideo()">Read More</div>
 
-    <!-- Video container (hidden by default) -->
+    <!-- Video container (hidden initially) -->
     <div class="video-container" id="video-container">
-        <!-- You can embed a YouTube video or use an HTML5 video -->
-        <video id="myVideo" width="600" controls>
+        <!-- MP4 video (replace with your actual video path) -->
+        <video id="myVideo" controls>
             <source src="Screw/2023-02-21 163709.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-
-
-        
+    </div>
+           
         
     </div>
         </ul>
