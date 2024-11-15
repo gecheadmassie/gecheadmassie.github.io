@@ -262,218 +262,287 @@ ul, ol {
 
 
 
-    
 <style>
-    /* Flex container for image-text pairing */
-    .content-row {
-        display: flex;
-        align-items: flex-start; /* Align images and text at the top */
-        margin-bottom: 100px; /* Spacing between rows */
-        gap: 20px; /* Space between image and text columns */
-    }
+        /* Flex container for image-text pairing */
+        .content-row {
+            display: flex;
+            align-items: flex-start; /* Align images and text at the top */
+            margin-bottom: 100px; /* Spacing between rows */
+            gap: 20px; /* Space between image and text columns */
+        }
 
-    /* Column for image */
-    .image-column {
-        flex: 1; /* The image takes up one column */
-        max-width: 1000px; /* Max width for the image container */
-    }
+        /* Column for image */
+        .image-column {
+            flex: 2; /* The image takes up more space (increased from 1 to 2) */
+            max-width: 100%; /* Ensure the image container doesn't overflow */
+        }
 
-    /* Column for text */
-    .text-column {
-        flex: 2; /* The text takes up more space */
-        font-size: 14px; /* Standard font size for the text */
-        line-height: 1.5; /* Spacing between lines of text */
-        color: #333; /* Dark gray text for better contrast */
-    }
+        /* Column for text */
+        .text-column {
+            flex: 1; /* The text takes up less space (increased from 2 to 1) */
+            font-size: 14px; /* Standard font size for the text */
+            line-height: 1.5; /* Spacing between lines of text */
+            color: #333; /* Dark gray text for better contrast */
+            max-width: 300px; /* Limit the width of the text container */
+        }
 
-    /* Make the images larger */
-    .image-column img {
-        width: 100%; /* Ensure the image takes up 100% of the column's width */
-        max-width: 1000px; /* Maximum width to prevent it from growing too large */
-        height: auto; /* Keep aspect ratio */
-        border-radius: 8px; /* Slightly rounded corners */
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    }
+        /* Make the images larger */
+        .image-column img {
+            width: 100%; /* Ensure the image takes up 100% of the column's width */
+            height: auto; /* Keep aspect ratio */
+            border-radius: 8px; /* Slightly rounded corners */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+            max-width: 1000px; /* Maximum width to prevent it from growing too large */
+        }
 
-    /* Small blue text styling */
-    .small-blue-text {
-        color: #1E90FF; /* Blue color for descriptions */
-        font-size: 14px; /* Font size for description */
-        line-height: 1.4; /* Tighter line height */
-        margin-top: 10px; /* Space between image and text */
-    }
+        /* Small blue text styling */
+        .small-blue-text {
+            color: #1E90FF; /* Blue color for descriptions */
+            font-size: 14px; /* Font size for description */
+            line-height: 1.4; /* Tighter line height */
+            margin-top: 10px; /* Space between image and text */
+        }
 
-    /* Optional: Read more button styling */
-    .read-more {
-        color: #007BFF;
-        cursor: pointer;
-        font-size: 16px;
-        text-decoration: underline;
-        font-weight: bold;
-        margin-top: 15px; /* Space above the button */
-    }
+        /* Optional: Read more button styling */
+        .read-more {
+            color: #007BFF;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: underline;
+            font-weight: bold;
+            margin-top: 15px; /* Space above the button */
+        }
 
-    /* Hover effect for "Read More" */
-    .read-more:hover {
-        color: #0056b3;
-    }
+        /* Hover effect for "Read More" */
+        .read-more:hover {
+            color: #0056b3;
+        }
 
-    /* Optional: Extra content visibility toggling */
-    .extra-content {
-        display: none; /* Initially hidden */
-    }
+        /* Optional: Extra content visibility toggling */
+        .extra-content {
+            display: none; /* Initially hidden */
+        }
 
-    /* Adjusted spacing for the read-more-container */
-    .read-more-container {
-        margin-top: 20px; /* Add some space above the button */
-        margin-bottom: 10px; /* Space below the button */
-    }
-</style>
+        /* Adjusted spacing for the read-more-container */
+        .read-more-container {
+            margin-top: 20px; /* Add some space above the button */
+            margin-bottom: 10px; /* Space below the button */
+        }
+    </style>
 
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Experience and Projects</title>
+    <style>
+        /* Flex container for image-text pairing */
+        .content-row {
+            display: flex;
+            align-items: flex-start; /* Align images and text at the top */
+            margin-bottom: 100px; /* Spacing between rows */
+            gap: 20px; /* Space between image and text columns */
+        }
 
+        /* Column for image */
+        .image-column {
+            flex: 2; /* The image takes up more space (increased from 1 to 2) */
+            max-width: 100%; /* Ensure the image container doesn't overflow */
+        }
 
+        /* Column for text */
+        .text-column {
+            flex: 1; /* The text takes up less space (increased from 2 to 1) */
+            font-size: 14px; /* Standard font size for the text */
+            line-height: 1.5; /* Spacing between lines of text */
+            color: #333; /* Dark gray text for better contrast */
+            max-width: 300px; /* Limit the width of the text container */
+        }
 
+        /* Make the images larger */
+        .image-column img {
+            width: 100%; /* Ensure the image takes up 100% of the column's width */
+            height: auto; /* Keep aspect ratio */
+            border-radius: 8px; /* Slightly rounded corners */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+            max-width: 1000px; /* Maximum width to prevent it from growing too large */
+        }
 
-    <section id="company-community-service-projects">
-        <h1>Professional Experience and Projects</h1>
+        /* Small blue text styling */
+        .small-blue-text {
+            color: #1E90FF; /* Blue color for descriptions */
+            font-size: 14px; /* Font size for description */
+            line-height: 1.4; /* Tighter line height */
+            margin-top: 10px; /* Space between image and text */
+        }
+
+        /* Optional: Read more button styling */
+        .read-more {
+            color: #007BFF;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: underline;
+            font-weight: bold;
+            margin-top: 15px; /* Space above the button */
+        }
+
+        /* Hover effect for "Read More" */
+        .read-more:hover {
+            color: #0056b3;
+        }
+
+        /* Optional: Extra content visibility toggling */
+        .extra-content {
+            display: none; /* Initially hidden */
+        }
+
+        /* Adjusted spacing for the read-more-container */
+        .read-more-container {
+            margin-top: 20px; /* Add some space above the button */
+            margin-bottom: 10px; /* Space below the button */
+        }
+    </style>
+</head>
+<body>
+
+<section id="company-community-service-projects">
+    <h1>Professional Experience and Projects</h1>
+    <ul>
+        <li> <strong>Industry 4.0 Lab, WSU, Wichita, KS (2022-present)</strong></li>
+        <p><em>Graduate Research Assistant </em></p>
         <ul>
-            <li> <strong>Industry 4.0 Lab, WSU, Wichita, KS (2022-present)</strong></li>
-            <p><em>Graduate Research Assistant </em></p>
-            <ul>
-                <li> Predicting the Working Space of a Pneumatic Soft Actuator Using Deep Learning.</li>
-                
+            <li> Predicting the Working Space of a Pneumatic Soft Actuator Using Deep Learning.</li>
+
             <li> 
-            Soft Robot Design, Manufacturing, and Operation Challenges: A Review
-    
-            <div class="read-more" onclick="toggleDetails(this)">Read More</div>
-            <div class="extra-content" style="display:none;">
+                Soft Robot Design, Manufacturing, and Operation Challenges: A Review
+                <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+                <div class="extra-content" style="display:none;">
+                    <!-- Content Row with Image and Text -->
+                    <div class="content-row">
+                        <div class="text-column">
+                            <span class="small-blue-text">Key technical challenges in soft robotics.</span>
+                        </div>
+                        <div class="image-column">
+                            <img src="Review/Picture6.png" width="850" alt="Image 1">
+                        </div>
+                    </div>
 
-                            <div class="content-row">
-                <div class="text-column">
-                    <span class="small-blue-text">Key technical challenges in soft robotics.</span>
-                </div>
-                    <div class="image-column">
-                        <img src="Review/Picture6.png" width="850" alt="Image 1">
+                    <div class="content-row">
+                        <div class="text-column">
+                            <span class="small-blue-text">The figure below presents FEA simulation models of a pneumatic soft actuator design that is inspired by an elephant trunk.</span>
+                        </div>
+                        <div class="image-column">
+                            <img src="Review/Picture1.png" width="850" alt="Image 1">
+                        </div>
                     </div>
-                </div>
 
-                
-                <div class="content-row">
+                    <div class="content-row">
                         <div class="text-column">
-                        <span class="small-blue-text">The figure below presents FEA simulation models of a pneumatic soft actuator design that is inspired by an elephant trunk.</span>
+                            <span class="small-blue-text">The pie chart of soft material usages documented in the selected literature. These materials are mostly used as structural elements, but soft materials with electromagnetic properties may also facilitate sensing and control.</span>
+                        </div>
+                        <div class="image-column">
+                            <img src="Review/Picture2.png" width="850" alt="Image 2">
+                        </div>
                     </div>
-                    <div class="image-column">
-                        <img src="Review/Picture1.png" width="850" alt="Image 1">
-                    </div>
-                </div>
-            
-                <div class="content-row">
-                    <div class="text-column">
-                        <span class="small-blue-text">The  pie chart of soft material usages documented in the selected literature. These materials are mostly used as structural elements, but soft materials with electromagnetic properties may also facilitate sensing and control.</span>
-                    </div>
-                    <div class="image-column">
-                        <img src="Review/Picture2.png" width="850" alt="Image 2">
-                    </div>
-                </div>
-            
-                <div class="content-row">
+
+                    <div class="content-row">
                         <div class="text-column">
-                        <span class="small-blue-text">The figure below shows an illustration of multi-material 3D printing that uses restricting and actuating materials along with certain design parameter settings, such as A, B, C, D, and E, to fabricate bio-inspired flexible parts with self-shaping properties.</span>
+                            <span class="small-blue-text">The figure below shows an illustration of multi-material 3D printing that uses restricting and actuating materials along with certain design parameter settings, such as A, B, C, D, and E, to fabricate bio-inspired flexible parts with self-shaping properties.</span>
+                        </div>
+                        <div class="image-column">
+                            <img src="Review/Picture4.png" width="850" alt="Image 4">
+                        </div>
                     </div>
-                    <div class="image-column">
-                        <img src="Review/Picture4.png" width="850" alt="Image 4">
-                    </div>
-                </div>
-            
-                <div class="content-row">
+
+                    <div class="content-row">
                         <div class="text-column">
-                        <span class="small-blue-text">The figure below presents the illustrations of common soft actuator functions and their stimuli.</span>
+                            <span class="small-blue-text">The figure below presents the illustrations of common soft actuator functions and their stimuli.</span>
+                        </div>
+                        <div class="image-column">
+                            <img src="Review/Picture5.png" width="850" alt="Image 5">
+                        </div>
                     </div>
-                    <div class="image-column">
-                        <img src="Review/Picture5.png" width="850" alt="Image 5">
+
+                    <div class="content-row">
+                        <div class="text-column">
+                            <span class="small-blue-text">The figure below presents the movements of a soft actuator with two asymmetric pneumatic chambers. The soft actuator design, left, is inspired by an elephant trunk. The end trajectories of soft actuator movements are illustrated in a reference frame, right. The bending movements are planar.</span>
+                        </div>
+                        <div class="image-column">
+                            <img src="Review/Picture3.png" width="850" alt="Image 3">
+                        </div>
                     </div>
+
                 </div>
-            
-                <div class="content-row">
-                    <div class="text-column">
-                        <span class="small-blue-text">The figure below presents the movements of a soft actuator with two asymmetric pneumatic chambers. The soft actuator design, left, is inspired by an elephant trunk. The end trajectories of soft actuator movements are illustrated in a reference frame, right. The bending movements are planar.</span>
-                    </div>
-                    <div class="image-column">
-                        <img src="Review/Picture3.png" width="850" alt="Image 3">
-                    </div>
-                </div>
-            
-            </div>
             </li>
 
-                                
-                <li> Detecting Misalignments of Drilled Holes Using Machine Vision.</li>
-                <li> Robot Arm Damage Detection Using Vibration Data and Deep Learning.</li>
-                <li> Detection of Small Screws Using Machine Learning.</li>
-            </ul>
-             
-            <li> <strong>Wichita State University, Wichita, KS (2022–Present) </strong></li>
-                <p><em>Engineering Graphics Instructor</em></p>
-                <ul>
-                    <li>  IME 222L (Engineering Graphics lab) using CATIAV5 and 3DX software.</li>
-                    <li> IME 222(Engineering Graphics lecture) principles of drawings and GD&T</li>
-            </ul>
-            
-            
-            <li> <strong>Hesston College, Hesston, KS (2024–Present)</strong></li>
-                <p><em> Engineering Professor</em></p>
-                <ul>
-                <li> Design of Machines (ENGR 422) and Senior Design Capstone Project (ENGR 477), 
-                Fundamentals of mechatronics, and Mechatronics system design.</li>
-            </ul>
-            
-            <li> <strong>Advanced Manufacturing Processes Lab, Wichita, KS (2022-2023, 5 months)</strong></li>
-                <p><em> Mechanical Design of Machine Tools </em></p>
-                <ul>
-                <li> 3-axis milling machine stiffness improvement </li> 
-                <li> Finite element (FE) stress & deformation analysis using 3DX SIMULIA </li>
-                <li> Natural and forced frequencies for different mode-shapes using 3DX SIMULIA </li>
-                </ul>
+            <li> Detecting Misalignments of Drilled Holes Using Machine Vision.</li>
+            <li> Robot Arm Damage Detection Using Vibration Data and Deep Learning.</li>
+            <li> Detection of Small Screws Using Machine Learning.</li>
+        </ul>
 
-                  <li><strong>  Ethio Engineering Group, Ethiopia (2020–2022, 6 months) </strong></li>
-                    <p><em>Engineering Product design, and analysis Trainer</em></p>
-                    <ul>
-                    <li>  Bench griding machine design and analysis </li> 
-                    <li>  Delivered specialized training modules on product design and stress analysis.</li> 
-                    </ul>
+        <li> <strong>Wichita State University, Wichita, KS (2022–Present) </strong></li>
+        <p><em>Engineering Graphics Instructor</em></p>
+        <ul>
+            <li> IME 222L (Engineering Graphics lab) using CATIAV5 and 3DX software.</li>
+            <li> IME 222(Engineering Graphics lecture) principles of drawings and GD&T</li>
+        </ul>
 
-                    <li><strong> Potato Processing Plant Facility Planning & Design, BiT, Ethiopia (2021-2022)</strong></li>
-                    <p><em>Plant layout designer </em></p>
-                    <ul>
-                    <li> Potato processing plant layout design using Autodesk Inventor software.</li> 
-                    </ul>
+        <li> <strong>Hesston College, Hesston, KS (2024–Present)</strong></li>
+        <p><em>Engineering Professor</em></p>
+        <ul>
+            <li> Design of Machines (ENGR 422) and Senior Design Capstone Project (ENGR 477), Fundamentals of mechatronics, and Mechatronics system design.</li>
+        </ul>
 
-                    
-                   <li><strong> Amhara Pipe Factor, Ethiopia (2020-2021)</strong></li>
-                    <p><em>Machine designer</em></p>
-                    <ul>
-                    <li> Design of HDPE and PVC pipe pulling machine</li> 
-                    <li> Performed analysis to determine the load required to pull pipes from the extrusion process to the 
-                    final cutter machine, taking into account the load imposed by vacuum tank seals.</li> 
-                    </ul>
-                    
-                    <li><strong>Micro-Dairy Equipment Design for the Amhara Dairy Platform, Ethiopia (2020-2021, 6 month)</strong></li>
-                    <p><em>Machine designer </em></p>
-                    <ul>
-                    <li> Designed processing equipment to enhance local dairy production.</li> 
-                    </ul>
+        <li> <strong>Advanced Manufacturing Processes Lab, Wichita, KS (2022-2023, 5 months)</strong></li>
+        <p><em>Mechanical Design of Machine Tools</em></p>
+        <ul>
+            <li> 3-axis milling machine stiffness improvement </li> 
+            <li> Finite element (FE) stress & deformation analysis using 3DX SIMULIA </li>
+            <li> Natural and forced frequencies for different mode-shapes using 3DX SIMULIA </li>
+        </ul>
 
-                    
-                    <li><strong>Textile industry (internship) 2015-2016</strong></li>
-                    <ul>
-                    <li> Design of machine components
-                    </ul>
-                </ul>
-            </section>
+        <li><strong>Ethio Engineering Group, Ethiopia (2020–2022, 6 months) </strong></li>
+        <p><em>Engineering Product design, and analysis Trainer</em></p>
+        <ul>
+            <li> Bench grinding machine design and analysis </li> 
+            <li> Delivered specialized training modules on product design and stress analysis.</li> 
+        </ul>
+
+        <li><strong>Potato Processing Plant Facility Planning & Design, BiT, Ethiopia (2021-2022)</strong></li>
+        <p><em>Plant layout designer</em></p>
+        <ul>
+            <li> Potato processing plant layout design using Autodesk Inventor software.</li> 
+        </ul>
+
+        <li><strong>Amhara Pipe Factory, Ethiopia (2020-2021)</strong></li>
+        <p><em>Machine designer</em></p>
+        <ul>
+            <li> Design of HDPE and PVC pipe pulling machine</li> 
+            <li> Performed analysis to determine the load required to pull pipes from the extrusion process to the final cutter machine, taking into account the load imposed by vacuum tank seals.</li> 
+        </ul>
+
+        <li><strong>Micro-Dairy Equipment Design for the Amhara Dairy Platform, Ethiopia (2020-2021, 6 months)</strong></li>
+        <p><em>Machine designer</em></p>
+        <ul>
+            <li> Designed processing equipment to enhance local dairy production.</li> 
+        </ul>
+
+        <li><strong>Textile industry (internship) 2015-2016</strong></li>
+        <ul>
+            <li> Design of machine components</li>
+        </ul>
+    </ul>
+</section>
+
+
+
+
+
 
 
     
-    <section id="publications">
+     <section id="publications">
         <h1>Publications</h1>
         <ul>
             <li>
