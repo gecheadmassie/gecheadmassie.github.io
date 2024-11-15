@@ -453,15 +453,15 @@ ul, ol {
             <div class="read-more" onclick="toggleDetails(this)">Read More</div>
                 <div class="extra-content" style="display:none;">
                 <!-- Content Row with Image and Text -->
-                
                     <div class="content-row">
                         <div class="text-column">
                             <span class=" Baseline robot link with an open vertical crack</span>
                         </div>
                         <div class="image-column">
-                            <img src="EEG/Figure_2.png" width="850" alt="Figure 1">
+                            <img src="Robot_Link/Figure_2.png" width="150" alt="Figure 1">
                         </div>
                     </div>
+
 
 
                         <div class="content-row">
@@ -469,7 +469,7 @@ ul, ol {
                             <span class=" Simulation setup.</span>
                         </div>
                         <div class="image-column">
-                            <img src="Robot_Link/Figure_3.png" width="850" alt="Image 1">
+                            <img src="Robot_Link/Figure_3.png" width="150" alt="Image 1">
                         </div>
                     </div>
 
@@ -479,7 +479,7 @@ ul, ol {
                             <span class=" Planar model with quadrilateral elements.</span>
                         </div>
                         <div class="image-column">
-                            <img src="Robot_Link/Figure_4.png" width="850" alt="Image 1">
+                            <img src="Robot_Link/Figure_4.png" width="150" alt="Image 1">
                         </div>
                     </div>
 
@@ -488,7 +488,7 @@ ul, ol {
                             <span class=" Mesh density convergence.</span>
                         </div>
                         <div class="image-column">
-                            <img src="Robot_Link/Figure_5.png" width="850" alt="Image 1">
+                            <img src="Robot_Link/Figure_5.png" width="150" alt="Image 1">
                         </div>
                     </div>
 
@@ -497,7 +497,7 @@ ul, ol {
                             <span class=" Accelerations of Node 8 and Node 851 in the vertical direction.</span>
                         </div>
                         <div class="image-column">
-                            <img src="Robot_Link/Figure_6.png" width="850" alt="Image 1">
+                            <img src="Robot_Link/Figure_6.png" width="150" alt="Image 1">
                         </div>
                     </div>
 
@@ -507,9 +507,9 @@ ul, ol {
                             <span class=" Feature extraction: a) Raw time series data; b) Polar representation of raw data; c) 2D image data.</span>
                         </div>
                         <div class="image-column">
-                            <img src="Robot_Link/Figure_7a.png" width="850" alt="Image 1">
-                            <img src="Robot_Link/Figure_7b.png" width="850" alt="Image 1">
-                            <img src="Robot_Link/Figure_7c.png" width="850" alt="Image 1">
+                            <img src="Robot_Link/Figure_7a.png" width="150" alt="Image 1">
+                            <img src="Robot_Link/Figure_7b.png" width="150" alt="Image 1">
+                            <img src="Robot_Link/Figure_7c.png" width="150" alt="Image 1">
                         </div>
                     </div>
 
@@ -519,7 +519,7 @@ ul, ol {
                             <span class=" Neural network architecture. Note: ReLU is a rectified linear unit used as an activation function.</span>
                         </div>
                         <div class="image-column">
-                            <img src="Robot_Link/Figure_8.png" width="850" alt="Image 1">
+                            <img src="Robot_Link/Figure_8.png" width="150" alt="Image 1">
                         </div>
                     </div>
 
@@ -529,7 +529,9 @@ ul, ol {
                             <span class="  Vibration mode shapes due to free vibration of intact robot link with one fixed eyelet end.</span>
                         </div>
                         <div class="image-column">
-                            <img src="Robot_Link/Figure_9.png" width="850" alt="Image 1">
+                            <img src="Robot_Link/Figure_9MS1_2.png" width="150" alt="Image 1">
+                            <img src="Robot_Link/Figure_9MS3_4.png" width="150" alt="Image 1">
+                            <img src="Robot_Link/Figure_9MS5_6.png" width="150" alt="Image 1">
                         </div>
                     </div>
 
@@ -538,12 +540,12 @@ ul, ol {
                             <span class="  Mode shapes, natural frequencies, and cases for robot link crack geometries.</span>
                         </div>
                         <div class="image-column">
-                            <img src="Robot_Link/Figure_10a.png" width="850" alt="Image 1">
-                            <img src="Robot_Link/Figure_10b.png" width="850" alt="Image 1">
-                            <img src="Robot_Link/Figure_10c.png" width="850" alt="Image 1">
-                            <img src="Robot_Link/Figure_10d.png" width="850" alt="Image 1">
-                            <img src="Robot_Link/Figure_10e.png" width="850" alt="Image 1">
-                            <img src="Robot_Link/Figure_10f.png" width="850" alt="Image 1">
+                            <img src="Robot_Link/Figure_10a.png" width="150" alt="Image 1">
+                            <img src="Robot_Link/Figure_10b.png" width="150" alt="Image 1">
+                            <img src="Robot_Link/Figure_10c.png" width="150" alt="Image 1">
+                            <img src="Robot_Link/Figure_10d.png" width="150" alt="Image 1">
+                            <img src="Robot_Link/Figure_10e.png" width="150" alt="Image 1">
+                            <img src="Robot_Link/Figure_10f.png" width="150" alt="Image 1">
                         </div>
                     </div>
 
@@ -552,7 +554,7 @@ ul, ol {
                             <span class=" Confusion matrix for robot link with cracks at different locations. Note: Cr means Crack.</span>
                         </div>
                         <div class="image-column">
-                            <img src="Robot_Link/Figure_14.png" width="850" alt="Image 1">
+                            <img src="Robot_Link/Figure_14.png" width="150" alt="Image 1">
                         </div>
                     </div>
 
@@ -561,7 +563,7 @@ ul, ol {
                             <span class=" Confusion matrix for robot link with different crack sizes.</span>
                         </div>
                         <div class="image-column">
-                            <img src="Robot_Link/Figure_16.png" width="850" alt="Image 1">
+                            <img src="Robot_Link/Figure_16.png" width="150" alt="Image 1">
                         </div>
                     </div>
                     </div>
