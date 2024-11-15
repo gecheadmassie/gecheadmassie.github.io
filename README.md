@@ -330,6 +330,7 @@ ul, ol {
                 Soft Robot Design, Manufacturing, and Operation Challenges: A Review
                 <div class="read-more" onclick="toggleDetails(this)">Read More</div>
                 <div class="extra-content" style="display:none;">
+                <img src="Review/Picture73.png" width="850" alt="Image 1">
                     <!-- Content Row with Image and Text -->
                     <div class="content-row">
                         <div class="text-column">
