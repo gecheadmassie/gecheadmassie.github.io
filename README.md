@@ -86,12 +86,28 @@ ul, ol {
             color: white;
         }
 
+
+
         .read-more {
+    color: #1626af;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 10px;
+    padding: 5px 10px;  /* Adds padding to the text */
+    border: 2px solid #1626af;  /* Creates a border around the text */
+    border-radius: 5px;  /* Optional: gives the box rounded corners */
+    background-color: #f0f8ff;  /* Optional: gives a light background to the box */
+    display: inline-block;  /* Ensures the padding and border don't break the flow */
+    transition: background-color 0.3s ease, border-color 0.3s ease;  /* Adds smooth transition effects */
+     }
+
+             .read-more {
             color: #1626af;
             cursor: pointer;
             text-decoration: underline;
             margin-top: 10px;
         }
+
 
         .content {
             display: none; /* Hidden by default */
