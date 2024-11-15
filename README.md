@@ -228,30 +228,30 @@ ul, ol {
         </style>
 
 
-<style>
-        .read-more {
-            color: #1626af;
-            cursor: pointer;
-            text-decoration: underline;
-            margin-top: 10px;
-            padding: 5px 10px;
-            border: 2px solid #1626af;
-            border-radius: 5px;
-            background-color: #f0f8ff;
-            display: inline-block;
-            transition: background-color 0.3s ease, border-color 0.3s ease;
-        }
-
-        .read-more:hover {
-            background-color: #1626af;
-            color: white;
-        }
-
-        .video-container {
-            display: none; /* Hide the video initially */
-            margin-top: 20px;
-        }
-    </style>
+    <style>
+            .read-more {
+                color: #1626af;
+                cursor: pointer;
+                text-decoration: underline;
+                margin-top: 10px;
+                padding: 5px 10px;
+                border: 2px solid #1626af;
+                border-radius: 5px;
+                background-color: #f0f8ff;
+                display: inline-block;
+                transition: background-color 0.3s ease, border-color 0.3s ease;
+            }
+    
+            .read-more:hover {
+                background-color: #1626af;
+                color: white;
+            }
+    
+            .video-container {
+                display: none; /* Hide the video initially */
+                margin-top: 20px;
+            }
+        </style>
 
 
 
@@ -278,47 +278,46 @@ ul, ol {
             color: white;
         }
 
-     <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Read More and Play Video</title>
-        <style>
-            /* Style for the 'Read More' link */
-            .read-more {
-                color: #1626af;
-                cursor: pointer;
-                text-decoration: underline;
-                margin-top: 10px;
-                padding: 5px 10px;
-                border: 2px solid #1626af;
-                border-radius: 5px;
-                background-color: #f0f8ff;
-                display: inline-block;
-                transition: background-color 0.3s ease, border-color 0.3s ease;
-            }
-    
-            .read-more:hover {
-                background-color: #1626af;
-                color: white;
-            }
-    
-            /* Style for the video container */
-            .video-container {
-                display: none; /* Initially hide the video */
-                margin-top: 20px;
-            }
-    
-            /* Style for the video */
-            video {
-                width: 100%;  /* Make the video responsive */
-                max-width: 600px; /* Set a maximum width */
-            }
-        </style>
 
 
+       <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read More and Play Video</title>
+    <style>
+        /* Style for the 'Read More' link */
+        .read-more {
+            color: #1626af;
+            cursor: pointer;
+            text-decoration: underline;
+            margin-top: 10px;
+            padding: 5px 10px;
+            border: 2px solid #1626af;
+            border-radius: 5px;
+            background-color: #f0f8ff;
+            display: inline-block;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .read-more:hover {
+            background-color: #1626af;
+            color: white;
+        }
+
+        /* Style for the video container */
+        .video-container {
+            display: none; /* Initially hide the video */
+            margin-top: 20px;
+        }
+
+        /* Style for the video */
+        video {
+            width: 100%;  /* Make the video responsive */
+            max-width: 600px; /* Set a maximum width */
+        }
+    </style>
     
     
 </head>
-
 <body>
 
     <div class="header-container">
@@ -696,11 +695,11 @@ ul, ol {
     <!-- Video container (hidden initially) -->
     <div class="video-container" id="video-container">
         <!-- MP4 video (replace with your actual video path) -->
-        <video id="myVideo" controls>
-            <source src="Screw/2023-02-21 164747.mp4" type="video/mp4">
+        <video id="myVideo" controls muted>
+            <source src="your-video.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-    </div>  </li>
+    </div></li>
         </ul>
 
     <script>
@@ -727,7 +726,6 @@ ul, ol {
             }
         }
     </script>
-              
         
 
 
