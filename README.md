@@ -170,6 +170,22 @@ ul, ol {
             }
         </style>
 
+        <script>
+        function togglePDF() {
+            const pdfContainer = document.getElementById("pdf-container");
+            const toggleButton = document.querySelector(".toggle-btn");
+
+            // Toggle the visibility of the PDF container
+            if (pdfContainer.style.display === "none" || pdfContainer.style.display === "") {
+                pdfContainer.style.display = "block";
+                toggleButton.textContent = "Show Less";
+            } else {
+                pdfContainer.style.display = "none";
+                toggleButton.textContent = "Read More";
+            }
+        }
+    </script>
+
 
     
 </head>
@@ -450,8 +466,7 @@ ul, ol {
             <iframe src="3XM/Project_2-file.pdf" alt="PDF File"></iframe>
             <iframe src="3XM/Project_3-file.pdf" alt="PDF File"></iframe>
         </div>
-
-        
+                    
 
 
         <li><strong>Ethio Engineering Group, Ethiopia (2020–2022, 6 months) </strong></li>
