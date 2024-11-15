@@ -459,7 +459,7 @@ ul, ol {
                             <span class=" Baseline robot link with an open vertical crack</span>
                         </div>
                         <div class="image-column">
-                            <img src="EEG/Picture24.png" width="850" alt="Figure 1">
+                            <img src="EEG/Figure_2-eps-converted-to.pdf" width="850" alt="Figure 1">
                         </div>
                     </div>
 
