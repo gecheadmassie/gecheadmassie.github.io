@@ -1027,10 +1027,12 @@ ul, ol {
                 <strong>Time and frequency domain analysis of signals: a review.</strong> <i>Int J Eng Res Technol</i> 9: 271–276.
             </li>
         </ul>
+        </section>
 
 
-
-        <strong class="HUGE-bold-text">Peer Review Activities</strong>
+         <section id="publications">
+        <h1>>Peer Review Activities</h1>
+     
         <li> Neural computing & applications </li> 
         <li> Australian Journal of Mechanical Engineering</li> 
          <li> Mechanical, Electric, and Industrial Engineering (MEIE2024)</li> 
