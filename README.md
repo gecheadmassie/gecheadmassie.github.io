@@ -202,7 +202,70 @@ ul, ol {
         }
     </script>
 
+    <style>
+            .read-more {
+                color: #1626af;
+                cursor: pointer;
+                text-decoration: underline;
+                margin-top: 10px;
+                padding: 5px 10px;
+                border: 2px solid #1626af;
+                border-radius: 5px;
+                background-color: #f0f8ff;
+                display: inline-block;
+                transition: background-color 0.3s ease, border-color 0.3s ease;
+            }
+    
+            .read-more:hover {
+                background-color: #1626af;
+                color: white;
+            }
+    
+            .video-container {
+                display: none; /* Hide the video initially */
+                margin-top: 20px;
+            }
+        </style>
 
+
+    <script>
+        function showVideo() {
+            // Show the video container
+            var videoContainer = document.getElementById("video-container");
+            videoContainer.style.display = "block"; // Make the video visible
+
+            // Play the video
+            var video = document.getElementById("myVideo");
+            video.play(); // Start playing the video
+
+            // Optionally, change the Read More text to "Read Less"
+            var readMoreText = document.querySelector(".read-more");
+            readMoreText.textContent = "Read Less";
+
+            // Update the function for Read Less functionality
+            readMoreText.setAttribute("onclick", "hideVideo()");
+        }
+
+        function hideVideo() {
+            // Hide the video container
+            var videoContainer = document.getElementById("video-container");
+            videoContainer.style.display = "none";
+
+            // Pause the video
+            var video = document.getElementById("myVideo");
+            video.pause(); // Pause the video
+
+            // Change the Read Less text back to Read More
+            var readMoreText = document.querySelector(".read-more");
+            readMoreText.textContent = "Read More";
+
+            // Update the function for Read More functionality
+            readMoreText.setAttribute("onclick", "showVideo()");
+        }
+    </script>
+
+
+    
     
 </head>
 
@@ -577,7 +640,22 @@ ul, ol {
                     
                     
             <li> Detection of Small Screws Using Machine Learning.</li>
+
+                <!-- Read More link -->
+    <div class="read-more" onclick="showVideo()">Read More</div>
+
+    <!-- Video container (hidden by default) -->
+    <div class="video-container" id="video-container">
+        <!-- You can embed a YouTube video or use an HTML5 video -->
+        <video id="myVideo" width="600" controls>
+            <source src="Screw/2023-02-21 163709.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
         </ul>
+
+
+
 
         <li> <strong>Wichita State University, Wichita, KS (2022–Present) </strong></li>
         <p><em>Engineering Graphics Instructor</em></p>
