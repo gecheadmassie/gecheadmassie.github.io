@@ -566,7 +566,7 @@ ul, ol {
                             <img src="Robot_Link/Figure_16.png" width="150" alt="Image 1">
                         </div>
                     </div>
-                    </div>
+                    </div></li>
 
 
                     
