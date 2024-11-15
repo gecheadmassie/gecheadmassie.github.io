@@ -1030,10 +1030,10 @@ ul, ol {
 
 
 
-        <strong>Peer Review Activities</strong>
-        <li> Neural computing & applications <\li> 
-            <li> Australian Journal of Mechanical Engineering<\li> 
-         <li> Mechanical, Electric, and Industrial Engineering (MEIE2024)<\li> 
+        <strong class="large-bold-text">Peer Review Activities</strong>
+        <li> Neural computing & applications </li> 
+        <li> Australian Journal of Mechanical Engineering</li> 
+         <li> Mechanical, Electric, and Industrial Engineering (MEIE2024)</li> 
         
 
     </section>
