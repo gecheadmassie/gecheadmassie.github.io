@@ -429,10 +429,10 @@ ul, ol {
                             <span class="small-blue-text">Static analysis of manual bench gridning machine transmission components</span>
                         </div>
                         <div class="image-column">
-                            <img src="EEG/Picture24.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture25.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture28.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture29.png" width="50" alt="Image 1">
+                            <img src="EEG/Picture24.png" width="450" alt="Image 1">
+                            <img src="EEG/Picture25.png" width="450" alt="Image 1">
+                            <img src="EEG/Picture28.png" width="450" alt="Image 1">
+                            <img src="EEG/Picture29.png" width="450" alt="Image 1">
                         </div>
                     </div>
 
@@ -441,14 +441,14 @@ ul, ol {
                             <span class="small-blue-text">Dynamic analysis of manual bench griding machine transmission components</span>
                         </div>
                         <div class="image-column">
-                            <img src="EEG/Picture32.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture31.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture32.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture33.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture34.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture35.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture36.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture37.png" width="50" alt="Image 1">
+                            <img src="EEG/Picture32.png" width="450" alt="Image 1">
+                            <img src="EEG/Picture31.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture32.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture33.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture34.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture35.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture36.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture37.png" width="350" alt="Image 1">
                         </div>
                     </div>
 
@@ -457,14 +457,14 @@ ul, ol {
                             <span class="small-blue-text">Basics of Manufacturing Process Modelling and Simulation: 1.	Sheet Metal Forming Modeling</span>
                         </div>
                         <div class="image-column">
-                            <img src="EEG/Picture38.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture39.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture40.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture41.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture42.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture43.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture44.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture45.png" width="50" alt="Image 1">
+                            <img src="EEG/Picture38.png" width="450" alt="Image 1">
+                            <img src="EEG/Picture39.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture40.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture41.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture42.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture43.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture44.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture45.png" width="350" alt="Image 1">
                         </div>
                     </div>
 
@@ -473,16 +473,16 @@ ul, ol {
                             <span class="small-blue-text">Basics of Manufacturing Process Modelling and Simulation: 2.	Extrusion Modeling</span>
                         </div>
                         <div class="image-column">
-                            <img src="EEG/Picture46.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture49.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture40.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture50.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture51.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture52.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture53.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture54.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture55.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture56.png" width="50" alt="Image 1">
+                            <img src="EEG/Picture46.png" width="450" alt="Image 1">
+                            <img src="EEG/Picture49.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture40.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture50.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture51.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture52.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture53.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture54.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture55.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture56.png" width="350" alt="Image 1">
                         </div>
                     </div>
 
@@ -492,15 +492,15 @@ ul, ol {
                             <span class="small-blue-text">Basics of Manufacturing Process Modelling and Simulation: 3.	Deep Drawing Modeling</span>
                         </div>
                         <div class="image-column">
-                            <img src="EEG/Picture57.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture58.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture59.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture60.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture61.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture62.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture63.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture64.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture65.png" width="50" alt="Image 1">
+                            <img src="EEG/Picture57.png" width="450" alt="Image 1">
+                            <img src="EEG/Picture58.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture59.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture60.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture61.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture62.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture63.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture64.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture65.png" width="350" alt="Image 1">
                             </div>
                     </div>
 
@@ -509,14 +509,14 @@ ul, ol {
                             <span class="small-blue-text">Basics of Manufacturing Process Modelling and Simulation: 4.	Rolling Modeling</span>
                         </div>
                         <div class="image-column">
-                            <img src="EEG/Picture65.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture66.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture67.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture68.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture69.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture70.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture71.png" width="50" alt="Image 1">
-                            <img src="EEG/Picture72.png" width="50" alt="Image 1">
+                            <img src="EEG/Picture65.png" width="450" alt="Image 1">
+                            <img src="EEG/Picture66.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture67.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture68.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture69.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture70.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture71.png" width="350" alt="Image 1">
+                            <img src="EEG/Picture72.png" width="350" alt="Image 1">
                             </div>
                     </div>           
                     
