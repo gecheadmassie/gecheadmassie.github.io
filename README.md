@@ -292,7 +292,7 @@ ul, ol {
             height: auto; /* Keep aspect ratio */
             border-radius: 8px; /* Slightly rounded corners */
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-            max-width: 1000px; /* Maximum width to prevent it from growing too large */
+            max-width: 800px; /* Maximum width to prevent it from growing too large */
         }
 
         /* Small blue text styling */
@@ -403,8 +403,8 @@ ul, ol {
             margin-bottom: 10px; /* Space below the button */
         }
     </style>
-</head>
-<body>
+
+    
 
 <section id="company-community-service-projects">
     <h1>Professional Experience and Projects</h1>
@@ -634,7 +634,7 @@ ul, ol {
             <li> Design of machine components</li>
         </ul>
     </ul>
-</section>
+    </section>
 
 
 
