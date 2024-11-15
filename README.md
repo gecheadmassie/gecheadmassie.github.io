@@ -141,7 +141,34 @@ ul, ol {
             }
         }
     </script>
-
+    <style>
+            /* Style for the toggle button */
+            .toggle-btn {
+                background-color: #1E90FF;
+                color: white;
+                padding: 10px 20px;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                margin: 10px 0;
+            }
+    
+            /* Initially hide the PDF content */
+            .pdf-container {
+                display: none;
+                margin-top: 20px;
+            }
+    
+            /* Embed styles for better control */
+            .pdf-container iframe {
+                width: 100%;
+                height: 600px;
+                border: none;
+                border-radius: 8px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            }
+        </style>
 
 
     
@@ -413,6 +440,19 @@ ul, ol {
             <li> Finite element (FE) stress & deformation analysis using 3DX SIMULIA </li>
             <li> Natural and forced frequencies for different mode-shapes using 3DX SIMULIA </li>
         </ul>
+
+         <!-- Button to trigger the toggle -->
+        <button class="toggle-btn" onclick="togglePDF()">Read More</button>
+
+        <!-- Hidden PDF container that will be toggled -->
+        <div class="pdf-container" id="pdf-container">
+            <iframe src="3XM/Project_1-file.pdf" alt="PDF File"></iframe>
+            <iframe src="3XM/Project_2-file.pdf" alt="PDF File"></iframe>
+            <iframe src="3XM/Project_3-file.pdf" alt="PDF File"></iframe>
+        </div>
+
+        
+
 
         <li><strong>Ethio Engineering Group, Ethiopia (2020–2022, 6 months) </strong></li>
         <p><em>Engineering Product design, and analysis Trainer</em></p>
