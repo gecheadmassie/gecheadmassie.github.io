@@ -448,7 +448,126 @@ ul, ol {
             </li>
 
             <li> Detecting Misalignments of Drilled Holes Using Machine Vision.</li>
+            
             <li> Robot Arm Damage Detection Using Vibration Data and Deep Learning.</li>
+            <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+                <div class="extra-content" style="display:none;">
+                <!-- Content Row with Image and Text -->
+                    <div class="content-row">
+                        <div class="text-column">
+                            <span class=" Baseline robot link with an open vertical crack</span>
+                        </div>
+                        <div class="image-column">
+                            <img src="Robot_Link/Figure_2.eps" width="850" alt="Image 1">
+                        </div>
+                    </div>
+
+
+                        <div class="content-row">
+                        <div class="text-column">
+                            <span class=" Simulation setup.</span>
+                        </div>
+                        <div class="image-column">
+                            <img src="Robot_Link/Figure_3.eps" width="850" alt="Image 1">
+                        </div>
+                    </div>
+
+                    
+                        <div class="content-row">
+                        <div class="text-column">
+                            <span class=" Planar model with quadrilateral elements.</span>
+                        </div>
+                        <div class="image-column">
+                            <img src="Robot_Link/Figure_4.eps" width="850" alt="Image 1">
+                        </div>
+                    </div>
+
+                            <div class="content-row">
+                        <div class="text-column">
+                            <span class=" Mesh density convergence.</span>
+                        </div>
+                        <div class="image-column">
+                            <img src="Robot_Link/Figure_5.eps" width="850" alt="Image 1">
+                        </div>
+                    </div>
+
+                            <div class="content-row">
+                        <div class="text-column">
+                            <span class=" Accelerations of Node 8 and Node 851 in the vertical direction.</span>
+                        </div>
+                        <div class="image-column">
+                            <img src="Robot_Link/Figure_6.eps" width="850" alt="Image 1">
+                        </div>
+                    </div>
+
+
+
+                            <div class="content-row">
+                        <div class="text-column">
+                            <span class=" Feature extraction: a) Raw time series data; b) Polar representation of raw data; c) 2D image data.</span>
+                        </div>
+                        <div class="image-column">
+                            <img src="Robot_Link/Figure_7a.eps" width="850" alt="Image 1">
+                            <img src="Robot_Link/Figure_7b.eps" width="850" alt="Image 1">
+                            <img src="Robot_Link/Figure_7c.eps" width="850" alt="Image 1">
+                        </div>
+                    </div>
+
+                     
+                            <div class="content-row">
+                        <div class="text-column">
+                            <span class=" Neural network architecture. Note: ReLU is a rectified linear unit used as an activation function.</span>
+                        </div>
+                        <div class="image-column">
+                            <img src="Robot_Link/Figure_8.eps" width="850" alt="Image 1">
+                        </div>
+                    </div>
+
+                   
+                            <div class="content-row">
+                        <div class="text-column">
+                            <span class="  Vibration mode shapes due to free vibration of intact robot link with one fixed eyelet end.</span>
+                        </div>
+                        <div class="image-column">
+                            <img src="Robot_Link/Figure_9.eps" width="850" alt="Image 1">
+                        </div>
+                    </div>
+
+                        <div class="content-row">
+                        <div class="text-column">
+                            <span class="  Mode shapes, natural frequencies, and cases for robot link crack geometries.</span>
+                        </div>
+                        <div class="image-column">
+                            <img src="Robot_Link/Figure_10a.eps" width="850" alt="Image 1">
+                            <img src="Robot_Link/Figure_10b.eps" width="850" alt="Image 1">
+                            <img src="Robot_Link/Figure_10c.eps" width="850" alt="Image 1">
+                            <img src="Robot_Link/Figure_10d.eps" width="850" alt="Image 1">
+                            <img src="Robot_Link/Figure_10e.eps" width="850" alt="Image 1">
+                            <img src="Robot_Link/Figure_10f.eps" width="850" alt="Image 1">
+                        </div>
+                    </div>
+
+                        <div class="content-row">
+                        <div class="text-column">
+                            <span class=" Confusion matrix for robot link with cracks at different locations. Note: Cr means Crack.</span>
+                        </div>
+                        <div class="image-column">
+                            <img src="Robot_Link/Figure_14.eps" width="850" alt="Image 1">
+                        </div>
+                    </div>
+
+                        <div class="content-row">
+                        <div class="text-column">
+                            <span class=" Confusion matrix for robot link with different crack sizes.</span>
+                        </div>
+                        <div class="image-column">
+                            <img src="Robot_Link/Figure_16.eps" width="850" alt="Image 1">
+                        </div>
+                    </div>
+
+
+                    
+                    
             <li> Detection of Small Screws Using Machine Learning.</li>
         </ul>
 
