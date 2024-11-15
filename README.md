@@ -1031,16 +1031,21 @@ ul, ol {
 
 
          <section id="publications">
-        <h1>>Peer Review Activities</h1>
+        <h1>Peer Review Activities</h1>
      
         <li> Neural computing & applications </li> 
         <li> Australian Journal of Mechanical Engineering</li> 
          <li> Mechanical, Electric, and Industrial Engineering (MEIE2024)</li> 
-        
+         </section>
 
-    </section>
-
-
+         <section id="publications">
+        <h1>Organisational/managerial skills</h1>
+     
+        <li> Executive secretary for Mechanical Design Chair Council, Faculty of Mechanical and Industrial Engineering, Bahir Dar Institute of Technology, Bahir Dar University (2021-2022) </li> 
+        <li> Coordinator of Mechanical Design Chair for ABET Accreditation (Bahird Dar Institute of Technology (2021-2022)</li> 
+         <li> Executive secretary to developed Strategic Plan for Faculty of Mechanical and Industrial Engineering, Bahir Dar Institute of Technology, Bahir Dar University (2021-2022).</li> 
+         <li> Preparing a teaching module of “Teaching Technical Drawing” for Grade 11 and 12 teachers (2020).</li>
+         </section>
 
 
 
