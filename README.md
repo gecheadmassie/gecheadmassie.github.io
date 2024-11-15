@@ -453,6 +453,7 @@ ul, ol {
             <div class="read-more" onclick="toggleDetails(this)">Read More</div>
                 <div class="extra-content" style="display:none;">
                 <!-- Content Row with Image and Text -->
+                
                     <div class="content-row">
                         <div class="text-column">
                             <span class=" Baseline robot link with an open vertical crack</span>
@@ -499,7 +500,6 @@ ul, ol {
                             <img src="Robot_Link/Figure_6.eps" width="850" alt="Image 1">
                         </div>
                     </div>
-
 
 
                             <div class="content-row">
@@ -563,6 +563,7 @@ ul, ol {
                         <div class="image-column">
                             <img src="Robot_Link/Figure_16.eps" width="850" alt="Image 1">
                         </div>
+                    </div>
                     </div>
 
 
