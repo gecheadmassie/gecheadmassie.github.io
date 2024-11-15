@@ -1026,8 +1026,16 @@ ul, ol {
             <li>
                 <strong>Time and frequency domain analysis of signals: a review.</strong> <i>Int J Eng Res Technol</i> 9: 271–276.
             </li>
+            
         </ul>
         </section>
+
+         <section id="publications">
+                <h1>Learning/Training Modules Developed</h1>
+            <li> "Product Modelling, Assembly, and Simulations” for Ethio-Engineering Group (EEG) (2020).</li>
+        <li>  “Teaching Technical Drawing” for Grade 11 and 12 teachers (2020).</li>
+            </section>
+
 
 
          <section id="publications">
@@ -1044,7 +1052,7 @@ ul, ol {
         <li> Executive secretary for Mechanical Design Chair Council, Faculty of Mechanical and Industrial Engineering, Bahir Dar Institute of Technology, Bahir Dar University (2021-2022) </li> 
         <li> Coordinator of Mechanical Design Chair for ABET Accreditation (Bahird Dar Institute of Technology (2021-2022)</li> 
          <li> Executive secretary to developed Strategic Plan for Faculty of Mechanical and Industrial Engineering, Bahir Dar Institute of Technology, Bahir Dar University (2021-2022).</li> 
-         <li> Preparing a teaching module of “Teaching Technical Drawing” for Grade 11 and 12 teachers (2020).</li>
+         
          </section>
 
 
