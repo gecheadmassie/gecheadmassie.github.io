@@ -228,15 +228,45 @@ ul, ol {
         </style>
 
 
+<style>
+        .read-more {
+            color: #1626af;
+            cursor: pointer;
+            text-decoration: underline;
+            margin-top: 10px;
+            padding: 5px 10px;
+            border: 2px solid #1626af;
+            border-radius: 5px;
+            background-color: #f0f8ff;
+            display: inline-block;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .read-more:hover {
+            background-color: #1626af;
+            color: white;
+        }
+
+        .video-container {
+            display: none; /* Hide the video initially */
+            margin-top: 20px;
+        }
+    </style>
+
     <script>
         function showVideo() {
             // Show the video container
             var videoContainer = document.getElementById("video-container");
             videoContainer.style.display = "block"; // Make the video visible
 
-            // Play the video
+            // Play the video (YouTube will autoplay because of the URL parameter)
             var video = document.getElementById("myVideo");
-            video.play(); // Start playing the video
+            if (video.tagName === "IFRAME") {
+                // YouTube video: Starts automatically due to the autoplay=1 in the URL
+            } else {
+                // For HTML5 video
+                video.play(); // Start playing the video
+            }
 
             // Optionally, change the Read More text to "Read Less"
             var readMoreText = document.querySelector(".read-more");
@@ -253,7 +283,15 @@ ul, ol {
 
             // Pause the video
             var video = document.getElementById("myVideo");
-            video.pause(); // Pause the video
+            if (video.tagName === "IFRAME") {
+                // YouTube video can't be paused with JavaScript in this case
+                // You can manually hide it or reload the iframe
+                var iframe = document.querySelector("iframe");
+                iframe.src = iframe.src; // Reload the iframe to stop the video
+            } else {
+                // For HTML5 video
+                video.pause(); // Pause the video
+            }
 
             // Change the Read Less text back to Read More
             var readMoreText = document.querySelector(".read-more");
@@ -651,6 +689,10 @@ ul, ol {
             <source src="Screw/2023-02-21 163709.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
+
+
+        
+        
     </div>
         </ul>
 
