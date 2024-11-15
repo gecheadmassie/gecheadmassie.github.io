@@ -704,7 +704,7 @@ ul, ol {
 
                     
                     
-            <li> Detection of Small Screws Using Machine Learning.</li>
+            <li> Detection of Small Screws Using Machine Learning.
 
                 <!-- Read More link -->
     <div class="read-more" onclick="showVideo()">Read More</div>
@@ -713,13 +713,12 @@ ul, ol {
     <div class="video-container" id="video-container">
         <!-- MP4 video (replace with your actual video path) -->
         <video id="myVideo" controls>
-            <source src="Screw/2023-02-21 163709.mp4" type="video/mp4">
+            <source src="Screw/2023-02-21 164747.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-    </div>
-           
+              
         
-    </div>
+    </div> </li>
         </ul>
 
 
