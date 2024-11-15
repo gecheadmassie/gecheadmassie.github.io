@@ -460,7 +460,7 @@ ul, ol {
                 <!-- Content Row with Image and Text -->
                     <div class="content-row">
                         <div class="text-column">
-                            <span class=" Baseline robot link with an open vertical crack</span>
+                            <span class="small-blue-text"> Baseline robot link with an open vertical crack</span>
                         </div>
                             <div class="image-column">
                                 <img src="Robot_Link/Figure_2.png" width="450" alt="Figure 1">
@@ -470,7 +470,7 @@ ul, ol {
 
                         <div class="content-row">
                         <div class="text-column">
-                            <span class=" Simulation setup.</span>
+                           <span class="small-blue-text">  Simulation setup.</span>
                         </div>
                         <div class="image-column">
                             <img src="Robot_Link/Figure_3.png" width="450" alt="Image 1">
@@ -480,7 +480,7 @@ ul, ol {
                     
                         <div class="content-row">
                         <div class="text-column">
-                            <span class=" Planar model with quadrilateral elements.</span>
+                            <span class="small-blue-text">  Planar model with quadrilateral elements.</span>
                         </div>
                         <div class="image-column">
                             <img src="Robot_Link/Figure_4.png" width="450" alt="Image 1">
@@ -489,7 +489,7 @@ ul, ol {
 
                             <div class="content-row">
                         <div class="text-column">
-                            <span class=" Mesh density convergence.</span>
+                            <span class="small-blue-text">  Mesh density convergence.</span>
                         </div>
                         <div class="image-column">
                             <img src="Robot_Link/Figure_5.png" width="450" alt="Image 1">
@@ -498,7 +498,7 @@ ul, ol {
 
                             <div class="content-row">
                         <div class="text-column">
-                            <span class=" Accelerations of Node 8 and Node 851 in the vertical direction.</span>
+                            <span class="small-blue-text">  Accelerations of Node 8 and Node 851 in the vertical direction.</span>
                         </div>
                         <div class="image-column">
                             <img src="Robot_Link/Figure_6.png" width="450" alt="Image 1">
@@ -508,7 +508,7 @@ ul, ol {
 
                             <div class="content-row">
                         <div class="text-column">
-                            <span class=" Feature extraction: a) Raw time series data; b) Polar representation of raw data; c) 2D image data.</span>
+                            <span class="small-blue-text">  Feature extraction: a) Raw time series data; b) Polar representation of raw data; c) 2D image data.</span>
                         </div>
                         <div class="image-column">
                             <img src="Robot_Link/Figure_7a.png" width="450" alt="Image 1">
@@ -520,7 +520,7 @@ ul, ol {
                      
                             <div class="content-row">
                         <div class="text-column">
-                            <span class=" Neural network architecture. Note: ReLU is a rectified linear unit used as an activation function.</span>
+                            <span class="small-blue-text">  Neural network architecture. Note: ReLU is a rectified linear unit used as an activation function.</span>
                         </div>
                         <div class="image-column">
                             <img src="Robot_Link/Figure_8.png" width="450" alt="Image 1">
@@ -530,7 +530,7 @@ ul, ol {
                    
                             <div class="content-row">
                         <div class="text-column">
-                            <span class="  Vibration mode shapes due to free vibration of intact robot link with one fixed eyelet end.</span>
+                            <span class="small-blue-text">   Vibration mode shapes due to free vibration of intact robot link with one fixed eyelet end.</span>
                         </div>
                         <div class="image-column">
                             <img src="Robot_Link/Figure_9MS1_2.png" width="450" alt="Image 1">
@@ -541,7 +541,7 @@ ul, ol {
 
                         <div class="content-row">
                         <div class="text-column">
-                            <span class="  Mode shapes, natural frequencies, and cases for robot link crack geometries.</span>
+                            <span class="small-blue-text">   Mode shapes, natural frequencies, and cases for robot link crack geometries.</span>
                         </div>
                         <div class="image-column">
                             <img src="Robot_Link/Figure_10a.png" width="450" alt="Image 1">
@@ -555,7 +555,7 @@ ul, ol {
 
                         <div class="content-row">
                         <div class="text-column">
-                            <span class=" Confusion matrix for robot link with cracks at different locations. Note: Cr means Crack.</span>
+                            <span class="small-blue-text">  Confusion matrix for robot link with cracks at different locations. Note: Cr means Crack.</span>
                         </div>
                         <div class="image-column">
                             <img src="Robot_Link/Figure_14.png" width="450" alt="Image 1">
@@ -564,7 +564,7 @@ ul, ol {
 
                         <div class="content-row">
                         <div class="text-column">
-                            <span class=" Confusion matrix for robot link with different crack sizes.</span>
+                            <span class="small-blue-text">  Confusion matrix for robot link with different crack sizes.</span>
                         </div>
                         <div class="image-column">
                             <img src="Robot_Link/Figure_16.png" width="450" alt="Image 1">
