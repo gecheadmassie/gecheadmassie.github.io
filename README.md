@@ -448,8 +448,13 @@ ul, ol {
             </li>
 
             <li> Detecting Misalignments of Drilled Holes Using Machine Vision.</li>
+
+
+
+
+
             
-            <li> Robot Arm Damage Detection Using Vibration Data and Deep Learning.</li>
+            <li> Robot Arm Damage Detection Using Vibration Data and Deep Learning.
             <div class="read-more" onclick="toggleDetails(this)">Read More</div>
                 <div class="extra-content" style="display:none;">
                 <!-- Content Row with Image and Text -->
@@ -457,8 +462,8 @@ ul, ol {
                         <div class="text-column">
                             <span class=" Baseline robot link with an open vertical crack</span>
                         </div>
-                        <div class="image-column">
-                            <img src="Robot_Link/Figure_2.png" width="150" alt="Figure 1">
+                            <div class="image-column">
+                                <img src="Robot_Link/Figure_2.png" width="150" alt="Figure 1">
                         </div>
                     </div>
 
@@ -566,7 +571,8 @@ ul, ol {
                             <img src="Robot_Link/Figure_16.png" width="150" alt="Image 1">
                         </div>
                     </div>
-                    </div></li>
+                    </div>
+                    </li>
 
 
                     
