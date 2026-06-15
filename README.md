@@ -359,13 +359,13 @@ ul, ol {
 
     <section id="about">
         <h1>About Me</h1>
-        <p>I am Getachew Ambaye, a PhD candidate in Industrial and Manufacturing Engineering at Wichita State University, with a Master’s and Bachelor’s degree from Jimma Institute of Technology. I currently work as a Direct Graduate Teaching Assistant and an Engineering Professor at Hesston College, focusing on machine design and engineering graphics. My research interests include soft robotics and machine learning applications, resulting in multiple publications. I have led various industry projects, such as designing equipment for the Amhara Dairy Platform and conducting frequency analysis for milling machines. I am open to collaboration opportunities and positions in academia and industry to drive innovation in engineering.</p>
+        <p>I am Getachew Ambaye, Ph.D., an Assistant Professor of Engineering Technology at Austin Peay State University. I earned my Ph.D. in Industrial and Manufacturing Engineering from Wichita State University and hold both M.Sc. and B.Sc. degrees from Jimma Institute of Technology. My teaching and research focus on robotics, soft robotics, machine design, engineering education, and artificial intelligence applications. My work has resulted in multiple peer-reviewed publications and the development of innovative educational and engineering solutions, including virtual reality training systems, soft robotic actuators, and intelligent diagnostic tools. I have also led and contributed to several industry projects involving machine design, equipment development, and manufacturing optimization. I am interested in collaborative research and industry partnerships that advance robotics, manufacturing, and engineering innovation</p>
     </section>
 
     <section id="education-experience">
         <h1>Education</h1>
         <ul>
-            <li>PhD in Industrial Systems and Manufacturing Engineering, Wichita State University (2024-)</li>
+            <li>PhD in Industrial Systems and Manufacturing Engineering, Wichita State University (2024-2025)</li>
             <li>MSc in Mechanical Design Engineering, Jimma University (2020)</li>
             <li>BSc in Mechanical Engineering, Jimma University (2016)</li>
         </ul>
@@ -919,6 +919,26 @@ ul, ol {
      <section id="publications">
         <h1>Publications</h1>
         <ul>
+
+            <li>
+                <strong style="font-size: 1.1em;">A Hybrid Simulation Approach to Overcome Equipment Constraints in Engineering Labs.</strong>
+                <i>2026 ASEE Southeastern Section Conference</i> 2026.
+                <a href="https://doi.org/10.18260/1-2--57972" target="_blank">DOI</a>
+                <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+                <div class="content">
+                    <p><em>Hands-on laboratory experience is essential to develop conceptual understanding in engineering technology education; however, limited access to physical training equipment often constrains student engagement and learning. To address this challenge, this study presents a hybrid laboratory approach that integrates a simulation-based learning environment to supplement traditional physical laboratories. The simulation platform enables students to independently construct, modify, and troubleshoot hydraulic circuits in a virtual environment prior to in-person laboratory sessions. The instructional implementation follows a structured three-phase model consisting of pre-lab simulation activities, rotational access to physical equipment, and post-lab reflection and analysis. This approach improves laboratory efficiency while supporting deeper conceptual understanding by preparing students for hands-on experimentation. The preliminary results indicate increased student preparation, reduced cognitive load during laboratory activities, and improved student engagement. These findings suggest that the integration of simulation-based learning offers a scalable and effective solution to equipment access limitations and represents a valuable pedagogical strategy for engineering technology education.</em></p>
+                </div>
+            </li>
+
+            <li>
+                <strong style="font-size: 1.1em;">Automated QR Code Attendance Tracking System for Efficient Classroom Management.</strong>
+                <i>2026 ASEE Southeastern Section Conference</i> 2026.
+                <a href="https://doi.org/10.18260/1-2--57972" target="_blank">DOI</a>
+                <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+                <div class="content">
+                    <p><em>This paper presents the design, implementation, and evaluation of a QR code-based automated attendance tracking system designed to enhance classroom management, efficiency, and participation analysis. Accurate attendance tracking is essential for monitoring student engagement and supporting academic performance; however, conventional methods, such as paper sign-in sheets or manual Learning Management System (LMS) entries, are often time-consuming and error-prone. The developed application automates this process by allowing students to scan personalized QR codes, which securely log their names, IDs, and timestamps, and produce Excel files. This system was used in three courses during the Fall 2025 semester, successfully reducing paperwork, minimizing human error, and familiarizing students with real-world applications of machine vision and data automation. A post-implementation survey of 37 students revealed that more than 80% found the system easy or very easy to use, and 70% reported completing the QR check-in process in less than ten seconds. Most of the users (78%) rated the system as reliable, while only a small percentage reported minor technical problems during initial use. In addition, the students identified key advantages, including time savings, improved record-keeping, and encouragement to remain engaged with the course content rather than waiting for the signing sheet. In general, the system demonstrated high usability, reliability, and efficiency, confirming its potential as a practical digital solution for automated classroom attendance tracking. Suggestions for future improvement included adding real-time confirmation, attendance summaries, and gamification elements to increase engagement.</em></p>
+                </div>
+            </li>
             <li>
                 <strong style="font-size: 1.1em;">Enhancing Electro-Pneumatic and Hydraulic Education Through Interactive Logical Hydraulic System Simulation.</strong>
                 <i>2026 ASEE Southeastern Section Conference</i> 2026.
