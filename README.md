@@ -375,10 +375,13 @@ ul, ol {
         <h1>Teaching Experience</h1>
         <ul>
             <li>
-                <strong>Wichita State University (WSU)</strong> - Direct Graduate Teaching Assistant (2022-)
+                <strong>Austin Peay State University (APSU)</strong> - Assistant Professor (2025-)
             </li>
             <li>
-                <strong>Hesston College</strong> - Engineering Professor (2024-)
+                <strong>Wichita State University (WSU)</strong> - Direct Graduate Teaching Assistant (2022-2025)
+            </li>
+            <li>
+                <strong>Hesston College</strong> - Engineering Professor (2024-2025)
             </li>
             <li>
                 <strong>Bahir Dar Institute of Technology (BiT)</strong> - Lecturer (2020-2022)
@@ -390,13 +393,20 @@ ul, ol {
 
         <div class="read-more" onclick="toggleDetails(this)">Read More</div>
         <div class="content">
-            <p><strong>2022–Present Direct Graduate Teaching Assistance (GTA) and GRA, WSU, Wichita, KS, USA</strong></p>
+             <p><strong>2025–Present Assistance Professor, APSU, Clarksville, TN, USA</strong></p>
+            <ul>
+                <li>MET 1300, Electro Pneumatic and Hydraulic Control Circuits  (Fall 2025)</li>
+                <li>ENGT 1020, Computer Aided Drafting and Design (Fall 2025, Spring 2026)</li>
+                <li>ENGT 1200, Applied Mathematics for Engineering Technology (Spring 2026)</li>
+                <li>MET 1200, Mechanical Components and Electrical Drives (Spring 2026)</li>
+            </ul>
+            <p><strong>2022–2025 Direct Graduate Teaching Assistance (GTA) and GRA, WSU, Wichita, KS, USA</strong></p>
             <ul>
                 <li>IME 222, Engineering Graphics (3 Semesters, Summer 2023, Fall 2023, Spring 2024)</li>
                 <li>IME 222L, Engineering Graphics Lab (3DX & CATIA V5) (for 2 semesters, Spring 2023, Fall 2024)</li>
                 <li>IME 425, Kinematics and Dynamics Design (as GTA), (1 Semester, Fall 2022)</li>
             </ul>
-            <p><strong>2024–Present Engineering Professor, Hesston College, Hesston, KS, USA</strong></p>
+            <p><strong>2024–2025 Engineering Professor, Hesston College, Hesston, KS, USA</strong></p>
             <ul>
                 <li>ENGR 422, Design of Machines (1 Semester, Fall 2024)</li>
                 <li>ENGR 477, Senior Design Capstone Project I (1 Semester, Fall 2024)</li>
@@ -909,6 +919,15 @@ ul, ol {
      <section id="publications">
         <h1>Publications</h1>
         <ul>
+            <li>
+                <strong style="font-size: 1.1em;">Enhancing Electro-Pneumatic and Hydraulic Education Through Interactive Logical Hydraulic System Simulation.</strong>
+                <i>2026 ASEE Southeastern Section Conference</i> 2026.
+                <a href="https://doi.org/10.18260/1-2--57972" target="_blank">DOI</a>
+                <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+                <div class="content">
+                    <p><em>This paper presents the design, development, and classroom integration of a Windows-based logical simulation application for hydraulic systems, implemented in the MET 1300 Electro-Pneumatic and Hydraulic course. The application supports a simple interactive modeling, simulation, and analysis of hydraulic circuits, providing a virtual platform for students to engage with fluid power concepts prior to using the AMATROL 990-BH1 Basic Hydraulics training system. By offering safe and cost-effective access to circuit exploration, the tool enhances the illustration of hydraulic components, functions, and system behavior without relying exclusively on physical laboratory equipment. While formal assessment of student outcomes has not yet been conducted, instructor observations indicate that the simulation application improves the clarity and effectiveness of classroom demonstrations, bridging the gap between theory and practice. Future work will include a structured evaluation of its impact on student engagement and conceptual understanding. These efforts aim to establish simulation-based learning as a valuable supplement to traditional laboratory instruction in electro-pneumatic and hydraulic education.</em></p>
+                </div>
+            </li>
             <li>
                 <strong style="font-size: 1.1em;">Soft Robot Design, Manufacturing, and Operation Challenges: A Review.</strong>
                 <i>J. Manuf. Mater. Process.</i> 8(2), 79, 2024. 
