@@ -350,7 +350,8 @@ ul, ol {
 
     <section id="home">
         <h1>Welcome</h1>
-        <p>This is the official website of Getachew Ambaye,  a PhD candidate and Reserecher in Industrial Systems and Manufacturing Engineering. Feel free to explore my work and connect with me.</p>
+        <p>
+        Welcome to the official website of Getachew Ambaye, Ph.D., an Assistant Professor of Engineering Technology. Explore my teaching, research, publications, and engineering projects in robotics, manufacturing, soft robotics, and AI-driven technologies. Feel free to connect and collaborate.</p>
         <p>
             <a href="Resume.pdf" target="_blank">Download Resume</a> | 
             <a href="CV.pdf" target="_blank">Download CV</a>
