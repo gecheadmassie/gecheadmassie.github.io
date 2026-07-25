@@ -394,14 +394,14 @@ ul, ol {
 
         <div class="read-more" onclick="toggleDetails(this)">Read More</div>
         <div class="content">
-             <p><strong>2025–Present Assistance Professor, APSU, Clarksville, TN, USA</strong></p>
+             <p><strong>2025–Present Assistant Professor, APSU, Clarksville, TN, USA</strong></p>
             <ul>
                 <li>MET 1300, Electro Pneumatic and Hydraulic Control Circuits  (Fall 2025)</li>
                 <li>ENGT 1020, Computer Aided Drafting and Design (Fall 2025, Spring 2026)</li>
                 <li>ENGT 1200, Applied Mathematics for Engineering Technology (Spring 2026)</li>
                 <li>MET 1200, Mechanical Components and Electrical Drives (Spring 2026)</li>
             </ul>
-            <p><strong>2022–2025 Direct Graduate Teaching Assistance (GTA) and GRA, WSU, Wichita, KS, USA</strong></p>
+            <p><strong>2022–2025 Direct Graduate Teaching Assistant (GTA) and GRA, WSU, Wichita, KS, USA</strong></p>
             <ul>
                 <li>IME 222, Engineering Graphics (3 Semesters, Summer 2023, Fall 2023, Spring 2024)</li>
                 <li>IME 222L, Engineering Graphics Lab (3DX & CATIA V5) (for 2 semesters, Spring 2023, Fall 2024)</li>
@@ -503,6 +503,166 @@ ul, ol {
        <section id="company-community-service-projects">
         <h1>Professional Experience and Projects</h1>
         <ul>
+            <li> <strong>Austin Peay State University, TN (2025-2026)</strong></li>
+            <p><em> Assistant Professor</em></p>
+            <ul>
+                <li>
+    Leakage Mechanisms and Airtightness Challenges in FFF-Printed Soft Pneumatic Actuators: A Scoping Review
+
+    <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+
+    <div class="extra-content" style="display:none;">
+
+        <!-- Project Overview -->
+        <div class="content-row">
+            <div class="text-column">
+                <span class="small-blue-text">
+                    This project investigates the integration of controllers,
+                    programmable logic controllers (PLCs), pneumatic systems,
+                    soft robotics, fused filament fabrication (FFF), and
+                    experimental data analysis. The study reviews leakage
+                    mechanisms and airtightness challenges affecting
+                    FFF-printed soft pneumatic actuators.
+                </span>
+            </div>
+        </div>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        <!-- Figure 1 -->
+        <div class="content-row">
+            <div class="text-column">
+                <span class="small-blue-text">
+                    Integrated control and pneumatic architecture for operating
+                    an FFF-printed soft pneumatic actuator. The system consists
+                    of a controller, PLC, pneumatic valves, pressure-regulation
+                    components, sensors, and the soft actuator.
+                </span>
+            </div>
+
+            <div class="image-column">
+                <img
+                    src="Soft Robot/Figure_1.png"
+                    width="850"
+                    alt="Integrated PLC and pneumatic soft robotic system architecture">
+            </div>
+        </div>
+
+        <!-- Figure 2 -->
+        <div class="content-row">
+            <div class="text-column">
+                <span class="small-blue-text">
+                    Experimental setup used to control, pressurize, and evaluate
+                    the airtightness of the FFF-printed soft pneumatic actuator.
+                </span>
+            </div>
+
+            <div class="image-column">
+                <img
+                    src="Airtightness_Review/Figure_2.png"
+                    width="850"
+                    alt="Experimental pneumatic soft actuator testing setup">
+            </div>
+        </div>
+
+        <!-- Figure 3 -->
+        <div class="content-row">
+            <div class="text-column">
+                <span class="small-blue-text">
+                    Fused filament fabrication process and representative
+                    FFF-printed soft pneumatic actuator geometry.
+                </span>
+            </div>
+
+            <div class="image-column">
+                <img
+                    src="Airtightness_Review/Figure_3.png"
+                    width="850"
+                    alt="FFF printing process and soft pneumatic actuator">
+            </div>
+        </div>
+
+        <!-- Figure 4 -->
+        <div class="content-row">
+            <div class="text-column">
+                <span class="small-blue-text">
+                    Representative leakage pathways in FFF-printed pneumatic
+                    structures, including interlayer gaps, inter-road voids,
+                    surface defects, and leakage near pneumatic connectors.
+                </span>
+            </div>
+
+            <div class="image-column">
+                <img
+                    src="Airtightness_Review/Figure_4.png"
+                    width="850"
+                    alt="Leakage mechanisms in FFF-printed pneumatic actuators">
+            </div>
+        </div>
+
+        <!-- Figure 5 -->
+        <div class="content-row">
+            <div class="text-column">
+                <span class="small-blue-text">
+                    Pressure-decay analysis comparing the sealed baseline,
+                    untreated FFF-printed actuator, and thermally treated
+                    actuator. The results demonstrate the effect of leakage
+                    defects and post-processing on pressure retention.
+                </span>
+            </div>
+
+            <div class="image-column">
+                <img
+                    src="Airtightness_Review/Figure_5.png"
+                    width="850"
+                    alt="Pressure-decay comparison for soft pneumatic actuators">
+            </div>
+        </div>
+
+        <!-- Figure 6 -->
+        <div class="content-row">
+            <div class="text-column">
+                <span class="small-blue-text">
+                    Microscopic comparison of untreated and thermally treated
+                    FFF surfaces. Localized thermal treatment reduces visible
+                    gaps and improves bonding between adjacent deposited roads.
+                </span>
+            </div>
+
+            <div class="image-column">
+                <img
+                    src="Airtightness_Review/Figure_6a.png"
+                    width="410"
+                    alt="Microscopic image of untreated FFF surface">
+
+                <img
+                    src="Airtightness_Review/Figure_6b.png"
+                    width="410"
+                    alt="Microscopic image of thermally treated FFF surface">
+            </div>
+        </div>
+
+        <!-- Figure 7 -->
+        <div class="content-row">
+            <div class="text-column">
+                <span class="small-blue-text">
+                    Scoping-review workflow used to identify, screen, classify,
+                    and analyze studies addressing leakage and airtightness in
+                    additively manufactured soft pneumatic actuators.
+                </span>
+            </div>
+
+            <div class="image-column">
+                <img
+                    src="Airtightness_Review/Figure_7.png"
+                    width="850"
+                    alt="Scoping review methodology and literature selection workflow">
+            </div>
+        </div>
+
+    </div>
+</li>
+
+                
+        <ul>
             <li> <strong>Industry 4.0 Lab, WSU, Wichita, KS (2022-present)</strong></li>
             <p><em>Graduate Research Assistant </em></p>
             <ul>
@@ -560,7 +720,7 @@ ul, ol {
 
                     <div class="content-row">
                         <div class="text-column">
-                            <span class="small-blue-text">The figure below presents the movements of a soft actuator with two asymmetric pneumatic chambers. The soft actuator design, left, is inspired by an elephant trunk. The end trajectories of soft actuator movements are illustrated in a reference frame, right. The bending movements are planar.</span>
+                            <span class="small-blue-text">The figure below presents the movements of a soft actuator with two asymmetric pneumatic chambers. The soft actuator design (left) is inspired by an elephant's trunk. The end trajectories of soft actuator movements are illustrated in the reference frame on the right. The bending movements are planar.</span>
                         </div>
                         <div class="image-column">
                             <img src="Review/Picture3.png" width="850" alt="Image 3">
