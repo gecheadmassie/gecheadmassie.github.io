@@ -506,43 +506,29 @@ ul, ol {
             <li> <strong>Austin Peay State University, TN (2025-2026)</strong></li>
             <p><em> Assistant Professor</em></p>
             <ul>
-                <li>
+<li>
     Leakage Mechanisms and Airtightness Challenges in FFF-Printed Soft Pneumatic Actuators: A Scoping Review
 
     <div class="read-more" onclick="toggleDetails(this)">Read More</div>
 
     <div class="extra-content" style="display:none;">
 
-        <!-- Project Overview -->
-        <div class="content-row">
-            <div class="text-column">
-                <span class="small-blue-text">
-                    This project investigates the integration of controllers,
-                    programmable logic controllers (PLCs), pneumatic systems,
-                    soft robotics, fused filament fabrication (FFF), and
-                    experimental data analysis. The study reviews leakage
-                    mechanisms and airtightness challenges affecting
-                    FFF-printed soft pneumatic actuators.
-                </span>
-            </div>
-        </div>
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         <!-- Figure 1 -->
         <div class="content-row">
             <div class="text-column">
                 <span class="small-blue-text">
-                    Integrated control and pneumatic architecture for operating
-                    an FFF-printed soft pneumatic actuator. The system consists
-                    of a controller, PLC, pneumatic valves, pressure-regulation
-                    components, sensors, and the soft actuator.
+                    Experimental platform integrating a PLC-based controller,
+                    pneumatic power source, pressure regulation system,
+                    solenoid valve, and FFF-printed soft pneumatic actuator.
+                    The platform enables programmable actuation and evaluation
+                    of deformation characteristics under pneumatic loading.
                 </span>
             </div>
 
             <div class="image-column">
-                <img
-                    src="Soft Robot/Figure_1.png"
-                    width="850"
-                    alt="Integrated PLC and pneumatic soft robotic system architecture">
+                <img src="Soft Robotics/electronics-15-03227-g009.png"
+                     width="850"
+                     alt="PLC controlled pneumatic soft robotic system">
             </div>
         </div>
 
@@ -550,16 +536,17 @@ ul, ol {
         <div class="content-row">
             <div class="text-column">
                 <span class="small-blue-text">
-                    Experimental setup used to control, pressurize, and evaluate
-                    the airtightness of the FFF-printed soft pneumatic actuator.
+                    Experimental airtightness evaluation of FFF-printed soft
+                    pneumatic actuators using pressure-decay measurements.
+                    The results demonstrate substantial improvement in pressure
+                    retention after localized thermal treatment.
                 </span>
             </div>
 
             <div class="image-column">
-                <img
-                    src="Airtightness_Review/Figure_2.png"
-                    width="850"
-                    alt="Experimental pneumatic soft actuator testing setup">
+                <img src="Soft Robotics/electronics-15-03227-g008-550.jpg"
+                     width="850"
+                     alt="Pressure decay comparison">
             </div>
         </div>
 
@@ -567,16 +554,17 @@ ul, ol {
         <div class="content-row">
             <div class="text-column">
                 <span class="small-blue-text">
-                    Fused filament fabrication process and representative
-                    FFF-printed soft pneumatic actuator geometry.
+                    Localized thermal post-processing using a hot-air rework
+                    station to improve interlayer bonding and reduce leakage.
+                    Microscopic observations reveal improved surface fusion,
+                    reduced pores, and enhanced sealing of micro-voids.
                 </span>
             </div>
 
             <div class="image-column">
-                <img
-                    src="Airtightness_Review/Figure_3.png"
-                    width="850"
-                    alt="FFF printing process and soft pneumatic actuator">
+                <img src="Soft Robotics/electronics-15-03227-g010-550.jpg"
+                     width="850"
+                     alt="Thermal treatment and microscopy">
             </div>
         </div>
 
@@ -584,77 +572,17 @@ ul, ol {
         <div class="content-row">
             <div class="text-column">
                 <span class="small-blue-text">
-                    Representative leakage pathways in FFF-printed pneumatic
-                    structures, including interlayer gaps, inter-road voids,
-                    surface defects, and leakage near pneumatic connectors.
+                    Bubble-leak testing of FFF-printed soft pneumatic actuators
+                    for visualization of air leakage during pressurization.
+                    This non-destructive technique provides a rapid assessment
+                    of airtightness and manufacturing quality.
                 </span>
             </div>
 
             <div class="image-column">
-                <img
-                    src="Airtightness_Review/Figure_4.png"
-                    width="850"
-                    alt="Leakage mechanisms in FFF-printed pneumatic actuators">
-            </div>
-        </div>
-
-        <!-- Figure 5 -->
-        <div class="content-row">
-            <div class="text-column">
-                <span class="small-blue-text">
-                    Pressure-decay analysis comparing the sealed baseline,
-                    untreated FFF-printed actuator, and thermally treated
-                    actuator. The results demonstrate the effect of leakage
-                    defects and post-processing on pressure retention.
-                </span>
-            </div>
-
-            <div class="image-column">
-                <img
-                    src="Airtightness_Review/Figure_5.png"
-                    width="850"
-                    alt="Pressure-decay comparison for soft pneumatic actuators">
-            </div>
-        </div>
-
-        <!-- Figure 6 -->
-        <div class="content-row">
-            <div class="text-column">
-                <span class="small-blue-text">
-                    Microscopic comparison of untreated and thermally treated
-                    FFF surfaces. Localized thermal treatment reduces visible
-                    gaps and improves bonding between adjacent deposited roads.
-                </span>
-            </div>
-
-            <div class="image-column">
-                <img
-                    src="Airtightness_Review/Figure_6a.png"
-                    width="410"
-                    alt="Microscopic image of untreated FFF surface">
-
-                <img
-                    src="Airtightness_Review/Figure_6b.png"
-                    width="410"
-                    alt="Microscopic image of thermally treated FFF surface">
-            </div>
-        </div>
-
-        <!-- Figure 7 -->
-        <div class="content-row">
-            <div class="text-column">
-                <span class="small-blue-text">
-                    Scoping-review workflow used to identify, screen, classify,
-                    and analyze studies addressing leakage and airtightness in
-                    additively manufactured soft pneumatic actuators.
-                </span>
-            </div>
-
-            <div class="image-column">
-                <img
-                    src="Airtightness_Review/Figure_7.png"
-                    width="850"
-                    alt="Scoping review methodology and literature selection workflow">
+                <img src="Soft Robotics/electronics-15-03227-g011-550.jpg"
+                     width="850"
+                     alt="Bubble leak test">
             </div>
         </div>
 
