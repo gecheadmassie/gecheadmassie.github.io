@@ -591,7 +591,7 @@ ul, ol {
             
                         
           <ul>
-            <li> <strong>Industry 4.0 Lab, WSU, Wichita, KS (2022-present)</strong></li>
+            <li> <strong>Industry 4.0 Lab, WSU, Wichita, KS (2022-2025)</strong></li>
             <p><em>Graduate Research Assistant </em></p>
             <ul>
                 <li> Predicting the Working Space of a Pneumatic Soft Actuator Using Deep Learning.</li>
@@ -741,7 +741,7 @@ ul, ol {
                    
                             <div class="content-row">
                         <div class="text-column">
-                            <span class="small-blue-text">   Vibration mode shapes due to free vibration of intact robot link with one fixed eyelet end.</span>
+                            <span class="small-blue-text">   Vibration mode shapes due to free vibration of the intact robot link with one fixed eyelet end.</span>
                         </div>
                         <div class="image-column">
                             <img src="Robot_Link/Figure_9MS1_2.png" width="450" alt="Image 1">
@@ -831,14 +831,14 @@ ul, ol {
 
 
 
-        <li> <strong>Wichita State University, Wichita, KS (2022–Present) </strong></li>
+        <li> <strong>Wichita State University, Wichita, KS (2022–2025) </strong></li>
         <p><em>Engineering Graphics Instructor</em></p>
         <ul>
             <li> IME 222L (Engineering Graphics lab) using CATIAV5 and 3DX software.</li>
             <li> IME 222(Engineering Graphics lecture) principles of drawings and GD&T</li>
         </ul>
 
-        <li> <strong>Hesston College, Hesston, KS (2024–Present)</strong></li>
+        <li> <strong>Hesston College, Hesston, KS (2024–2025)</strong></li>
         <p><em>Engineering Professor</em></p>
         <ul>
             <li> Design of Machines (ENGR 422) and Senior Design Capstone Project (ENGR 477), Fundamentals of mechatronics, and Mechatronics system design.</li>
