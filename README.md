@@ -506,91 +506,91 @@ ul, ol {
             <li> <strong>Austin Peay State University, TN (2025-2026)</strong></li>
             <p><em> Assistant Professor</em></p>
             <ul>
-<li>
-    Leakage Mechanisms and Airtightness Challenges in FFF-Printed Soft Pneumatic Actuators: A Scoping Review
+            <li>
+                Leakage Mechanisms and Airtightness Challenges in FFF-Printed Soft Pneumatic Actuators: A Scoping Review
+            
+                <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+            
+                <div class="extra-content" style="display:none;">
+            
+                    <!-- Figure 1 -->
+                    <div class="content-row">
+                        <div class="text-column">
+                            <span class="small-blue-text">
+                                Experimental platform integrating a PLC-based controller,
+                                pneumatic power source, pressure regulation system,
+                                solenoid valve, and FFF-printed soft pneumatic actuator.
+                                The platform enables programmable actuation and evaluation
+                                of deformation characteristics under pneumatic loading.
+                            </span>
+                        </div>
+            
+                        <div class="image-column">
+                            <img src="Soft Robotics/electronics-15-03227-g009.png"
+                                 width="850"
+                                 alt="PLC controlled pneumatic soft robotic system">
+                        </div>
+                    </div>
+            
+                    <!-- Figure 2 -->
+                    <div class="content-row">
+                        <div class="text-column">
+                            <span class="small-blue-text">
+                                Experimental airtightness evaluation of FFF-printed soft
+                                pneumatic actuators using pressure-decay measurements.
+                                The results demonstrate substantial improvement in pressure
+                                retention after localized thermal treatment.
+                            </span>
+                        </div>
+            
+                        <div class="image-column">
+                            <img src="Soft Robotics/electronics-15-03227-g008-550.jpg"
+                                 width="850"
+                                 alt="Pressure decay comparison">
+                        </div>
+                    </div>
+            
+                    <!-- Figure 3 -->
+                    <div class="content-row">
+                        <div class="text-column">
+                            <span class="small-blue-text">
+                                Localized thermal post-processing using a hot-air rework
+                                station to improve interlayer bonding and reduce leakage.
+                                Microscopic observations reveal improved surface fusion,
+                                reduced pores, and enhanced sealing of micro-voids.
+                            </span>
+                        </div>
+            
+                        <div class="image-column">
+                            <img src="Soft Robotics/electronics-15-03227-g010-550.jpg"
+                                 width="850"
+                                 alt="Thermal treatment and microscopy">
+                        </div>
+                    </div>
+            
+                    <!-- Figure 4 -->
+                    <div class="content-row">
+                        <div class="text-column">
+                            <span class="small-blue-text">
+                                Bubble-leak testing of FFF-printed soft pneumatic actuators
+                                for visualization of air leakage during pressurization.
+                                This non-destructive technique provides a rapid assessment
+                                of airtightness and manufacturing quality.
+                            </span>
+                        </div>
+            
+                        <div class="image-column">
+                            <img src="Soft Robotics/electronics-15-03227-g011-550.jpg"
+                                 width="850"
+                                 alt="Bubble leak test">
+                        </div>
+                    </div>
+            
+                </div>
+            </li>
+        
+                        
 
-    <div class="read-more" onclick="toggleDetails(this)">Read More</div>
-
-    <div class="extra-content" style="display:none;">
-
-        <!-- Figure 1 -->
-        <div class="content-row">
-            <div class="text-column">
-                <span class="small-blue-text">
-                    Experimental platform integrating a PLC-based controller,
-                    pneumatic power source, pressure regulation system,
-                    solenoid valve, and FFF-printed soft pneumatic actuator.
-                    The platform enables programmable actuation and evaluation
-                    of deformation characteristics under pneumatic loading.
-                </span>
-            </div>
-
-            <div class="image-column">
-                <img src="Soft Robotics/electronics-15-03227-g009.png"
-                     width="850"
-                     alt="PLC controlled pneumatic soft robotic system">
-            </div>
-        </div>
-
-        <!-- Figure 2 -->
-        <div class="content-row">
-            <div class="text-column">
-                <span class="small-blue-text">
-                    Experimental airtightness evaluation of FFF-printed soft
-                    pneumatic actuators using pressure-decay measurements.
-                    The results demonstrate substantial improvement in pressure
-                    retention after localized thermal treatment.
-                </span>
-            </div>
-
-            <div class="image-column">
-                <img src="Soft Robotics/electronics-15-03227-g008-550.jpg"
-                     width="850"
-                     alt="Pressure decay comparison">
-            </div>
-        </div>
-
-        <!-- Figure 3 -->
-        <div class="content-row">
-            <div class="text-column">
-                <span class="small-blue-text">
-                    Localized thermal post-processing using a hot-air rework
-                    station to improve interlayer bonding and reduce leakage.
-                    Microscopic observations reveal improved surface fusion,
-                    reduced pores, and enhanced sealing of micro-voids.
-                </span>
-            </div>
-
-            <div class="image-column">
-                <img src="Soft Robotics/electronics-15-03227-g010-550.jpg"
-                     width="850"
-                     alt="Thermal treatment and microscopy">
-            </div>
-        </div>
-
-        <!-- Figure 4 -->
-        <div class="content-row">
-            <div class="text-column">
-                <span class="small-blue-text">
-                    Bubble-leak testing of FFF-printed soft pneumatic actuators
-                    for visualization of air leakage during pressurization.
-                    This non-destructive technique provides a rapid assessment
-                    of airtightness and manufacturing quality.
-                </span>
-            </div>
-
-            <div class="image-column">
-                <img src="Soft Robotics/electronics-15-03227-g011-550.jpg"
-                     width="850"
-                     alt="Bubble leak test">
-            </div>
-        </div>
-
-    </div>
-</li>
-
-                
-        <ul>
             <li> <strong>Industry 4.0 Lab, WSU, Wichita, KS (2022-present)</strong></li>
             <p><em>Graduate Research Assistant </em></p>
             <ul>
