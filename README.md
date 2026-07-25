@@ -920,7 +920,15 @@ ul, ol {
      <section id="publications">
         <h1>Publications</h1>
         <ul>
-
+            <li>
+                <strong style="font-size: 1.1em;">Leakage Mechanisms and Airtightness Challenges in FFF-Printed Soft Pneumatic Actuators: A Scoping Review.</strong>
+                <i>2026 ASEE Southeastern Section Conference</i> 2026.
+                <a href="https://doi.org/10.3390/electronics15143227" target="_blank">DOI</a>
+                <div class="read-more" onclick="toggleDetails(this)">Read More</div>
+                <div class="content">
+                    <p><em>Fused filament fabrication (FFF) is one of the most widely adopted additive manufacturing methods for thermoplastic polyurethane (TPU)-based soft pneumatic actuators, enabling low-cost fabrication, geometric customization, embedded pneumatic architectures, and rapid prototyping for soft robotic systems. However, despite these advantages, achieving reliable airtightness remains a major challenge due to process-induced anisotropy, interlayer voids, incomplete filament fusion, residual porosity, seam discontinuities, material permeability, and interface-related leakage. These defects can significantly reduce pressure retention, actuation efficiency, deformation repeatability, and long-term pneumatic reliability. This review systematically examines the dominant leakage mechanisms affecting FFF-printed soft pneumatic actuators and comparatively analyzes fabrication approaches, TPU material systems, geometric design factors, post-processing methods, sealing strategies, and leakage characterization techniques. Representative experimental observations, including pressure-decay testing, submerged-bubble visualization, microscopy, and localized thermal surface treatment, are also discussed to connect the findings reported in the literature with experimentally observed leakage behavior. Emerging analytical leakage models, sensing technologies, AI-assisted predictive monitoring, and digital-twin-enabled manufacturing frameworks are reviewed as promising approaches for developing leakage-aware soft robotic systems. The review highlights current limitations related to standardized leakage testing, cyclic durability evaluation, scalable sealing strategies, and intelligent manufacturing integration. Overall, airtightness is identified as a coupled material-process-geometry challenge that must be systematically addressed to improve the reliability, scalability, and long-term operational stability of next-generation TPU-based soft pneumatic actuators. The review was conducted following the PRISMA-ScR framework and includes 248 studies published between 2017 and 2026.</em></p>
+                </div>
+            </li>
             <li>
                 <strong style="font-size: 1.1em;">A Hybrid Simulation Approach to Overcome Equipment Constraints in Engineering Labs.</strong>
                 <i>2026 ASEE Southeastern Section Conference</i> 2026.
