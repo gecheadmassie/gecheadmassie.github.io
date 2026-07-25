@@ -544,7 +544,7 @@ ul, ol {
                         </div>
             
                         <div class="image-column">
-                            <img src="Soft Robotics/electronics-15-03227-g008-550.jpg"
+                            <img src="Soft Robotics/electronics-15-03227-g011-550.jpg"
                                  width="850"
                                  alt="Pressure decay comparison">
                         </div>
@@ -562,7 +562,7 @@ ul, ol {
                         </div>
             
                         <div class="image-column">
-                            <img src="Soft Robotics/electronics-15-03227-g010-550.jpg"
+                            <img src="Soft Robotics/electronics-15-03227-g008-550.jpg"
                                  width="850"
                                  alt="Thermal treatment and microscopy">
                         </div>
@@ -580,7 +580,7 @@ ul, ol {
                         </div>
             
                         <div class="image-column">
-                            <img src="Soft Robotics/electronics-15-03227-g011-550.jpg"
+                            <img src="Soft Robotics/electronics-15-03227-g010-550.jpg"
                                  width="850"
                                  alt="Bubble leak test">
                         </div>
