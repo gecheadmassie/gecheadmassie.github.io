@@ -351,7 +351,7 @@ ul, ol {
     <section id="home">
         <h1>Welcome</h1>
         <p>
-        Welcome to the official website of Getachew Ambaye, Ph.D., a Robotics Engineer. Explore my teaching, research, publications, and engineering projects in robotics, manufacturing, soft robotics, and AI-driven technologies. Feel free to connect and collaborate.</p>
+        Welcome to the official website of Getachew Ambaye, Ph.D., an Assistant Professor of Engineering Technology. Explore my teaching, research, publications, and engineering projects in robotics, manufacturing, soft robotics, and AI-driven technologies. Feel free to connect and collaborate.</p>
         <p>
             <a href="Resume.pdf" target="_blank">Download Resume</a> | 
             <a href="CV.pdf" target="_blank">Download CV</a>
@@ -360,7 +360,7 @@ ul, ol {
 
     <section id="about">
         <h1>About Me</h1>
-        <p>I am Getachew Ambaye, Ph.D., a Robotics Engineer  at Amazon Robotics with Kaleidoscope Innovation. I earned my Ph.D. in Industrial and Manufacturing Engineering from Wichita State University and hold both M.Sc. and B.Sc. degrees from Jimma Institute of Technology. My teaching and research focus on robotics, soft robotics, machine design, engineering education, and artificial intelligence applications. My work has resulted in multiple peer-reviewed publications and the development of innovative educational and engineering solutions, including virtual reality training systems, soft robotic actuators, and intelligent diagnostic tools. I have also led and contributed to several industry projects involving machine design, equipment development, and manufacturing optimization. I am interested in collaborative research and industry partnerships that advance robotics, manufacturing, and engineering innovation</p>
+        <p>I am Getachew Ambaye, Ph.D., an Assistant Professor of Engineering Technology at Austin Peay State University. I earned my Ph.D. in Industrial and Manufacturing Engineering from Wichita State University and hold both M.Sc. and B.Sc. degrees from Jimma Institute of Technology. My teaching and research focus on robotics, soft robotics, machine design, engineering education, and artificial intelligence applications. My work has resulted in multiple peer-reviewed publications and the development of innovative educational and engineering solutions, including virtual reality training systems, soft robotic actuators, and intelligent diagnostic tools. I have also led and contributed to several industry projects involving machine design, equipment development, and manufacturing optimization. I am interested in collaborative research and industry partnerships that advance robotics, manufacturing, and engineering innovation</p>
     </section>
 
     <section id="education-experience">
@@ -376,10 +376,10 @@ ul, ol {
         <h1>Teaching Experience</h1>
         <ul>
             <li>
-                <strong>Austin Peay State University (APSU)</strong> - Assistant Professor (2025-2026)
+                <strong>Austin Peay State University (APSU)</strong> - Assistant Professor (2025-)
             </li>
             <li>
-                <strong>Wichita State University (WSU)</strong> - Instructor (Direct Graduate Teaching Assistant) (2022-2025)
+                <strong>Wichita State University (WSU)</strong> - Direct Graduate Teaching Assistant (2022-2025)
             </li>
             <li>
                 <strong>Hesston College</strong> - Engineering Professor (2024-2025)
