@@ -396,8 +396,8 @@ ul, ol {
         <div class="content">
              <p><strong>2025–Present Assistant Professor, APSU, Clarksville, TN, USA</strong></p>
             <ul>
-                <li>MET 1300, Electro Pneumatic and Hydraulic Control Circuits  (Fall 2025)</li>
-                <li>ENGT 1020, Computer Aided Drafting and Design (Fall 2025, Spring 2026)</li>
+                <li>MET 1300, Electro-Pneumatic and Hydraulic Control Circuits  (Fall 2025)</li>
+                <li>ENGT 1020, Computer-Aided Drafting and Design (Fall 2025, Spring 2026)</li>
                 <li>ENGT 1200, Applied Mathematics for Engineering Technology (Spring 2026)</li>
                 <li>MET 1200, Mechanical Components and Electrical Drives (Spring 2026)</li>
             </ul>
@@ -504,7 +504,7 @@ ul, ol {
         <h1>Professional Experience and Projects</h1>
         <ul>
             <li> <strong>Austin Peay State University, TN (2025-2026)</strong></li>
-            <p><em> Assistant Professor</em></p>
+            <p><em>Assistant Professor</em></p>
             <ul>
                 <li>
                     Leakage Mechanisms and Airtightness Challenges in FFF-Printed Soft Pneumatic Actuators: A Scoping Review
@@ -528,7 +528,7 @@ ul, ol {
                             <div class="image-column">
                                 <img src="Soft Robotics/electronics-15-03227-g009.png"
                                      width="850"
-                                     alt="PLC controlled pneumatic soft robotic system">
+                                     alt="PLC-controlled pneumatic soft robotic system">
                             </div>
                         </div>
                 
@@ -621,7 +621,7 @@ ul, ol {
 
                     <div class="content-row">
                         <div class="text-column">
-                            <span class="small-blue-text">The pie chart of soft material usages documented in the selected literature. These materials are mostly used as structural elements, but soft materials with electromagnetic properties may also facilitate sensing and control.</span>
+                            <span class="small-blue-text">The pie chart of soft material usage documented in the selected literature. These materials are mostly used as structural elements, but soft materials with electromagnetic properties may also facilitate sensing and control.</span>
                         </div>
                         <div class="image-column">
                             <img src="Review/Picture2.png" width="850" alt="Image 2">
@@ -639,7 +639,7 @@ ul, ol {
 
                     <div class="content-row">
                         <div class="text-column">
-                            <span class="small-blue-text">The figure below presents the illustrations of common soft actuator functions and their stimuli.</span>
+                            <span class="small-blue-text">The figure below presents illustrations of common soft actuator functions and their stimuli.</span>
                         </div>
                         <div class="image-column">
                             <img src="Review/Picture5.png" width="850" alt="Image 5">
@@ -940,7 +940,7 @@ ul, ol {
 
                            <div class="content-row">
                         <div class="text-column">
-                            <span class="small-blue-text">Basics of Manufacturing Process Modelling and Simulation: 3.	Deep Drawing Modeling</span>
+                            <span class="small-blue-text">Basics of Manufacturing Process Modeling and Simulation: 3.	Deep Drawing Modeling</span>
                         </div>
                         <div class="image-column">
                             <img src="EEG/Picture57.png" width="350" alt="Image 1">
@@ -956,7 +956,7 @@ ul, ol {
 
                         <div class="content-row">
                         <div class="text-column">
-                            <span class="small-blue-text">Basics of Manufacturing Process Modelling and Simulation: 4.	Rolling Modeling</span>
+                            <span class="small-blue-text">Basics of Manufacturing Process Modeling and Simulation: 4.	Rolling Modeling</span>
                         </div>
                         <div class="image-column">
                             <img src="EEG/Picture65.png" width="350" alt="Image 1">
@@ -1102,7 +1102,7 @@ ul, ol {
             <i>Journal of Applied Mechanical Engineering</i>, 10(9), p. 389.
               <div class="read-more" onclick="toggleDetails(this)">Read More</div>
                 <div class="content">
-            <p> <em>  As the service time of the gear increases, its tooth profile could be deviated from its initial design shape and size as a result of time-varying load, overheating, wear, friction, and other working environmental impacts. Gear backlash is one of the non-linear parameters of the gear that adversely affects the performance of the transmission system. Backlash can be introduced deliberately for lubrication and free paly purposes or due to the gear tooth wear (reduction of the gear tooth thickness). The objective of this paper is to review and encapsulate this literature to provide a wide and good reference for scholars to be utilized. Assessing the effect of backlash on the dynamics and flash temperature of the gear is the main target of this review paper.</em></p> 
+            <p> <em>  As the service time of the gear increases, its tooth profile could deviate from its initial design shape and size as a result of time-varying load, overheating, wear, friction, and other working environmental impacts. Gear backlash is one of the non-linear parameters of the gear that adversely affects the performance of the transmission system. Backlash can be introduced deliberately for lubrication and free play purposes or due to gear tooth wear (reduction of the gear tooth thickness). The objective of this paper is to review and encapsulate this literature to provide a wide and good reference for scholars to be utilized. Assessing the effect of backlash on the dynamics and flash temperature of the gear is the main target of this review paper.</em></p> 
         </div></li>
 
 
@@ -1112,7 +1112,7 @@ ul, ol {
             <i>The 8th International Conference on Innovation in Science and Technology</i>, July 23–25, 2021, in Stockholm, Sweden.
              <div class="read-more" onclick="toggleDetails(this)">Read More</div>
                             <div class="content">
-                        <p> <em> Connecting rods are subjected to a tensile (inertial force), compressive (gas pressure), and bending (eccentricity) loadings. The boundary conditions used for the determination of its natural frequency depends on the loading type. For free vibration analysis, when the piston moves upward the crankpin needs to be fixed and free piston pin, while when it moves down the piston pin should be considered as a fixed and free crankpin. This paper presents a numerical (ABAQUS software) comparison of the first six dominant mode shapes and natural frequencies of the connecting rod when it is fixed at the crankpin and free at the piston pin (case 1) and fixed at the piston pin and free at the crankpin (case 2) of an optimized geometry that found from literature. The mode shapes and natural frequencies of the two cases are compared, and it shows that the natural frequency of case 2 is lower than case 1. Therefore, for design purpose, the loading frequency should be less than the natural frequency of the connecting rod when it is fixed at the piston pin.</em></p> 
+                        <p> <em> Connecting rods are subjected to tensile (inertial force), compressive (gas pressure), and bending (eccentricity) loadings. The boundary conditions used for the determination of its natural frequency depends on the loading type. For free vibration analysis, when the piston moves upward the crankpin needs to be fixed and free piston pin, while when it moves down the piston pin should be considered as a fixed and free crankpin. This paper presents a numerical (ABAQUS software) comparison of the first six dominant mode shapes and natural frequencies of the connecting rod when it is fixed at the crankpin and free at the piston pin (case 1) and fixed at the piston pin and free at the crankpin (case 2) of an optimized geometry that found from literature. The mode shapes and natural frequencies of the two cases are compared, and it shows that the natural frequency of case 2 is lower than case 1. Therefore, for design purpose, the loading frequency should be less than the natural frequency of the connecting rod when it is fixed at the piston pin.</em></p> 
                     </div></li>
 
 
@@ -1132,7 +1132,7 @@ ul, ol {
             <a href="https://doi.org/10.1007/978-981-33-6318-2_3" target="_blank">DOI</a> 
              <div class="read-more" onclick="toggleDetails(this)">Read More</div>
                             <div class="content">
-                        <p> <em> Gears suffer by unavoidable time-varying mesh stiffness. Noise and vibrations amplitudes show the transmission error occurred within the components of power transmission error. The Gear Trax software has been used to model the gear with different amounts of backlash (from 0 mm to 1 mm by 0.2 mm increments) so that this gives a backlash due to the reduction of the thickness of the gear tooth. A plane strain analysis is used to predict the static transmission error, dynamic transmission error and time-varying mesh stiffness of spur gear with different backlash at different coefficients of friction using ABAQUS software. For finite element analysis, the mesh convergence has been done for maximum contact pressure and von Mises stress. The analytical mesh stiffness and the finite element mesh stiffness for gear without backlash have been compared, based on this the prediction time-varying mesh stiffness and transmission errors are continued to predict for the spur gear with different backlashes and coefficient of friction.</em> </p> 
+                        <p> <em> Gears suffer by unavoidable time-varying mesh stiffness. Noise and vibration amplitudes show the transmission error occurring within the components of power transmission error. The Gear Trax software has been used to model the gear with different amounts of backlash (from 0 mm to 1 mm by 0.2 mm increments), which gives a backlash due to the reduction of the thickness of the gear tooth. A plane strain analysis is used to predict the static transmission error, dynamic transmission error and time-varying mesh stiffness of spur gear with different backlash at different coefficients of friction using ABAQUS software. For finite element analysis, the mesh convergence has been done for maximum contact pressure and von Mises stress. The analytical mesh stiffness and the finite element mesh stiffness for a gear without backlash have been compared; based on this, the prediction of time-varying mesh stiffness and transmission errors is continued for the spur gear with different backlashes and coefficients of friction.</em> </p> 
                     </div></li>
 
         
@@ -1270,8 +1270,8 @@ ul, ol {
             <a href="https://scholar.google.com/citations?user=YOUR_PROFILE_ID" target="_blank" style="color: white; text-decoration: none;">Google Scholar</a> |
             <a href="https://www.researchgate.net/profile/Getachew-Ambaye" target="_blank" style="color: white; text-decoration: none;">ResearchGate</a> |
             <a href="https://orcid.org/0000-0003-4197-0188" target="_blank" style="color: white; text-decoration: none;">ORCID</a> |
-            <a href="https://www.webofscience.com/wos/author/record/AAO-1275-2021" target="_blank" style="color: white; text-decoration: none;">PubLons</a> /*| */
-            /*<a href="https://www.youtube.com/@IME222L" target="_blank" style="color: white; text-decoration: none;">YouTube</a> */
+            <a href="https://www.webofscience.com/wos/author/record/AAO-1275-2021" target="_blank" style="color: white; text-decoration: none;">PubLons</a> |
+            <a href="https://www.youtube.com/@IME222L" target="_blank" rel="noopener noreferrer" style="color: white; text-decoration: none;">YouTube</a>
         </p>
     </div>
     </footer>
